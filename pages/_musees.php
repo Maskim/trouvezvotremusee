@@ -1,5 +1,6 @@
 	<?php 
 		require_once("./core/classes/ControleurConnexionPers.php");
+		require_once("./core/ajax/rating_bar/_drawrating.php");
 		$replace = array(" ", "-", "'");
 		
 		if(isset($_GET['Nom']) AND !empty($_GET['Nom'])) {
@@ -55,7 +56,7 @@
 						
 						if(!empty($tab_sql['siteinternet'])) {
 							if(strstr($tab_sql['siteinternet'],'http://')) {
-								echo '<li class="site_internet"><a href="'.$tab_sql['siteinternet'].'">'.$tab_sql['siteinternet'].'</a></li>';
+								echo '<li class="site_internet"><a href="'.$tab_sql['siteinternet'].'">Site web du musée</a></li>';
 							}
 							else {
 								echo '<li class="site_internet"><a href="http://'.$tab_sql['siteinternet'].'">'.$tab_sql['siteinternet'].'</a></li>';
@@ -96,10 +97,35 @@
 					Note :
 				</p>
 				
-				<p>
-					Le musée à une note de <strong>8/10</strong>
-				<br />
-					Pour <strong>3340</strong> votants.
+				<p class="nb_vot">
+					Le musée à une note de 
+					<?php
+						if(!empty($tab_sql['note']))
+						{
+							echo $tab_sql['note'];
+						}else{
+							echo "0";
+						}
+					?>
+					/10
+				</p>
+				<p class="nb_vot">
+					<?php echo rating_bar($tab_sql['idmusee'],''); ?>
+				</p>
+				<p class="nb_vot">
+					Pour 
+					<?php
+						if(!empty($tab_sql['nb_votant']))
+						{
+							echo $tab_sql['nb_votant'];
+							if($tab_sql['nb_votant'] > 1)
+								echo "votants";
+							else
+								echo "votant";
+						}else{
+							echo "aucun votant";
+						}
+					?>
 				</p>
 			</div>
 			

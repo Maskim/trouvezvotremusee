@@ -8,6 +8,14 @@
 	<meta name="keywords" content="musee, musees, musées, musée, louvre, grevin, grévin, culture, patrimoine, oeuvre, oeuvres, art, arts, sculpture, sculptures, tableau, tableaux, piece, pièce, pieces, pièces" />
 	<meta name="description" content="Trouvez votre musée est un moteur de recherche sur les musées en France. Informations et présentations sont au rendez-vous." />
 	<meta name="geo.placename" content="Poitiers, Poitou-Charentes, France" />
+	
+		<! Script et style de barre de vote !>
+		<script type="text/javascript" language="javascript" src="core/js/rating_bar/behavior.js"></script>
+		<script type="text/javascript" language="javascript" src="core/js/rating_bar/rating.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="core/css/rating_bar/default.css" />
+		<link rel="stylesheet" type="text/css" href="core/css/rating_bar/rating.css" />
+	
 	<link rel="stylesheet" media="screen" href="./core/css/template.css" />
 	<link rel="stylesheet" media="screen" href="./core/css/validationEngine.jquery.css"/>
 </head>

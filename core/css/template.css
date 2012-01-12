@@ -124,6 +124,7 @@ white-space:nowrap;width:207px; }
 .contenu_musee .cadre li.site_internet { list-style-image:url("../img/site-web.png"); }
 .contenu_musee .cadre li.adresse { list-style-image:url("../img/adresse.png"); }
 .contenu_musee .cadre_style_2 { clear:both;margin:10px 0px 5px 0;float:right;width:229px; }
+.contenu_musee .cadre .nb_vot { text-align: center; padding: 0; margin: 0; margin-bottom: 5px; }
 
 /* DIAPO */
 #slider{ border:2px solid #e0e0df; }	

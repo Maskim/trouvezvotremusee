@@ -1,0 +1,5 @@
+Options +FollowSymlinks
+RewriteEngine On
+RewriteBase /trouvezvotremusee/
+RewriteRule ^([a-z]+)\.html$   ./index.php?page=$1 [L]
+RewriteRule ^([a-z]+)-([a-z]+)\.html$   ./index.php?page=$1&Nom=$2 [L]

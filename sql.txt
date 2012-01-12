@@ -1,0 +1,220 @@
+-- phpMyAdmin SQL Dump
+-- version 3.2.0.1
+-- http://www.phpmyadmin.net
+--
+-- Serveur: localhost
+-- Généré le : Mar 13 Septembre 2011 à 15:32
+-- Version du serveur: 5.1.36
+-- Version de PHP: 5.3.0
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Base de données: `trouvez-votre-musee`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `commentaire`
+--
+
+CREATE TABLE IF NOT EXISTS `commentaire` (
+  `idcom` int(11) NOT NULL AUTO_INCREMENT,
+  `titrecom` varchar(100) NOT NULL,
+  `com` text NOT NULL,
+  `note` int(11) NOT NULL,
+  `idmusee` int(11) NOT NULL,
+  PRIMARY KEY (`idcom`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+--
+-- Contenu de la table `commentaire`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `departement`
+--
+
+CREATE TABLE IF NOT EXISTS `departement` (
+  `iddep` int(11) NOT NULL AUTO_INCREMENT,
+  `nomdep` varchar(100) NOT NULL,
+  `idregion` int(11) NOT NULL,
+  PRIMARY KEY (`iddep`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=12 ;
+
+--
+-- Contenu de la table `departement`
+--
+
+INSERT INTO `departement` (`iddep`, `nomdep`, `idregion`) VALUES
+(1, 'Vienne', 1),
+(2, 'Deux-Sèvres', 1),
+(3, 'Charentes', 1),
+(4, 'Moselle', 9),
+(5, 'Vosges', 9),
+(6, 'Meuse', 9),
+(7, 'Bas-Rhin', 10),
+(8, 'Haut-Rhin', 10),
+(9, 'Charente-Maritime', 1),
+(10, 'Paris', 2),
+(11, 'Oise', 7);
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `images`
+--
+
+CREATE TABLE IF NOT EXISTS `images` (
+  `idimage` int(11) NOT NULL AUTO_INCREMENT,
+  `images` varchar(100) NOT NULL,
+  `idmusee` int(11) NOT NULL,
+  `alt` varchar(50) NOT NULL,
+  PRIMARY KEY (`idimage`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=9 ;
+
+--
+-- Contenu de la table `images`
+--
+
+INSERT INTO `images` (`idimage`, `images`, `idmusee`, `alt`) VALUES
+(2, 'up.jpg', 1, 'la haut'),
+(3, 'nemo.jpg', 1, 'nemo'),
+(4, 'StCroix_01.jpg', 2, 'Vase du passé'),
+(5, 'StCroix_07.jpg', 2, 'Haut de pillier'),
+(6, 'auto-moto-velo.jpg', 5, 'Velo de l''ancien temps'),
+(7, 'la sabline.jpg', 8, 'vitrine du musée de la sabline'),
+(8, 'la sabline2.jpg', 8, 'outil de la prehistoire du musée la sabline');
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `musee`
+--
+
+CREATE TABLE IF NOT EXISTS `musee` (
+  `idmusee` int(11) NOT NULL AUTO_INCREMENT,
+  `nom` varchar(100) NOT NULL,
+  `adresse` varchar(500) NOT NULL,
+  `tel` varchar(15) NOT NULL,
+  `mail` varchar(100) NOT NULL,
+  `description` varchar(1000) NOT NULL,
+  `siteinternet` varchar(100) NOT NULL,
+  `idville` int(11) NOT NULL,
+  `keywords` varchar(300) NOT NULL,
+  PRIMARY KEY (`idmusee`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=9 ;
+
+--
+-- Contenu de la table `musee`
+--
+
+INSERT INTO `musee` (`idmusee`, `nom`, `adresse`, `tel`, `mail`, `description`, `siteinternet`, `idville`, `keywords`) VALUES
+(1, 'Louvre', 'Musée du Louvre 75058 Paris Cedex 01 France ', '1 40 20 50 50', '', '	Depuis la fin du XIIe siècle, les bâtiments du Louvre dominent le coeur de Paris ; situés aux limites de la ville, ils ont été peu à peu rattrapés par elle puis englobés en son centre. Dans le même temps, la sombre forteresse des débuts effectuait sa mutation pour devenir la résidence modernisée d''un François Ier puis le somptueux palais du Roi-Soleil. C''est l''histoire de cet édifice et du musée qui à partir de 1793 en a occupé les salles que nous vous proposons d''explorer. ', 'http://www.louvre.fr', 6, ''),
+(2, 'La Sainte Croix', '3 bis, rue Jean-Jaurés', '5.49.41.07.53', '', 'Le musée Sainte-Croix est, par l''importance et la qualité de ses fonds, le premier musée de la région Poitou-Charentes. Situé dans le quartier de la cathédrale saint Pierre, ce bâtiment est construit sur l’emplacement qu’occupait depuis le XIXe siècle la communauté bénédictine de Sainte-Croix. Le parcours muséographique offre une découverte de l’ensemble des collections : l’archéologie régionale, qui retrace l’histoire du Poitou, depuis la Préhistoire jusqu’au  Haut Moyen Age ; le département des Beaux-Arts, présentant les grands mouvements artistiques de la fin du XVIIIe  jusqu’au milieu du XXe siècle ; la section poitevine, dans laquelle sont regroupées des œuvres évoquant l’histoire et les paysages de Poitiers et de sa région.', 'http://www.musees-poitiers.org/saintecroix.htm', 1, ''),
+(3, 'Hypogee des Dunes', '101 rue du Pere de la Croix', '', '', 'Site archéologique fermé au public pour une durée indéterminée (arrêté municipal du 5 octobre 1998) pendant les travaux de restauration dirigés par le Service des Monuments Historiques.', 'http://www.musees-poitiers.org', 1, ''),
+(4, 'Rupert-de-Chievres', '9, rue Victor-Hugo', '5.49.41.42.21', '', 'Le futur parcours, totalement renouvelé, sera axé sur l’histoire de la ville. L’achèvement des travaux est prévu dans le courant de l’année 2012.', 'http://www.musees-poitiers.org', 1, ''),
+(5, 'Musee Auto Moto Velo', '3 rue Clément Krebs - La Manu', '5 49 21 03 46', 'musees.chatellerault@alienor.org', 'Les collections du musée Auto Moto Vélo illustrent l''histoire de l''automobile au quotidien et l''histoire plus globale du cycle, de la motocyclette, du scooter, du cyclomoteur. Les automobiles rares - Panhard et Levassor de 1893, Voisin C14 de 1929 - et les prototypes - Longchamp de Couçy 1953 - côtoient les voitures les plus populaires telles la Ford T ou la 2 CV. L''un des points forts de ces collections est la présentation d''une très belle série de scooters et de motos d''origine française, complétée par des vélos à moteur auxiliaire et des vélomoteurs, spécialité dans laquelle s''est reconvertie l''industrie française du motocycle à partir de 1950. Outre ces véhicules, le musée présente un très intéressant ensemble de moteurs, d''accessoires (lanternes, malles de voyages, etc.), et d''affiches publicitaires.', 'http://www.alienor.org/musees/index.php?/fre/La-liste-des-villes/Chatellerault/Musee-Auto-Moto-Velo', 9, ''),
+(6, 'Espace Archeologie Industrielle', 'Place du Donjon BP 24', '5.49.46.35.45', '', 'Le donjon de Gouzon, consolidé et restauré, abrite un espace d''archéologie industrielle sur quatre niveaux. Le déplacement vertical est assuré par un ascenseur, commande publique de la Délégation aux arts plastiques, œuvre de l''architecte designer Sylvain Dubuisson.\r\n\r\nLes industries du pays Chauvinois sont évoquées depuis le néolithique jusqu''à nos jours à travers le regard de l''archéologue.', 'http://www.chauvigny-patrimoine.fr/', 15, ''),
+(7, 'Musee des Traditions populaires et d Archeologie ', 'Place du donjon', '5.49.46.35.45', '', 'Le musée des Traditions Populaires et d’Archéologie a été conçu vers 1960 dans l’ancien presbytère de la collégiale Saint-Pierre, avec les collections de la Société de Recherches Archéologiques du pays Chauvinois.\r\n\r\nÀ travers des objets venant de sites archéologiques chauvinois y sont illustrées les périodes néolithique et protohistoriques (âge du Bronze et âges du Fer), la vie des Gallo-romains avec notamment une riche collection de céramiques, ainsi que le Moyen Âge avec des découvertes provenant des châteaux forts de la cité : verreries, céramiques, pièces de jeu, … Pour évoquer les époques moderne et contemporaine sont exposés des vêtements et des objets quotidiens dont quatre-vingts coiffes ; un intérieur poitevin de la fin du XIXe siècle est reconstitué.', 'http://www.chauvigny-patrimoine.fr/', 15, ''),
+(8, 'La Sabline', 'Musée de Préhistoire 21, route de Montmorillon -BP 23', '5 49 83 39 80', '', 'Ce nouveau Musée de France est consacré à la préhistoire locale et en particulier au Paléolithique supérieur.\r\n<br />\r\nCinq espaces muséographiques sont proposés : découvreurs et découvertes archéologiques, l''environnement de l’Homme au Paléolithique, les traces de l’Homme dans le Lussacois, la vie des Hommes du Bois-Ragot, l''Homme et l''Art.\r\n<br />\r\nOssements, outils, armes, éléments de parure et objets d''art mobilier gravés sur matière osseuse et pierre calcaire y sont mis en valeur. Parmi ces objets, les pierres gravées d''animaux et surtout d''humains, traités de façon réaliste, découvertes par milliers dans la seule grotte de la Marche occupée à la période magdalénienne sont des œuvres particulièrement originales et remarquables.\r\n<br />\r\nUn parcours extérieur est conseillé pour découvrir les sites préhistoriques les plus proches. Des visite-conférences et des animations ont lieu régulièrement.\r\n<br />\r\nAccueil des chercheurs pour étude des collections conservées.', 'http://www.lasabline.fr/', 16, '');
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `region`
+--
+
+CREATE TABLE IF NOT EXISTS `region` (
+  `idregion` int(11) NOT NULL AUTO_INCREMENT,
+  `nomregion` varchar(100) NOT NULL,
+  PRIMARY KEY (`idregion`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=25 ;
+
+--
+-- Contenu de la table `region`
+--
+
+INSERT INTO `region` (`idregion`, `nomregion`) VALUES
+(1, 'Poitou-Charentes'),
+(2, 'Ile-de-France'),
+(5, 'Nord Pas-De-Calais'),
+(6, 'Haute-Normandie'),
+(7, 'Picardie'),
+(8, 'Champagne-Ardenne'),
+(9, 'Lorraine'),
+(10, 'Alsace'),
+(11, 'Bretagne'),
+(12, 'Corse'),
+(13, 'Provence-Alpes-Côte-d''Azur'),
+(14, 'Rhône-Alpes'),
+(15, 'Auvergne'),
+(16, 'Limousin'),
+(17, 'Bourgogne'),
+(18, 'Franche-Compté'),
+(19, 'Centre'),
+(20, 'Midi-Pyrénées'),
+(21, 'Aquitaine'),
+(22, 'Languedoc-Roussillon'),
+(23, 'Pays de la Loire'),
+(24, 'Basse Normandie');
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `utilisateur`
+--
+
+CREATE TABLE IF NOT EXISTS `utilisateur` (
+  `idutil` int(11) NOT NULL AUTO_INCREMENT,
+  `utilisateur` varchar(50) NOT NULL,
+  `mdp` varchar(50) NOT NULL,
+  `nom` varchar(100) NOT NULL,
+  `prenom` varchar(100) NOT NULL,
+  `mail` varchar(200) NOT NULL,
+  `niveau` int(1) NOT NULL,
+  PRIMARY KEY (`idutil`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
+
+--
+-- Contenu de la table `utilisateur`
+--
+
+INSERT INTO `utilisateur` (`idutil`, `utilisateur`, `mdp`, `nom`, `prenom`, `mail`, `niveau`) VALUES
+(1, 'Maskim', '54addb82be2e4e52e344a31896f703ae', 'Hersand', 'Maxime', 'm.hersand@orange.fr', 2),
+(5, 'Henry', '9cdfb439c7876e703e307864c9167a15', 'Henru', 'geroge', 'lablondedu69@hotmail.com', 1);
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `ville`
+--
+
+CREATE TABLE IF NOT EXISTS `ville` (
+  `idville` int(11) NOT NULL AUTO_INCREMENT,
+  `nomville` varchar(100) NOT NULL,
+  `CP` int(5) NOT NULL,
+  `nbmusee` int(11) NOT NULL,
+  `iddep` int(11) NOT NULL,
+  PRIMARY KEY (`idville`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=17 ;
+
+--
+-- Contenu de la table `ville`
+--
+
+INSERT INTO `ville` (`idville`, `nomville`, `CP`, `nbmusee`, `iddep`) VALUES
+(1, 'Poitiers', 86000, 0, 1),
+(2, 'Niort', 79000, 0, 2),
+(5, 'Jaunay-clan', 86130, 0, 1),
+(6, 'Paris', 75000, 0, 10),
+(7, 'Vouillé', 86190, 0, 1),
+(8, 'Villiers', 86190, 0, 1),
+(9, 'Chatellerault', 86120, 0, 1),
+(15, 'Chauvigny', 86300, 0, 1),
+(14, 'Chincé', 86130, 0, 1),
+(16, 'Lussac-les-Châteaux', 86320, 0, 1);

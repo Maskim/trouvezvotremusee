@@ -1,0 +1,41 @@
+/*
+   =========================================================
+   ---- FONTS DE STYLE DE TROUVEZVOTREMUSEE.FR HTML/CSS ----
+   ---- © Twan 				http://www.twan-diz.fr		----
+   ---- © Maskim				     					----
+   ---- 2010 / support@trouvezvotremusee.com			----
+   ========================================================= 
+*/
+
+@font-face {
+	font-family: 'NeoLight';
+	src: url('../fonts/am261___-webfont.eot');
+	src: local('☺'), url('../fonts/am261___-webfont.woff') format('woff'), url('../fonts/am261___-webfont.ttf') format('truetype'), url('../fonts/am261___-webfont.svg#webfontT7KVhcGn') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NeoNormal';
+	src: url('../fonts/am263___-webfont.eot');
+	src: local('☺'), url('../fonts/am263___-webfont.woff') format('woff'), url('../fonts/am263___-webfont.ttf') format('truetype'), url('../fonts/am263___-webfont.svg#webfontcZJCgeId') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NeoMedium';
+	src: url('../fonts/am265___-webfont.eot');
+	src: local('☺'), url('../fonts/am265___-webfont.woff') format('woff'), url('../fonts/am265___-webfont.ttf') format('truetype'), url('../fonts/am265___-webfont.svg#webfontyT1ofnBT') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NeoBold';
+	src: url('../fonts/am267___-webfont.eot');
+	src: local('☺'), url('../fonts/am267___-webfont.woff') format('woff'), url('../fonts/am267___-webfont.ttf') format('truetype'), url('../fonts/am267___-webfont.svg#webfontn7NG1vvN') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+

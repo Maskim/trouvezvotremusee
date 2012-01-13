@@ -28,11 +28,11 @@ if ($vote_sent > $units) die("Sorry, vote appears to be invalid."); // kill the 
 
 
 //connecting to the database to get some information
-$query = mysql_query("SELECT total_votes, total_value, used_ips FROM $rating_dbname.$rating_tableName WHERE id='$id_sent' ")or die(" Error: ".mysql_error());
+$query = mysql_query("SELECT nb_votant, note, ip FROM ipvotant, musee WHERE musee.idmusee='$id_sent' AND musee.idmusee = ipvotant.id")or die(" Error: ".mysql_error());
 $numbers = mysql_fetch_assoc($query);
-$checkIP = unserialize($numbers['used_ips']);
-$count = $numbers['total_votes']; //how many votes total
-$current_rating = $numbers['total_value']; //total number of rating added together and stored
+$checkIP = unserialize($numbers['ip']);
+$count = $numbers['nb_votant']; //how many votes total
+$current_rating = $numbers['note']; //total number of rating added together and stored
 $sum = $vote_sent+$current_rating; // add together the current vote value and the total vote value
 $tense = ($count==1) ? "vote" : "votes"; //plural form votes/vote
 
@@ -45,19 +45,19 @@ $tense = ($count==1) ? "vote" : "votes"; //plural form votes/vote
 $insertip=serialize($checkIP);
 
 //IP check when voting
-$voted=mysql_num_rows(mysql_query("SELECT used_ips FROM $rating_dbname.$rating_tableName WHERE used_ips LIKE '%".$ip."%' AND id='".$id_sent."' "));
+$voted=mysql_num_rows(mysql_query("SELECT ip FROM ipvotant WHERE ip LIKE '%".$ip."%' AND id='".$id_sent."' "));
 if(!$voted) {     //if the user hasn't yet voted, then vote normally...
 
 	if (($vote_sent >= 1 && $vote_sent <= $units) && ($ip == $ip_num)) { // keep votes within range, make sure IP matches - no monkey business!
-		$update = "UPDATE $rating_dbname.$rating_tableName SET total_votes='".$added."', total_value='".$sum."', used_ips='".$insertip."' WHERE id='$id_sent'";
+		$update = "UPDATE ipvotant, musee SET nb_votant='".$added."', note='".$sum."', ip='".$insertip."' WHERE musee.idmusee='$id_sent' AND musee.idmusee = ipvotant.id";
 		$result = mysql_query($update);		
 	} 
 } //end for the "if(!$voted)"
 // these are new queries to get the new values!
-$newtotals = mysql_query("SELECT total_votes, total_value, used_ips FROM $rating_dbname.$rating_tableName WHERE id='$id_sent' ")or die(" Error: ".mysql_error());
+$newtotals = mysql_query("SELECT nb_votant, note, ip FROM ipvotant, musee WHERE musee.idmusee='$id_sent' AND musee.idmusee = ipvotant.id")or die(" Error: ".mysql_error());
 $numbers = mysql_fetch_assoc($newtotals);
-$count = $numbers['total_votes'];//how many votes total
-$current_rating = $numbers['total_value'];//total number of rating added together and stored
+$count = $numbers['nb_votant'];//how many votes total
+$current_rating = $numbers['note'];//total number of rating added together and stored
 $tense = ($count==1) ? "vote" : "votes"; //plural form votes/vote
 
 // $new_back is what gets 'drawn' on your page after a successful 'AJAX/Javascript' vote

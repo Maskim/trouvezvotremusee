@@ -18,6 +18,7 @@
 	
 	<link rel="stylesheet" media="screen" href="./core/css/template.css" />
 	<link rel="stylesheet" media="screen" href="./core/css/validationEngine.jquery.css"/>
+	<?php require_once('./core/fonctions.php'); ?>
 </head>
 <body>
 
@@ -59,7 +60,10 @@
 					'deconnexion' => './pages/_deconnexion.php',
 					'searcherror' => './pages/_erreur_recherche.php',
 					'erreur' => './pages/_erreur.php',
-					'inscription' => './pages/_inscription.php'
+					'inscription' => './pages/_inscription.php',
+					'ville' => './pages/_ville.php',
+					'departement' => './pages/_departement.php',
+					'region' => './pages/_region.php'
 					
 					// 'Accueil' => './pages/_accueil.php',
 					// 'Recherche' => './pages/_recherche.php',

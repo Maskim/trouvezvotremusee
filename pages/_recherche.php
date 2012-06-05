@@ -30,22 +30,23 @@
 			<?php 
 				require_once("./core/classes/ControleurConnexionPers.php");
 				
-				$nom_du_musee_souhaite = strtolower(htmlspecialchars($_POST['musee']));
+				var_dump($_POST['musee']);
+
+				$valeurRecherche = prepareString($_POST['musee']);
 				$musee = true;
 				$ville = false;
 				$dep = false;
 				$reg = false;
 				
 				$recherche = new ControleurConnexion;
-				$nom_du_musee_bdd = $recherche->consulter("nom","musee","","nom","'%$nom_du_musee_souhaite%'","","","","");
+				$nom_du_musee_bdd = $recherche->consulter("nom","musee","","nom","'%$valeurRecherche%'","","","","");
 				$tab_verif = mysql_num_rows($nom_du_musee_bdd);
 				
 				//Est-ce une ville ??
 				if($tab_verif == 0){
 					$musee = false;
 					$ville = true;
-					$recherche = new ControleurConnexion;
-					$nom_ville_bdd = $recherche->consulter("nomville","ville","","nomville","'%$nom_du_musee_souhaite%'","","","","");
+					$nom_ville_bdd = $recherche->consulter("nomville","ville","","nomville","'%$valeurRecherche%'","","","","");
 					$tab_verif = mysql_num_rows($nom_ville_bdd);
 				}
 				
@@ -53,8 +54,7 @@
 				if($tab_verif == 0){
 					$ville = false;
 					$dep = true;
-					$recherche = new ControleurConnexion;
-					$nom_dep_bdd = $recherche->consulter("nomdep","departement","","nomdep","'%$nom_du_musee_souhaite%'","","","","");
+					$nom_dep_bdd = $recherche->consulter("nomdep","departement","","nomdep","'%$valeurRecherche%'","","","","");
 					$tab_verif = mysql_num_rows($nom_dep_bdd);
 				}
 				
@@ -62,8 +62,8 @@
 				if($tab_verif == 0){
 					$dep = false;
 					$reg = true;
-					$recherche2 = new ControleurConnexion;
-					$nom_reg_bdd = $recherche2->consulter("nomregion","region","","nomregion","'%$nom_du_musee_souhaite%'","","","","");
+					$valeurRecherche = findRegion($valeurRecherche);
+					$nom_reg_bdd = $recherche->consulter("nomregion","region","","nomregion","'%$valeurRecherche%'","","","","");
 					$tab_verif = mysql_num_rows($nom_reg_bdd);
 				}
 				
@@ -89,15 +89,15 @@
 					<?php
 						}elseif($ville){
 					?>
-						document.location.href = "musees-<?php echo strtolower(htmlspecialchars($tab_musee['nomville'])); ?>.html";
+						document.location.href = "ville-<?php echo strtolower(htmlspecialchars($tab_musee['nomville'])); ?>.html";
 					<?php
 						}elseif($dep){
 					?>
-						document.location.href = "musees-<?php echo strtolower(htmlspecialchars($tab_musee['nomdep'])); ?>.html";
+						document.location.href = "departement-<?php echo strtolower(htmlspecialchars($tab_musee['nomdep'])); ?>.html";
 					<?php
 						}elseif($reg){
 					?>
-						document.location.href = "musees-<?php echo strtolower(htmlspecialchars($tab_musee['nomregion'])); ?>.html";
+						document.location.href = "region-<?php echo strtolower(htmlspecialchars($tab_musee['nomregion'])); ?>.html";
 					<?php
 						}
 					?>

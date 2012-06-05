@@ -12,6 +12,12 @@
 
 body { margin:0;padding:0;background:#f5f2ed url("../img/bg.jpg");min-width:900px;max-height:800px; }
  
+/* CONNEXION */
+#connexion { float: right; }
+#connexion p{ display: inline; }
+#connexion p a { font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#4fb7d4;text-decoration:none;letter-spacing:0px;text-shadow: 0 1px 0 #000000; }
+#connexion p a:hover, a:active, a:visited { color:white;outline-style:none; }
+
 /* EN TÊTE */	
 #head { margin:0;padding:0;height:125px;background:#212121; border-bottom:6px solid #e0e0df; }
 #head #en-tete { width:900px;margin:0 auto;  }
@@ -22,6 +28,7 @@ body { margin:0;padding:0;background:#f5f2ed url("../img/bg.jpg");min-width:900p
 #head #en-tete #navigation ul { height:105px;list-style-type: none;margin:0;padding:22px 0 0 0; }
 #head #en-tete #navigation a { font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#4fb7d4;text-decoration:none;letter-spacing:0px;text-shadow: 0 1px 0 #000000; }
 #head #en-tete #navigation a:hover, a:active, a:visited { color:white;outline-style:none; }
+
 
 /* MENU */
 #menu{ float: left; margin-top: 5%; min-width: 10%; padding-right: 1%; padding-left: 3%; margin-left: -2%; border-radius: 15px; border: 1px solid black;}
@@ -67,11 +74,16 @@ white-space:nowrap;width:207px; }
 #global #contenu #form_contact input[type=reset]:hover{ background-position: 0 -60px;text-decoration:none; }
 #global #contenu #form_contact textarea{ margin-left:15px;background:url("../img/textarea_contact.png");border:0px;width:480px;height:212px;padding: 5px 10px 5px 10px; }
 
-#global #marketing { margin:0 auto;background: url("../img/marketing-bg.png") no-repeat;width:700px;height:181px;margin-top:50px; }
+#global #marketing { margin:0 auto;background: url("../img/marketing-bg.png") no-repeat;width:700px;margin-top:50px; }
 #global #marketing ul { list-style:none;margin:0;padding:0; }
 #global #marketing ul li { float:left;margin:0 10px 0 5px;padding-top:105px;width:30%;text-align:center;font-family:'NeoBold',Verdana,Helvetica,sans-serif;font-size:12px; }
+#global .centrerBouton { width: 220px; margin: 0px auto 0 auto;  }
+#global .soumettre { background:url("../img/bouton_bleu_moyen.png") no-repeat scroll 0 0 transparent;border:0 none;color:#FFFFFF;cursor:pointer;
+font-family:'Lobster', arial, serif;font-size:15pt;font-weight:bold;height:60px;line-height:49px;overflow:visible;padding:0 0 0 0px;text-align:center;text-shadow:1px 1px 1px #2E87A1;
+white-space:nowrap;width:207px;}
 
-#global #contenu #log label { cursor:pointer;font-style:italic; }
+#global #contenu #log p { margin-bottom: 10px; }
+#global #contenu #log label { cursor:pointer;font-style:italic; margin-bottom: 3px;}
 #global #contenu #log input[type=text]{ margin-left:15px;background:url("../img/input_contact.png");border:0px;width:362px;height:38px;line-height:38px;padding: 0 10px 0 10px; }
 #global #contenu #log input[type=password]{ margin-left:15px;background:url("../img/input_contact.png");border:0px;width:362px;height:38px;line-height:38px;padding: 0 10px 0 10px; }
 #global #contenu #log input[type=submit]{ background:url("../img/bouton_vert_moyen.png") no-repeat scroll 0 0 transparent;border:0 none;color:#FFFFFF;cursor:pointer;
@@ -79,11 +91,12 @@ font-family:'Lobster', arial, serif;font-size:15pt;font-weight:bold;height:60px;
 white-space:nowrap;width:207px; }
 
 #global #contenu .img_musees_liens { margin:0 0 -30px 12px; }
-#global #contenu .nombre_de_musees { margin:0 0 -15px 27px;font-style:italic; }
+#global #contenu .nombre_de_musees { margin:0 0 -5px 27px;font-style:italic; }
 #global #contenu .classement_musees_liens { margin:0;text-align:center;width:588px;padding:3px; }
 #global #contenu .classement_musees_liens p { padding:20px 0 20px 0;background:url("../img/ombre.png");width:580px;-moz-border-radius:5px;-webkit-border-radius:5px; }
 #global #contenu .classement_musees_liens a { text-align:center;background-color:#F4F4F4;color:#515151;border:1px solid #555555;padding:3px 4px;text-decoration:none;margin:0; }
 #global #contenu .classement_musees_liens a:hover { border:1px solid #555555;background-color:#dddddd; }
+#global #contenu .classement_musees_liens span { display: block; margin: 10px 0px -10px 0px; text-align: center; };
 
 #global #contenu .recherche_par ul { list-style-type:square;margin-left:20px;color:#4c4c4c;text-shadow:1px 1px 1px #ffffff; }
 #global #contenu .recherche_par ul li a { text-decoration:none;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#4c4c4c; }

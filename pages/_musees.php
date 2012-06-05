@@ -1,6 +1,5 @@
 	<?php 
 		require_once("./core/classes/ControleurConnexionPers.php");
-		require_once("./core/ajax/rating_bar/_drawrating.php");
 		$replace = array(" ", "-", "'");
 		
 		if(isset($_GET['Nom']) AND !empty($_GET['Nom'])) {
@@ -108,9 +107,6 @@
 						}
 					?>
 					/10
-				</p>
-				<p class="nb_vot">
-					<?php echo rating_bar($tab_sql['idmusee'],''); ?>
 				</p>
 				<p class="nb_vot">
 					Pour 
@@ -251,6 +247,7 @@
 				?>
 			</p>
 			
+
 			<div class="classement_musees_liens">
 				<p>
 					<?php
@@ -258,6 +255,7 @@
 							echo '<a href="#'.$lettres.'" class="c">'.$lettres.'</a> ';
 						}
 					?>
+					<span>Recherche avancée</span>
 				</p>
 			</div>
 			

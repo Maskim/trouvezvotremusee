@@ -1,6 +1,3 @@
-		<?php
-			session_start();
-		?>
 		<div id="contenu">
 			<h1>Connexion</h1>
 			
@@ -20,13 +17,6 @@
 					</p>
 				</form>
 				<p><a href="./inscription.html">Pas encore inscrit ?</a> <a>Mot de passe oublié ?</a></p>
-				<?php
-					if(isset($_SESSION['connexion']) AND $_SESSION['connexion']){
-						echo "<p><a href=\"./deconnexion.html\">deconnexion</a></p>";
-					}else{
-						echo "<pre>".$_SESSION."</pre>";
-					}
-				?>
 			</div>
 			
 		</div>

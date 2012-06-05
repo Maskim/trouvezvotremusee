@@ -1,5 +1,5 @@
-﻿<?php
-	session_start();
+﻿<?php session_start(); ?>
+<?php
 	require_once("./classes/ControleurConnexionPers.php");
 
 	if(isset($_POST['type']) AND !empty($_POST['type'])) {
@@ -27,11 +27,11 @@
 						$_SESSION['prenom'] = $prenom;
 						$_SESSION['niveau']= 1 ;
 						?>
-							<script language="javascript" type="text/javascript">window.location.replace("./accueil.html");</script>
+							<script language="javascript" type="text/javascript">window.location.replace("../accueil.html");</script>
 						<?php
 					}else{ 
 					?>
-						<script language="javascript" type="text/javascript">window.location.replace("./accueil.html");</script>
+						<script language="javascript" type="text/javascript">window.location.replace("../accueil.html");</script>
 					<?php 
 					}
 					
@@ -48,9 +48,9 @@
 				$mdp = md5($mdp);
 				
 				$a = new ControleurConnexion;
-				$sql = $a -> consulter("*","utilisateur","","","","","","");
+				$sql = $a -> consulter("*","utilisateur","","","","","","", "");
 				while($tab_sql = mysql_fetch_array($sql)){
-					if($util == $tab_sql['utilisateur'] && $mdp == $tab_sql['mdp']){
+					if($util == $tab_sql['utilisateur'] AND $mdp == $tab_sql['mdp']){
 						$_SESSION['connexion'] = true;
 						$_SESSION['util'] = $tab_sql['utilisateur'];
 						$_SESSION['nom'] = $tab_sql['nom'];
@@ -59,7 +59,7 @@
 					}
 				}
 				?>
-				<script language="javascript" type="text/javascript">window.location.replace("../administration.html");</script>
+					<script language="javascript" type="text/javascript">window.location.replace("../accueil.html");</script>
 				<?php
 			break;
 			

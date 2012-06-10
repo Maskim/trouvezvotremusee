@@ -1,6 +1,7 @@
 	<?php 
 		require_once("./core/classes/ControleurConnexionPers.php");
-		$replace = array(" ", "-", "'");
+		require_once("./core/fonctions.php");
+
 		
 		if(isset($_GET['Nom']) AND !empty($_GET['Nom'])) {
 
@@ -12,17 +13,13 @@
 			$sql = $a->consulter("*","musee","", "", "","", "", "", "");
 			
 			while($rech_mus = mysql_fetch_array($sql)){
-				$mus = $rech_mus['nom'];
+				$mus = prepareString(utf8_encode($rech_mus['nom']));
 				// On regarde si le musée selectionné existe
-				$ms = new ControleurConnexion;
-				$sql_ms = $ms->consulter("*","musee","", "nom=\"$mus\"", "","", "", "", "");
-				$verif = mysql_fetch_array($sql_ms);
-				// On enleve les espaces
-				$nom_musee_rech = str_replace($replace, "", $verif['nom']);
-				if(strtolower($nom_musee_rech) == $nom_musee){
+				if($mus == $nom_musee){
 					$ok = true;
 					$sel = new ControleurConnexion;
-					$sql_sel = $sel->consulter("*","musee","","nom = '".$verif['nom']."'","","","","","");
+					$recherche_musee = str_replace("'", "\'", $rech_mus['nom']);
+					$sql_sel = $sel->consulter("*","musee","","nom = '".$recherche_musee."'","","","","","");
 					$tab_sql = mysql_fetch_array($sql_sel);
 
 				}
@@ -270,13 +267,13 @@
 							$b = new ControleurConnexion;
 							$sql=$b->consulter("$select","$from","","$where", "'$lettre%' ", "", "", "", "");
 							while($tab = mysql_fetch_array($sql)){
-							$nom_mus = str_replace($replace , "", $tab['nom']);
-						?>
+								$nom_mus = prepareString(utf8_encode($tab['nom']));
+							?>
 						<ul>
 							<li><a href="musees-<?php echo strtolower($nom_mus); ?>.html"><?php echo $tab['nom']; ?></a></li>
 						</ul>
 					
-				<?php 	
+							<?php 	
 							} 
 					}
 				?>			

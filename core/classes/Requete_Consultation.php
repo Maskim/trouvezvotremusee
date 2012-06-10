@@ -23,7 +23,8 @@ class RequeteConsultation
 		if(!empty($orderby)) $req .= " ORDER BY ".$orderby;
 		if(!empty($limit)) $req .= " LIMIT ".$limit;
 		//echo "<br />","24 Requete_Consultation","<pre>",print_r($req),"</pre>";
-		$sql = mysql_query($req, $this->connexion) or die("<span class=\"error\"><strong>Les parametres de consultation sont incorrects.</strong> ". mysql_error() ."</span>");
+		$sql = mysql_query($req, $this->connexion) or die("<span class=\"error\"><strong>Les parametres de consultation sont incorrects.</strong> ". mysql_error() ."</span>
+			<br />24 Requete_Consultation<pre>" . print_r($req). "</pre>");
 		//$sql = mysql_query($req, $this->connexion) or die(mysql_error());
 		return $sql;
 	}

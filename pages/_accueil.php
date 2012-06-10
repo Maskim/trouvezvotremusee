@@ -3,7 +3,7 @@
 				<div class="help_top"></div>
 				<div class="help_recherche">
 					<p>
-						Simplifiez votre recherche en ne tapant que le nom du musée que vous voulez voir.<br/>
+						Rechercher en tapant le nom du musée, de la ville, du département ou de la région que vous souhaitez visiter.<br/>
 						<em>Des suggestions vous sauront faites automatiquement.</em>
 					</p>
 				</div>

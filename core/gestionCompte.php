@@ -8,8 +8,8 @@
 		switch ($type)
 		{
 			case "inscription" :
-				$antibot=$_POST['antibot'];
-				if($antibot = "Je souhaite m'inscrire."){
+				$antibot = $_POST['antibot'];
+				if($antibot == "Je souhaite m'inscrire."){
 					$utili = htmlspecialchars($_POST['util']);
 					$mdp = htmlspecialchars($_POST['mdp']);
 					$vmdp = htmlspecialchars($_POST['vmdp']);
@@ -26,19 +26,15 @@
 						$_SESSION['nom'] = $nom;
 						$_SESSION['prenom'] = $prenom;
 						$_SESSION['niveau']= 1 ;
-						?>
-							<script language="javascript" type="text/javascript">window.location.replace("../accueil.html");</script>
-						<?php
+						
+						header("Location: ../accueil.html");
 					}else{ 
-					?>
-						<script language="javascript" type="text/javascript">window.location.replace("../accueil.html");</script>
-					<?php 
+						header("Location: ../inscription.html");
 					}
 					
 				}else{
-					?>
-				<script language="javascript" type="text/javascript">window.location.replace("../accueil.html");</script>
-				<?php
+
+					header("Location: ../inscription.html");
 				}
 			break;
 			

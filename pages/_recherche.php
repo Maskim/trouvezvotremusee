@@ -23,14 +23,9 @@
 			}
 			else {
 		?>
-		
-		<div id="contenu">
-			<h1>Votre recherche <?php if(isset($_POST['musee'])) { echo ': "'.htmlspecialchars($_POST['musee']); } ?>"</h1>
 			
 			<?php 
 				require_once("./core/classes/ControleurConnexionPers.php");
-				
-				var_dump($_POST['musee']);
 
 				$valeurRecherche = prepareString($_POST['musee']);
 				$musee = true;

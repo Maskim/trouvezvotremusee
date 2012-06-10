@@ -23,6 +23,7 @@
 <body>
 
 	<div id="head">
+
 		<div id="en-tete">
 			<div id="logo"><a href="accueil.html" accesskey="1"></a></div>
 			
@@ -35,6 +36,28 @@
 				</ul>
 			</div>
 		</div>
+	</div>
+	<div id="connexion">
+		<form>
+			<p class="input">
+				<label for="login">Login</label>
+				<input type="text" id="login" name="login" />
+			</p>
+
+			<p class="input">
+				<label for="mdp">Mot de passe</label>
+				<input type="password" id="mdp" name="mdp" />
+			</p>
+			<p class="submit">
+				<input type="submit" name="connexion" value="Se connecter" />
+			</p>
+		</form>
+
+		<p><a href="./inscription.html">Pas encore inscrit ?</a> -- <a href="./deconnexion.html">Déconnexion</a></p>
+
+		<p class="zoneConnexion">
+			<a href="">Connexion +</a>
+		</p>
 	</div>
 	
 	<div id="page">

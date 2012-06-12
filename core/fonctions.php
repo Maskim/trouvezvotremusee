@@ -15,10 +15,25 @@
 		return "";
 	}
 
+	function findDepartement($search_dep){
+
+		$a = new ControleurConnexion();
+		$sql = $a -> consulter("*", "departement", "", "", "", "", "", "", "");
+
+		while($dep = mysql_fetch_array($sql)){
+			$nom_dep = prepareString($dep['nomdep']);
+			if($nom_dep == $search_dep){
+				return $dep['nomdep'];
+			}
+		}
+
+		return "";
+	}
+
 	function prepareString($string){
-		$replace = array(" ", "-", "'");
-		$accent = array('é', 'è', 'à', 'ç', 'ô');
-		$no_accent = array('e', 'e', 'a', 'c', 'o');
+		$replace = array(" ", "-", "'", "(", ")");
+		$accent = array('é', 'è', 'à', 'â', 'ç', 'ô');
+		$no_accent = array('e', 'e', 'a', 'a', 'c', 'o');
 
 		$string = str_replace($replace, "", $string);
 		$string = str_replace($accent, $no_accent, $string);
@@ -38,4 +53,6 @@
 
 		return $return;
 	}
+
+
 ?>

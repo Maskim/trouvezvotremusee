@@ -86,7 +86,8 @@
 					'inscription' => './pages/_inscription.php',
 					'ville' => './pages/_ville.php',
 					'departement' => './pages/_departement.php',
-					'region' => './pages/_region.php'
+					'region' => './pages/_region.php',
+					'csvtobdd' => './pages/_csvTobdd.php'
 					
 					// 'Accueil' => './pages/_accueil.php',
 					// 'Recherche' => './pages/_recherche.php',
@@ -134,6 +135,7 @@
 	<script type="text/javascript" src="./core/js/jquery.validationEngine.js"></script>
 	<script type="text/javascript" src="./core/js/easySlider1.5.js"></script>
 	<script type="text/javascript" src="./core/js/disableAutoComplete.js"></script>
+	<script type="text/javascript" language="javascript" src="core/js/verif_formulaire.js"></script>
     <script type="text/javascript">
 		//<![CDATA[
 			$(document).ready(function(){
@@ -142,12 +144,13 @@
 				$('#page').fadeIn();
 				$('#recherche_aide').hide();
 				
+				$("#formInscription").validationEngine();
+
 				$("#slider").easySlider({
 					auto: true,
 					continuous: true 
 				});
 
-				
 				$('#musee').keyup( function(){
 					$field = $(this);
 					$('#resultats').html('');			 
@@ -180,6 +183,7 @@
 							bottom:0
 						},200);
 					}
+
 				});
 				  
 				$("#form_contact").validationEngine();
@@ -199,6 +203,7 @@
 				header: 'div.title',
 				autoheight: false
 			});
+
 		//]]>	
 	</script>
 </body>

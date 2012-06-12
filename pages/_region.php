@@ -37,8 +37,7 @@
 					<?php
 					$i = 0;
 					while($musee = mysql_fetch_array($liste_musee)){
-						$lien = str_replace($replace, "", $musee['nom']);
-						$lien = strtolower($lien);
+						$lien = prepareString(utf8_encode($musee['nom']));
 						$lien = "musees-$lien.html";
 
 						$les_musees[$i][0] = $musee['nom'];

@@ -4,15 +4,14 @@
 
 	if(isset($_GET['Nom']) AND !empty($_GET['Nom'])) {
 		$ok = false;
-			
+
 		$nom_dep = htmlspecialchars($_GET['Nom']);
 		// On selectionne tous les musées
-		$a = new ControleurConnexion;
-		$nb_dep = $a->consulter("COUNT(*)","departement","", "nomdep = '$nom_dep'", "","", "", "", "");
+		$nomdep = findDepartement($nom_dep);
 
-		$nb_dep = mysql_fetch_row($nb_dep);
-		if($nb_dep[0] == 1){ 
-			$liste_musee = $a->consulter("nom", "musee, departement, ville", "", "nomdep = '$nom_dep' AND musee.idville = ville.idville AND ville.iddep = departement.iddep", "", "", "", "nom", "");
+		if($nomdep != ""){ 
+			$a = new ControleurConnexion();
+			$liste_musee = $a->consulter("nom", "musee, departement, ville", "", "nomdep = '$nomdep' AND musee.idville = ville.idville AND ville.iddep = departement.iddep", "", "", "", "nom", "");
 			?>
 
 			<div id="contenu">
@@ -36,8 +35,7 @@
 					<?php
 					$i = 0;
 					while($musee = mysql_fetch_array($liste_musee)){
-						$lien = str_replace($replace, "", $musee['nom']);
-						$lien = strtolower($lien);
+						$lien = prepareString(utf8_encode($musee['nom']));
 						$lien = "musees-$lien.html";
 
 						$les_musees[$i][0] = $musee['nom'];

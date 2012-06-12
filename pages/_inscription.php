@@ -6,7 +6,7 @@
 			<h1>Inscription</h1>
 
 			<div id="log">
-				<form method="POST" action="./core/gestionCompte.php">
+				<form method="POST" action="./core/gestionCompte.php" id="formInscription">
 					<p>
 						<label for="util">Votre nom d'utilisateur : </label><br />
 						<input type="text" class="validate[required]" name="util" id="util" />
@@ -17,7 +17,7 @@
 					</p>
 					<p>
 						<label for="vmdp">Validez votre mot de passe : </label><br />
-						<input type="password" class="validate[required]" name="vmdp" id="vmdp" />
+						<input type="password" class="validate[required,confirm[mdp]]" name="vmdp" id="vmdp" />
 					</p>
 					<p>
 						<label for="nom">Votre nom : </label><br />
@@ -29,7 +29,7 @@
 					</p>
 					<p>
 						<label for="mail">Votre mail : </label><br />
-						<input type="text" class="validate[required]" name="mail" id="mail" />
+						<input type="text" class="validate[required,custom[email]]" name="mail" id="mail" />
 					</p>
 					
 					<p>
@@ -40,7 +40,6 @@
 					<input type="hidden" name="type" value="inscription" />
 					<input type="submit" name="Inscr_env" value="S'inscrire" />
 				</form>
-			</div>
 	<?php
 		}else{
 	?>

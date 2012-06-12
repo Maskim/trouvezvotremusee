@@ -17,19 +17,27 @@
 					$prenom = htmlspecialchars($_POST['prenom']);
 					$mail = htmlspecialchars($_POST['mail']);
 					
-					if($mdp == $vmdp){
-						$mdp = md5($mdp);
-						$a = new ControleurConnexion;
-						$sql=$a->inserer("utilisateur","utilisateur, mdp, nom, prenom, mail, niveau","'$utili', '$mdp', '$nom', '$prenom', '$mail', '1'");
-						$_SESSION["connexion"] = true;
-						$_SESSION['util'] = $utili;
-						$_SESSION['nom'] = $nom;
-						$_SESSION['prenom'] = $prenom;
-						$_SESSION['niveau']= 1 ;
-						
-						header("Location: ../accueil.html");
-					}else{ 
+					$a = new ControleurConnexion();
+					$sql = $a -> consulter("COUNT(*)","utilisateur","","utilisateur = '$utili'","","","","","");
+					$is_exist = mysql_fetch_row($sql);
+
+					if($is_exist[0]  != 0){
 						header("Location: ../inscription.html");
+					}else{
+
+						if($mdp == $vmdp){
+							$mdp = md5($mdp);
+							$sql=$a->inserer("utilisateur","utilisateur, mdp, nom, prenom, mail, niveau","'$utili', '$mdp', '$nom', '$prenom', '$mail', '1'");
+							$_SESSION["connexion"] = true;
+							$_SESSION['util'] = $utili;
+							$_SESSION['nom'] = $nom;
+							$_SESSION['prenom'] = $prenom;
+							$_SESSION['niveau']= 1 ;
+							
+							header("Location: ../accueil.html");
+						}else{ 
+							header("Location: ../inscription.html");
+						}
 					}
 					
 				}else{

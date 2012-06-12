@@ -19,7 +19,7 @@
 					$ok = true;
 					$sel = new ControleurConnexion;
 					$recherche_musee = str_replace("'", "\'", $rech_mus['nom']);
-					$sql_sel = $sel->consulter("*","musee","","nom = '".$recherche_musee."'","","","","","");
+					$sql_sel = $sel->consulter("*","musee, ville","","nom = '".$recherche_musee."' AND musee.idville = ville.idville","","","","","");
 					$tab_sql = mysql_fetch_array($sql_sel);
 
 				}
@@ -60,7 +60,7 @@
 						}
 						
 						if(!empty($tab_sql['adresse'])) {
-							echo '<li class="adresse">'.$tab_sql['adresse'].'</li>';
+							echo '<li class="adresse">'.$tab_sql['adresse'].' '.$tab_sql['CP'].' '.$tab_sql['nomville'].'</li>';
 						}
 					?>
 				</ul>
@@ -78,8 +78,8 @@
 				
 				<p>
 					<?php 
-						if(!empty($tab_sql['horaire'])) {
-							echo $tab_sql['horaire']; 
+						if(!empty($tab_sql['ouverture'])) {
+							echo $tab_sql['ouverture']; 
 						}
 						else {
 							echo 'Aucun horaire n\'est disponible pour le moment.';
@@ -88,6 +88,23 @@
 				</p>
 			</div>
 			
+			<div class="cadre">
+				<p class="titre">
+					Fermeture Annuelle :
+				</p>
+				
+				<p>
+					<?php 
+						if(!empty($tab_sql['fermetureAnnuelle'])) {
+							echo $tab_sql['fermetureAnnuelle']; 
+						}
+						else {
+							echo 'Aucune fermeture annuelle n\'a été communiquée.';
+						}
+					?>
+				</p>
+			</div>
+
 			<div class="cadre">
 				<p class="titre">
 					Note :

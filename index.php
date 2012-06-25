@@ -1,3 +1,6 @@
+<?php session_start(); 
+require_once("./core/classes/ControleurConnexionPers.php");
+require_once("./core/fonctions.php");?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
@@ -38,25 +41,67 @@
 		</div>
 	</div>
 	<div id="connexion">
-		<form>
+		<?php
+			if(!isset($_SESSION['util']) || !$_SESSION['connexion']){
+		?>
+		<form action="./core/gestionCompte.php" id="connexion_administration" method="post">
 			<p class="input">
 				<label for="login">Login</label>
-				<input type="text" id="login" name="login" />
+				<input type="text" class="validate[required]" id="login" name="login" />
 			</p>
 
 			<p class="input">
 				<label for="mdp">Mot de passe</label>
-				<input type="password" id="mdp" name="mdp" />
+				<input type="password" class="validate[required]" id="mdp" name="mdp" />
 			</p>
 			<p class="submit">
+				<input type="hidden" name="type" value="connexion" />
 				<input type="submit" name="connexion" value="Se connecter" />
 			</p>
 		</form>
+		<?php } ?>
 
-		<p><a href="./inscription.html">Pas encore inscrit ?</a> -- <a href="./deconnexion.html">Déconnexion</a></p>
+		<?php
+			if(isset($_SESSION['util']) && $_SESSION['connexion']){
+		?>
+
+			<ul>
+				<li><a href="moncompte.html">Mon compte</a></li>
+				<li>-- <a href="mesfavoris.html">Mes musées favoris</a></li>
+				<?php if($_SESSION['niveau'] == '5'){
+					?>
+					<li>-- <a href="administration.html">Administration</li>
+					<?php
+				} ?>
+			</ul>
+
+		<?php
+			}
+		?>
+		<p>
+			<?php
+				if(!isset($_SESSION['util']) || !$_SESSION['connexion']){
+			?>
+				<a href="./inscription.html">Pas encore inscrit ?</a> -- 
+				<a>Mot de passe oublié ?</a> 
+			<?php }
+				if(isset($_SESSION['util']) && $_SESSION['connexion']){
+			?>
+					<a href="./deconnexion.html">Déconnexion</a>
+			<?php } ?>
+		</p>
+
 
 		<p class="zoneConnexion">
-			<a href="">Connexion +</a>
+			<?php
+				if(!isset($_SESSION['util']) || !$_SESSION['connexion']){
+			?>
+				<a href="">Connexion +</a>
+			<?php }
+				if(isset($_SESSION['util']) && $_SESSION['connexion']){
+			?>
+				<a href="">Bienvenue <?php echo $_SESSION['util']; ?> +</a>
+			<?php } ?>
 		</p>
 	</div>
 	
@@ -87,6 +132,8 @@
 					'ville' => './pages/_ville.php',
 					'departement' => './pages/_departement.php',
 					'region' => './pages/_region.php',
+					'moncompte' => './pages/_monCompte.php',
+					'mesfavoris' => './pages/_favori.php',
 					'csvtobdd' => './pages/_csvTobdd.php'
 					
 					// 'Accueil' => './pages/_accueil.php',
@@ -167,7 +214,7 @@
 					}		
 				});
 				
-				$('#slides').slides({
+				/*$('#slides').slides({
 					preload: true,
 					preloadImage: './images/loading.gif',
 					play: 5000,
@@ -184,7 +231,7 @@
 						},200);
 					}
 
-				});
+				});*/
 				  
 				$("#form_contact").validationEngine();
 				$("#connexion_administration").validationEngine();

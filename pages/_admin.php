@@ -1,11 +1,8 @@
 	<?php
-		session_start();
-		if(isset($_SESSION['connexion']) AND $_SESSION['niveau'] == 2 AND $_SESSION['connexion']){ 
+		if(isset($_SESSION['connexion']) AND $_SESSION['niveau'] == 5 AND $_SESSION['connexion']){ 
 	?>
 		<div id="contenu">
 			<h1>Administration</h1>
-			
-			<p><a href="./deconnexion.html">Déconnexion</a></p>
 			
 			<br/>
 			

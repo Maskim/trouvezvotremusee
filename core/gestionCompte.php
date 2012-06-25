@@ -1,4 +1,4 @@
-ï»¿<?php session_start(); ?>
+<?php session_start(); ?>
 <?php
 	require_once("./classes/ControleurConnexionPers.php");
 
@@ -21,21 +21,44 @@
 					$sql = $a -> consulter("COUNT(*)","utilisateur","","utilisateur = '$utili'","","","","","");
 					$is_exist = mysql_fetch_row($sql);
 
+					$sql_mail = $a -> consulter("COUNT(*)", "utilisateur", "", "mail = '$mail'", "", "", "", "", "");
+					$is_mail_exist = mysql_fetch_row($sql_mail);
+
+
 					if($is_exist[0]  != 0){
+						$_SESSION['error'] = "- Le nom d'utilisateur est déjà utilisé !";
+						if($is_mail_exist[0] != 0){
+							$_SESSION['error'] .= "</p><p>- Le mail est déjà utilisé !";
+						}
+						if($mdp != $vmdp){
+							$_SESSION['error'] .= "</p><p>- Vos mots de passe ne correspondent pas !";
+						}
+						header("Location: ../inscription.html");
+					}else if($is_mail_exist[0] != 0){
+						$_SESSION['error'] = "- Le mail est déjà utilisé !";
+						if($mdp != $vmdp){
+							$_SESSION['error'] .= "</p><p>- Vos mots de passe ne correspondent pas !";
+						}
 						header("Location: ../inscription.html");
 					}else{
 
 						if($mdp == $vmdp){
 							$mdp = md5($mdp);
-							$sql=$a->inserer("utilisateur","utilisateur, mdp, nom, prenom, mail, niveau","'$utili', '$mdp', '$nom', '$prenom', '$mail', '1'");
+							$a->inserer("utilisateur","utilisateur, mdp, nom, prenom, mail, niveau","'$utili', '$mdp', '$nom', '$prenom', '$mail', '1'");
 							$_SESSION["connexion"] = true;
 							$_SESSION['util'] = $utili;
 							$_SESSION['nom'] = $nom;
 							$_SESSION['prenom'] = $prenom;
 							$_SESSION['niveau']= 1 ;
 							
+							$sql_iduser = $a->consulter("idutil", "utilisateur", "", "utilisateur = '$utili'", "", "", "", "", "");
+							$iduser = mysql_fetch_row($sql_iduser);
+
+							$_SESSION['iduser'] = $iduser[0];
+
 							header("Location: ../accueil.html");
 						}else{ 
+							$_SESSION['error'] = "- Vos mots de passe ne correspondent pas !";
 							header("Location: ../inscription.html");
 						}
 					}
@@ -47,7 +70,7 @@
 			break;
 			
 			case "connexion" :
-				$util = htmlspecialchars($_POST['util']);
+				$util = htmlspecialchars($_POST['login']);
 				$mdp = htmlspecialchars($_POST['mdp']);
 				$mdp = md5($mdp);
 				
@@ -60,11 +83,11 @@
 						$_SESSION['nom'] = $tab_sql['nom'];
 						$_SESSION['prenom'] = $tab_sql['prenom'];
 						$_SESSION['niveau']= $tab_sql['niveau'];
+						$_SESSION['iduser'] = $tab_sql['idutil'];
 					}
 				}
-				?>
-					<script language="javascript" type="text/javascript">window.location.replace("../accueil.html");</script>
-				<?php
+
+				header("Location: ../accueil.html");
 			break;
 			
 			case "modifier" : 

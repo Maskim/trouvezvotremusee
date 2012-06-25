@@ -107,6 +107,34 @@
 
 			<div class="cadre">
 				<p class="titre">
+					Favori
+				</p>
+				<?php
+					if(isset($_SESSION['iduser'])){
+						$idmusee = $tab_sql['idmusee'];
+						$idUser = $_SESSION['iduser'];
+						$sql_fav = $a->consulter("COUNT(*)", "favori", "", "musee = '$idmusee' AND util = '$idUser'", "", "", "", "", "");
+						$isFav = mysql_fetch_row($sql_fav);
+
+						if($isFav[0] != 0) 	$isFav = true;
+						else 				$isFav = false;
+					}else
+						$isFav = false;
+
+					if($isFav){
+						?>
+							<p>Déjà dans vos favoris</p>
+						<?php
+					}else{
+				?>
+				<p>
+					<a href="./core/addToMyFave.php?id=<?php echo $tab_sql['idmusee']; ?>">Ajouter à mes favoris</a>
+				</p>
+					<?php } ?>
+			</div>
+
+			<div class="cadre">
+				<p class="titre">
 					Note :
 				</p>
 				

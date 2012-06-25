@@ -1,9 +1,19 @@
-<?php session_start(); ?>
 	<?php
 		if(!isset($_SESSION['connexion']) || !$_SESSION['connexion']){
 	?>
 		<div id="contenu">
 			<h1>Inscription</h1>
+
+			
+			<?php 
+				if(isset($_SESSION['error'])){?>
+					<div id="error">
+						<p><?php echo $_SESSION['error'];?></p>
+					</div>
+				<?php 
+					unset($_SESSION['error']);
+				}
+			?>
 
 			<div id="log">
 				<form method="POST" action="./core/gestionCompte.php" id="formInscription">
@@ -13,18 +23,18 @@
 					</p>
 					<p>
 						<label for="mdp">Votre mot de passe : </label><br />
-						<input type="password" class="validate[required]" name="mdp" id="mdp" />
+						<input type="password" class="validate[required,length[4,20]]" name="mdp" id="mdp" />
 					</p>
 					<p>
 						<label for="vmdp">Validez votre mot de passe : </label><br />
-						<input type="password" class="validate[required,confirm[mdp]]" name="vmdp" id="vmdp" />
+						<input type="password" class="validate[required]" name="vmdp" id="vmdp" />
 					</p>
 					<p>
 						<label for="nom">Votre nom : </label><br />
 						<input type="text" class="validate[required]" name="nom" id="nom" />
 					</p>
 					<p>
-						<label for="prenom">Votre prenom : </label><br />
+						<label for="prenom">Votre prénom : </label><br />
 						<input type="text" class="validate[required]" name="prenom" id="prenom" />
 					</p>
 					<p>
@@ -42,9 +52,6 @@
 				</form>
 	<?php
 		}else{
-	?>
-			<p>Vous étes déjà connecté !</p>
-			<script language="javascript" type="text/javascript">window.location.replace("accueil.html");</script>
-	<?php
+			header("Location: accueil.html");
 		}
 	?>

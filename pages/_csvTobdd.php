@@ -1,5 +1,5 @@
 <?php
-require_once("./core/classes/ControleurConnexionPers.php");
+/*require_once("./core/classes/ControleurConnexionPers.php");
 
 $row = 1;
 $i = 0;
@@ -173,5 +173,5 @@ for ($i=0; $i < count($nomDuMusee) ; $i++) {
                                     '".$siteinternetadd."', '".$overtureadd."', '".$nocturneadd."', '".$fermAnAdd."', '".$fermAdd."', '".$ville[$i]."'");
 }
 
-print_r($nomDuMusee);
+print_r($nomDuMusee);*/
 ?>

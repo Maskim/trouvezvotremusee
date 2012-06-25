@@ -1,6 +1,5 @@
 <?php
-	session_start();
-	if(isset($_SESSION['connexion']) AND isset($_SESSION['niveau']) AND $_SESSION['niveau']== 2 AND $_SESSION['connexion']){ 
+	if(isset($_SESSION['connexion']) AND isset($_SESSION['niveau']) AND $_SESSION['niveau']== 5 AND $_SESSION['connexion']){ 
 		require_once("./core/classes/ControleurConnexionPers.php");
 		require_once ("./core/Modif.php");
 		

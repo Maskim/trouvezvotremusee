@@ -25,10 +25,10 @@
 			.ajaxSubmit{ padding:20px; background:#55ea55;border:1px solid #999;display:none}
 			.formError .formErrorContent {
 				width:100%; 
-				background:#636363;
-				color:#fff;
+				background:#212121;
+				color:red;
 				width:150px;
-				font-family:tahoma;
+				font-family:inherit;
 				font-size:11px;
 				border:2px solid #e0e0df;
 				box-shadow: 0px 0px 2px #000;
@@ -56,7 +56,7 @@
 					box-shadow: 0px 2px 3px #444;
 					-moz-box-shadow: 0px 2px 3px #444;
 					-webkit-box-shadow: 0px 2px 3px #444;
-					font-size:0px; height:1px; background:#636363;margin:0 auto;line-height:0px; font-size:0px; display:block;
+					font-size:0px; height:1px; background:#212121;margin:0 auto;line-height:0px; font-size:0px; display:block;
 				}
 					.formError .formErrorArrowBottom div{
 						box-shadow: none;

@@ -2,9 +2,10 @@ $(document).ready(function() {
 	$("a.c").anchorAnimate();
 
 	$('.zoneConnexion').click(function(){
-		if($('#connexion').css("margin-top") >= '0px')
+		if($('#connexion').css("margin-top") >= '0px'){
 			$('#connexion').animate({'margin-top': '-=52'}, 600);
-		else
+			$('.formError').fadeOut(150,function(){		$(this).remove()	});
+		}else
 			$('#connexion').animate({'margin-top': '+=52'}, 600);
 		return false;
 	});

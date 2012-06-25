@@ -18,14 +18,16 @@ body { margin:0;padding:0;background:#f5f2ed url("../img/bg.jpg");min-width:900p
 	-moz-border-radius-bottomleft: 10px;
 	border-bottom-left-radius: 10px; margin-top: -52px;}
 #connexion p { display: inline; color: white; }
-#connexion p a { font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#4fb7d4;text-decoration:none;letter-spacing:0px;text-shadow: 0 1px 0 #000000; }
-#connexion p a:hover, a:active, a:visited { color:white;outline-style:none; }
+#connexion a { font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#4fb7d4;text-decoration:none;letter-spacing:0px;text-shadow: 0 1px 0 #000000; }
+#connexion a:hover, a:active, a:visited { color:white;outline-style:none; }
 #connexion .submit{ text-align: right; }
 #connexion .input{ text-align: right; padding-bottom: 5px;}
-#connexion .zoneConnexion{ float: right; margin-right: -10px; margin-top: 10px; background: #212121; padding: 15px 10px 3px 10px;
+#connexion .zoneConnexion{ float: right;margin-top: 10px; background: #212121; padding: 15px 10px 3px 10px;
 	-webkit-border-bottom-right-radius: 10px; -webkit-border-bottom-left-radius: 10px;
 	-moz-border-radius-bottomright: 10px; -moz-border-radius-bottomleft: 10px;
-	border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; position: relative; }
+	border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; position: absolute; right: -3px;}
+#connexion ul{ margin-top: 0px; margin-bottom: 6px;}
+#connexion li{ display: inline; color: white; }
 
 /* EN TÊTE */	
 #head { margin:0;padding:0;height:125px;background:#212121; border-bottom:6px solid #e0e0df; position: relative; z-index: 2;}
@@ -121,6 +123,7 @@ white-space:nowrap;width:207px; }
 #global #contenu a { text-decoration:none;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#4c4c4c; }
 #global #contenu a:hover { color:#000000; }
 
+#global #error p{ color: red; margin: 10px 10px;  }
 /* LE MUSEE */
 #global #contenu #le_musee { margin-top:10px; }
 .conteneur_musee { background:#ffffff url("../img/bg_musee.png") no-repeat 43px 0px;width:860px;margin:0 auto;margin-top:10px;-moz-border-radius:5px;-webkit-border-radius:5px; }

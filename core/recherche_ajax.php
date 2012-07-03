@@ -8,48 +8,21 @@
    =========================================================== 
 */
 
+   require_once('./classes/ControleurConnexionPers.php');
+
 	if(isset($_POST['musee']) AND !empty($_POST['musee'])) {
 
-		// Connexion ? la BDD
-		// define('DB_NAME', '25848_musee');
-		// define('DB_USER', '25848_musee');
-		// define('DB_PASSWORD', 'grandia');
-		// define('DB_HOST', 'sql.olympe-network.com');
-		
-		define('DB_NAME', 'trouvez-votre-musee');
-		define('DB_USER', 'root');
-		define('DB_PASSWORD', '');
-		define('DB_HOST', 'localhost');
-		
-		// V?rif de la BDD
-		$link   =   mysql_connect(DB_HOST, DB_USER, DB_PASSWORD);
-					mysql_select_db(DB_NAME, $link);
+		$a = new ControleurConnexion();
 		 
 		// Recherche des r?sultats dans la base de donn?es
 		// OR lastname LIKE \'' . $_GET['musee'] . '%\'
-		$result =   mysql_query( 'SELECT nom
-								  FROM musee
-								  WHERE nom LIKE \'%' . htmlspecialchars($_POST['musee']) . '%\'
-								  LIMIT 0,5' 
-								);
+		$result = $a -> consulter("nom", "musee", "", 'nom LIKE \'%' . htmlspecialchars($_POST['musee']) . '%\'', "", "", "", "", "0, 5");
 
-		$result_ville = mysql_query('	SELECT nomville
-										FROM ville
-										WHERE nomville LIKE \'%' .htmlspecialchars($_POST['musee']) . '%\'
-								  		LIMIT 0,5' 
-								);
+		$result_ville = $a -> consulter("nomville", "ville", "", 'nomville LIKE \'%' .htmlspecialchars($_POST['musee']) . '%\'',"", "", "", "", "0,5");
 
-		$result_dep = mysql_query('	SELECT nomdep
-										FROM departement
-										WHERE nomdep LIKE \'%' .htmlspecialchars($_POST['musee']) . '%\'
-								  		LIMIT 0,5' 
-								);
+		$result_dep = $a -> consulter("nomdep", "departement", "", 'nomdep LIKE \'%' .htmlspecialchars($_POST['musee']) . '%\'',"", "", "", "", "0,5");
 
-		$result_reg = mysql_query('	SELECT nomregion
-										FROM region
-										WHERE nomregion LIKE \'%' .htmlspecialchars($_POST['musee']) . '%\'
-								  		LIMIT 0,5' 
-								);
+		$result_reg = $a -> consulter("nomregion", "region", "", 'nomregion LIKE \'%' .htmlspecialchars($_POST['musee']) . '%\'',"", "", "", "", "0,5");
 
 		// Affichage d'un message "Pas de r?sultats"
 		if(mysql_num_rows( $result ) == 0 && mysql_num_rows( $result_ville ) && mysql_num_rows( $result_dep ) 

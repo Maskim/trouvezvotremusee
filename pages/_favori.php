@@ -10,7 +10,8 @@
 		while($tab = mysql_fetch_array($favoris)){
 			?>
 
-			<p><?php echo $tab['nom']; ?></p>
+			<p><?php echo $tab['nom']; ?> -- <a href="">Supprimer de vos favoris</a> </p>
+
 			
 			<?php
 		}

@@ -206,3 +206,7 @@ background-position:left center;background-repeat:no-repeat;list-style:none;lett
 #pied #pied_centre #navigation_sous_recherche p a { color:#3f3631;text-shadow: 0 1px 0 #ffffff;text-decoration:none;padding:0 10px 0 10px; }
 #pied #pied_centre #navigation_sous_recherche p a:hover, a:active, a:visited { color:#504640; outline-style:none; }
 #pied #pied_centre #copyright { color:#676767;font-size:8pt;margin-top:20px;font-family:Arial,Helvetica,sans-serif; }
+
+.error{text-align: center; color: red; margin-bottom: 20px;}
+
+#modifmdp{ width: 60%; float: right; }

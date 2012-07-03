@@ -183,6 +183,7 @@ require_once("./core/fonctions.php");?>
 	<script type="text/javascript" src="./core/js/easySlider1.5.js"></script>
 	<script type="text/javascript" src="./core/js/disableAutoComplete.js"></script>
 	<script type="text/javascript" language="javascript" src="core/js/verif_formulaire.js"></script>
+	<script type="text/javascript" language="javascript" src="core/js/fonctions.js"></script>
     <script type="text/javascript">
 		//<![CDATA[
 			$(document).ready(function(){
@@ -235,6 +236,7 @@ require_once("./core/fonctions.php");?>
 				  
 				$("#form_contact").validationEngine();
 				$("#connexion_administration").validationEngine();
+				$("#formModifUser").validationEngine();
 			});
 					 
 			function help_recherche_focus() {

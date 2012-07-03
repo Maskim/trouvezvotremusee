@@ -54,5 +54,31 @@
 		return $return;
 	}
 
+	function isAlreadyExist($table, $champ, $test, $id){
+		
 
+		$a = new ControleurConnexion();
+		$result = $a->consulter("COUNT(*)", "$table", "", "$champ = '$test' AND idutil != $id", "", "", "", "", "");
+
+		$nb_result = mysql_fetch_row($result);
+
+		if($nb_result[0] == 0){
+			return false;
+		}else{
+			return true;
+		}
+
+	}
+
+	function isGoodMdp($id, $mdp){
+		$a = new ControleurConnexion();
+		$result = $a->consulter("mdp", "utilisateur", "", "idutil = '".$id."'", "", "", "", "", "");
+
+		$result = mysql_fetch_row($result);
+
+		if($result[0] == $mdp){
+			return true;
+		}else
+			return false;
+	}
 ?>

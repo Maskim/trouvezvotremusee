@@ -1,0 +1,259 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Category Icons\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-04-12 21:41+0100\n"
+"PO-Revision-Date: 2008-05-04 15:05+0100\n"
+"Last-Translator: \n"
+"Language-Team: Brahim MACHKOURI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__;_c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /Users/Submarine/Sites/wp25/wp-content/plugins/"
+"category-icons\n"
+
+msgid "A new version of the plugin <strong>%s</strong> is available"
+msgstr "Nueva version del plugin <strong>%s</strong> disponible "
+
+msgid "Are you trying to cheat ?"
+msgstr "Estas intentando trucar ?"
+
+msgid "Categories"
+msgstr "Categorias"
+
+msgid "Category ID"
+msgstr "ID de Categoria"
+
+msgid "Category IDs, separated by commas."
+msgstr "IDs de Categorias, separados por comas."
+
+msgid "Category Icons"
+msgstr "Iconos de Categorias"
+
+msgid "Category Icons Settings"
+msgstr "Ajustes de Iconos de Categorias"
+
+msgid "Check for updates"
+msgstr "Buscar Actualizaciones"
+
+msgid "Code"
+msgstr "Codigo"
+
+msgid "Contact the author"
+msgstr "Contacta con el autor"
+
+msgid "Delete icons and priority"
+msgstr "Borrar Iconos y Prioridad"
+
+msgid "Easily assign icons to your categories"
+msgstr "Asigna facilmente iconos a tus categorias"
+
+msgid "Edit %s"
+msgstr "Editar %s"
+
+msgid ""
+"Enter the maximum number of icons to display in front of the posts titles."
+msgstr ""
+"Introduce el numero maximo de iconos a mostrar en los titulos de las "
+"entradas."
+
+msgid "Error in Category Icons"
+msgstr "Error en Iconos de CAtegorias"
+
+msgid "Exclude:"
+msgstr "Excluir:"
+
+msgid "Filename"
+msgstr "Nombre de Archivo"
+
+msgid "Icon"
+msgstr "Icono"
+
+msgid "Image File Types"
+msgstr "Tipos de Archivos de Imagen"
+
+msgid "Leave blank to use default upload path"
+msgstr "Dejar en blanco para usar la ruta de subidas por defecto"
+
+msgid "Leave blank to use default upload url"
+msgstr "Dejar en blanco para usar la url de subidas por defecto"
+
+msgid "Left"
+msgstr "Izquierda"
+
+msgid "Left Spacer Height"
+msgstr "Alto de espacio a la Izquierda"
+
+msgid "Left Spacer Width"
+msgstr "Ancho de espacio a la Izquierda"
+
+msgid "Line Number : Column"
+msgstr "Numero de Linea : Columna"
+
+msgid "Local Path to Icons"
+msgstr "Ruta Local a Iconos"
+
+msgid "Manage"
+msgstr "Gestionar"
+
+msgid "Maximum number of icons"
+msgstr "Numero Maximo de Iconos"
+
+msgid "Name"
+msgstr "Nombre"
+
+msgid "No Icon"
+msgstr "Sin Icono"
+
+msgid "Options"
+msgstr "Opciones"
+
+msgid ""
+"Paste the following code in the listed files, at the line and column numbers "
+"displayed below."
+msgstr ""
+"Pega el siguiente codigo en los archivos listados, en el numero de linea y "
+"columna mostrado a continuacion."
+
+msgid "Patch the files if possible (check for true)"
+msgstr "Parchea los archivos si se puede (marcar para verdadero)"
+
+msgid ""
+"Position the category icon in sidebar on the left<br/>or on the right of the "
+"category name ?"
+msgstr ""
+"Posicion de los Iconos de Categorias en la barra lateral a la Izquierda<br/"
+">o a la derecha del nombre de categoria ?"
+
+msgid "Posts"
+msgstr "Entradas"
+
+msgid "Priority"
+msgstr "Prioridad"
+
+msgid "Process the list of categories (usually used in sidebar) ?"
+msgstr ""
+"Procesar la lista de categorias (normalmente usadas en barra lateral) ?"
+
+msgid "Replace the code"
+msgstr "Reemplaza el codigo"
+
+msgid "Right"
+msgstr "Derecha"
+
+msgid "Right Spacer Height"
+msgstr "Alto de espacio a la Derecha"
+
+msgid "Right Spacer Width"
+msgstr "Ancho de espacio a la Derecha"
+
+msgid ""
+"Select 'Left' if you want to put the category icon in front of the category "
+"name in the sidebar, or 'Right' if you want to put it after. <b>Remember "
+"that you must use the put_cat_icons() function to dislay icons in the "
+"sidebar</b>."
+msgstr ""
+"Selecciona 'Izquierda' si quieres que el icono de categoria aparezca delante "
+"del nombre de la categoria en la barra lateral, o 'Derecha' si quieres que "
+"ponerlo despues. <b>Recuerda usar la funcion put_cat_icons() para mostrar "
+"los iconos en la barra lateral</b>"
+
+msgid "Select Category Icons"
+msgstr "Selecciona Iconos de Categoria"
+
+msgid "Select Icons"
+msgstr "Selecciona Iconos"
+
+msgid "Separate by space or comma. E.g. 'jpg gif jpeg png'"
+msgstr "Separar por espacios o comas. Ejem. 'jpg gif jpeg png'"
+
+msgid "Settings updated."
+msgstr "Ajustes actualizados."
+
+msgid "Show hierarchy"
+msgstr "Mostrar jerarquia"
+
+msgid "Show post counts"
+msgstr "Mostrar Contador de Entradas"
+
+msgid "Sizes of the spacers around the sidebar icons"
+msgstr "Tamaño de los espacios alrededor de los iconos de la barra lateral"
+
+msgid "Small Icon"
+msgstr "Icono Pequeño"
+
+msgid "Template Code"
+msgstr "Plantilla de codigo"
+
+msgid "Template Code for "
+msgstr "Plantilla de codigo para"
+
+msgid "The field %s is missing."
+msgstr "el campo %s no aparece."
+
+msgid "There's nothing to do."
+msgstr "No hay nada que hacer."
+
+msgid "Title:"
+msgstr "Titulo:"
+
+msgid "Translated by"
+msgstr "Traducido por"
+
+msgid "Troubleshooting"
+msgstr "Problemas"
+
+msgid "URL to Icons"
+msgstr "URL a Iconos"
+
+msgid "Update Options"
+msgstr "Actualizar Opciones"
+
+msgid "You are not allowed to delete category icons."
+msgstr "No tienes permiso para borrar Iconos de Categoria"
+
+msgid "by"
+msgstr "por"
+
+msgid ""
+"put_cat_icons : your list is empty ! Don't forget to add <strong>echo=0</"
+"strong> in the parameters of wp_list_categories()."
+msgstr ""
+"put_cat_icons : tu lista esta vacia ! No olvides añadir <strong>echo=0</"
+"strong> en los parametros de wp_list_categories()."
+
+msgid "put_cat_icons() parameters:"
+msgstr "parametros de put_cat_icons() :"
+
+msgid ""
+"the default upload path is not accessible. Please create one or change the "
+"permissions on the directory."
+msgstr ""
+"la ruta de subidas no es accesible. Por favor, crea una o cambia los "
+"permisos al directorio."
+
+msgid "translator_name"
+msgstr "nombre_traductor"
+
+msgid "translator_url"
+msgstr "url_traductor"
+
+msgid "you must deactivate and reactivate this plugin."
+msgstr "necesitas desactivar y reactivar este plugin."
+
+msgid ""
+"you must put the category_icons.php in /wp-content/plugins/category-icons/ "
+"directory.<br/> So deactivate the plugin, and move the file into category-"
+"icons directory.<br/>Click on Plugins 2 times, to restart the plugin "
+"detection.<br/>And then, reactivate it."
+msgstr ""
+"necesitas poner el archivo category_icons.php en el directorio /wp-content/"
+"plugins/category-icons/ <br/> Desactiva el plugin, y mueve el archivo dentro "
+"del directorio category-icons.<br/>Pulsa en Plugins 2 veces, para reiniciar "
+"la deteccion del plugin.<br/>Y despues activalo de nuevo. "

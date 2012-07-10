@@ -1,0 +1,563 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpdev-crm\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-08 14:17+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: wpdevelop <info@wpdevelop.com>\n"
+"Language-Team: wpdevelop <info@wpdevelop.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: D:\\www\\home\\w\\www\\wp-content\\plugins\\orders\\.\n"
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:330
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:349
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:354
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1209
+msgid "Orders"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:336
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:358
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1224
+msgid "Customers"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:342
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:362
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1239
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1512
+msgid "Settings"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:400
+#, php-format
+msgid "This functionality available in %sCustomer &amp; Orders Support Professional%s"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:401
+msgid "Please, check feature list for this version"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:401
+msgid "here"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:408
+msgid "Export (Pro)"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:409
+msgid "Print (Pro)"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:411
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1427
+msgid "Export"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:412
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1433
+msgid "Print"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:414
+msgid "Import new bookings"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:417
+msgid "Show filters (Pro)"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:429
+msgid "Show orders on several pages"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:431
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:434
+msgid "Show records at one page"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:569
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:939
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:171
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:181
+msgid "ID"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:574
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1334
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:172
+msgid "Info"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:579
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:173
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:182
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:337
+msgid "Dates"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:600
+msgid "Wide Days view"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:611
+msgid "Short Days view"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:615
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:174
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:182
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:307
+msgid "Customer"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:616
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:175
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:183
+msgid "Type"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:617
+msgid "Date of order"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:619
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1445
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:176
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:183
+msgid "Cost"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:621
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:777
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:951
+msgid "Actions"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:622
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:778
+msgid "Labels"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:643
+msgid "Booking Calendar plugin is not installed. This plugin is requred Booking Calendar for this type of records. "
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:711
+msgid "Booking dates"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:802
+msgid "Summ"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:818
+msgid "There are no orders. "
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:819
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1022
+#, php-format
+msgid "Right now current plugin is support orders from %s or newer."
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:820
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1023
+#, php-format
+msgid "You can  install %s%s%s now for free. "
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:853
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:339
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:374
+msgid "from"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:871
+#, php-format
+msgid "This functionality exist at %sProfessional%s version."
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:944
+msgid "Name"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:945
+msgid "Email"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:946
+msgid "Phone"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:947
+msgid "Adress"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:948
+msgid "City"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:949
+msgid "Country"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:950
+msgid "Count of Orders"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1021
+msgid "There are no customers. "
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1052
+msgid "General"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1061
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1457
+msgid "Buy now"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1071
+msgid "settings"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1154
+msgid "General Settings"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1163
+msgid "Some setttingsd"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1163
+#, php-format
+msgid "at %sclient%s side view"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1166
+#, php-format
+msgid "Type your %sdefault count of calendars%s for inserting into post/page"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1171
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1184
+msgid "Rows per page"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1171
+#, php-format
+msgid "at %sorders%s page"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1176
+msgid "All records at one page"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1179
+msgid "Select number orders per page"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1184
+#, php-format
+msgid "at %scustomers%s page"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1192
+msgid "Select number customers per page"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1202
+msgid "Show settings of user access level to admin menu"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1209
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1224
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1239
+msgid "access level"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1218
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1233
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1248
+msgid "Select user access level for this administration page"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1260
+msgid "Delete data"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1260
+msgid "when plugin deactivated"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1262
+msgid " Check, if you want delete booking data during uninstalling plugin."
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1267
+msgid "Copyright notice"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1269
+#, php-format
+msgid " Turn On/Off copyright %s notice at footer of site view."
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1275
+msgid "Save Changes"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1296
+msgid "Category & Page Icons Professional version"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1298
+msgid "Category & Page Icons Pro"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1300
+#, php-format
+msgid "If you want %sdonate or have more functionality%s you can %sBuy Professional version%s, which are include posibility to set icons at the top, bottom, right or left side according to titles of pages or categories. At this version is also possible to set spaces between titles and icons."
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1312
+msgid "Recomended WordPress Plugins"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1314
+msgid "Booking Calendar - online booking system"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1318
+#, php-format
+msgid "This wordpress plugin is  %sadd booking service to your site%s. Your site visitors can make booking for one or several days of one or several properties (appartments, hotel rooms, cars and so on).  Its can be  interesting %sfor hotel reservation service, rental service or any other service%s, where is needed making reservation at specific dates."
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1332
+msgid "Information"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1338
+msgid "Version"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1339
+msgid "release date"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1344
+msgid "Links"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1349
+msgid "official plugin page"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1350
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1355
+msgid "visit"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1354
+msgid "wordpress plugin page"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1359
+msgid "Author"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1363
+msgid "Premium Support"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1364
+msgid "special plugin customizations"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1365
+msgid "contact"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1387
+msgid "Advanced Settings"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1409
+msgid "Professional version"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1411
+msgid "Main difference features"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1415
+msgid "Features"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1417
+msgid "Free"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1418
+msgid "Paid"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1421
+msgid "Functionality"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1422
+msgid "all existing functionality"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1428
+msgid "export to CSV"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1434
+msgid "Print loyout"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1439
+msgid "Filter"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1440
+msgid "advanced filter for orders"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1447
+msgid "free"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1451
+msgid "Live demo"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1456
+msgid "Purchase"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./wpdev-crm.php:1513
+msgid "Buy"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:183
+msgid "Cost curency"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:184
+msgid "Order date"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:280
+msgid "Download"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:297
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:298
+msgid "Show filters"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:298
+msgid "Hide filters"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:317
+msgid "Show orders, only for selected customer"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:322
+msgid "Order type"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:332
+msgid "Show orders, only for specific type"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:349
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:376
+msgid "to"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:359
+msgid "Show orders, only in specific dates range"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:364
+msgid "Costs"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:379
+msgid "Show orders, only in specific cost range"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:385
+msgid "Reset filters"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:386
+msgid "Apply filters"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:439
+msgid "Uncorrect date format"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:474
+#: D:\www\home\w\www\wp-content\plugins\orders\./modules/booking-module.php:150
+msgid "Processing..."
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:488
+msgid "Close"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:499
+msgid "Download CSV"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./include/wpdev-pro.php:504
+#: D:\www\home\w\www\wp-content\plugins\orders\./modules/booking-module.php:114
+msgid "Done"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./modules/booking-module.php:191
+#, php-format
+msgid "Found %s new bookings..."
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./modules/booking-module.php:214
+#, php-format
+msgid "Added %s  bookings..."
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./modules/booking-module.php:219
+msgid "Record"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./modules/booking-module.php:219
+msgid "imported successfully"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./modules/booking-module.php:239
+msgid "Reload page"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./modules/booking-module.php:241
+msgid "Can not find installed Booking Calendar plugin inside of system"
+msgstr ""
+
+#: D:\www\home\w\www\wp-content\plugins\orders\./modules/booking-module.php:364
+#: D:\www\home\w\www\wp-content\plugins\orders\./modules/booking-module.php:394
+msgid "Error during inserting into BD"
+msgstr ""
+

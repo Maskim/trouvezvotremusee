@@ -1,0 +1,101 @@
+#col-right .inside, #col-right .inside p  {
+	font-size: 11px;
+	margin: 6px;
+}
+
+ul#caticonsmenu.subsubsub > li {
+    list-style:none;
+    display:inline;
+    margin : 6px;
+}
+
+#caticonsmenu li {
+	display: inline;
+	line-height: 200%;
+	list-style: none;
+	text-align: center;
+	white-space: nowrap;
+	margin: 0;
+	padding: 0 0 0px 17px;
+}
+
+#caticonsmenu ul {
+	margin: 0;
+	position: absolute;
+	margin-left: -0.2em;
+}
+
+#caticonsmenu a:hover {
+	color: #006699;
+}
+
+#caticonsmenu a.current {
+	color: #006699; 
+}
+
+#caticonspanel {
+	/*display: none;*/
+}
+
+#caticonsmenu {
+	margin: 0;
+	list-style: none;
+	padding: <?php echo (strval($GLOBALS['wp_version']) < strval('2.5')) ? '15px 0 0px 25px' : '7px 0 15px 0'; ?> ;
+	
+}
+
+#col-right {
+	clear:right;
+float:right;
+margin:0;
+overflow:hidden;
+padding:0;
+width:59%;
+}
+
+#col-left {
+	margin:0;
+overflow:hidden;
+padding:0;
+width:39%;
+}
+
+#col-left p, #col-right p {
+margin-top:0px;
+padding-top:0px;
+font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+font-size:12px;
+font-style:italic;
+}
+ fieldset, form, label {
+background:transparent none repeat scroll 0 0;
+border:0 none;
+outline-color:-moz-use-text-color;
+outline-style:none;
+outline-width:0;
+}
+
+.submit input {
+	-moz-border-radius-bottomleft:11px;
+-moz-border-radius-bottomright:11px;
+-moz-border-radius-topleft:11px;
+-moz-border-radius-topright:11px;
+-moz-box-sizing:content-box;
+border-style:solid;
+border-width:1px;
+cursor:pointer;
+font-size:11px !important;
+line-height:16px;
+padding:2px 8px;
+text-decoration:none;
+text-shadow:0 1px 0 #FFFFFF;
+border-color:#666666;
+color:#000000;
+margin:1px;
+}
+
+#col-right label {
+display:block;
+font-size:12px;
+padding:2px;
+}

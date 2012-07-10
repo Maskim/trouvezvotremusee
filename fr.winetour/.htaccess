@@ -1,0 +1,43 @@
+AddType x-mapp-php5 .php
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RedirectPermanent /vinobourg-le-tourisme-viticole-en-cotes-de-bourg http://bordeaux.winetourbooking.com/place/vinobourg-le-tourisme-viticole-en-cotes-de-bourg
+RedirectPermanent /chateau-de-la-grave http://bordeaux.winetourbooking.com/place/chateau-de-la-grave
+RedirectPermanent /chateau-haut-maco http://bordeaux.winetourbooking.com/place/chateau-haut-maco
+RedirectPermanent /chateau-lavergne-dulong http://bordeaux.winetourbooking.com/place/chateau-lavergne-dulong
+RedirectPermanent /chateau-mercier http://bordeaux.winetourbooking.com/place/chateau-mercier
+RedirectPermanent /chateau-bertinerie http://bordeaux.winetourbooking.com/place/chateau-bertinerie
+RedirectPermanent /chateau-latour-martillac http://bordeaux.winetourbooking.com/place/chateau-latour-martillac
+RedirectPermanent /chateau-de-rouillac http://bordeaux.winetourbooking.com/place/chateau-de-rouillac
+RedirectPermanent /domaine-de-chevalier http://bordeaux.winetourbooking.com/place/domaine-de-chevalier
+RedirectPermanent /domaine-de-la-solitude http://bordeaux.winetourbooking.com/place/domaine-de-la-solitude
+RedirectPermanent /chateau-dauzac http://bordeaux.winetourbooking.com/place/chateau-dauzac
+RedirectPermanent /chateau-vieux-robin http://bordeaux.winetourbooking.com/place/chateau-vieux-robin
+RedirectPermanent /chateau-du-tertre http://bordeaux.winetourbooking.com/place/chateau-du-tertre
+RedirectPermanent /chateau-giscours http://bordeaux.winetourbooking.com/place/chateau-giscours
+RedirectPermanent /chateau-jeandeman http://bordeaux.winetourbooking.com/place/chateau-jeandeman-2
+RedirectPermanent /chateau-milon-clos-de-la-cure http://bordeaux.winetourbooking.com/place/chateau-milon-clos-de-la-cure
+RedirectPermanent /chateau-puynormond http://bordeaux.winetourbooking.com/place/chateau-puynormond
+RedirectPermanent /chateau-troplong-mondot http://bordeaux.winetourbooking.com/place/chateau-troplong-mondot
+RedirectPermanent /chateau-canon-la-gaffeliere http://bordeaux.winetourbooking.com/place/chateau-canon-la-gaffeliere
+RedirectPermanent /chateau-lestrille http://bordeaux.winetourbooking.com/place/chateau-lestrille
+RedirectPermanent /chateau-guibeau http://bordeaux.winetourbooking.com/place/chateau-guibeau
+RedirectPermanent /chateau-gaby http://bordeaux.winetourbooking.com/place/chateau-gaby
+RedirectPermanent /chateau-la-tour-blanche http://bordeaux.winetourbooking.com/place/chateau-la-tour-blanche
+RedirectPermanent /chateau-doisy-daene http://bordeaux.winetourbooking.com/place/chateau-doisy-daene
+RedirectPermanent /chateau-de-myrat http://bordeaux.winetourbooking.com/place/chateau-de-myrat
+RedirectPermanent /chateau-darche http://bordeaux.winetourbooking.com/place/chateau-darche
+RedirectPermanent /chateau-caillou http://bordeaux.winetourbooking.com/place/chateau-caillou
+RedirectPermanent /clos-haut-peyraguey http://bordeaux.winetourbooking.com/place/clos-haut-peyraguey
+RedirectPermanent /chateau-guiraud http://bordeaux.winetourbooking.com/place/chateau-guiraud
+RedirectPermanent /chateau-reynon http://bordeaux.winetourbooking.com/place/chateau-reynon
+
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

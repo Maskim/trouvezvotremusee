@@ -1,0 +1,293 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Category Icons\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-05-21 16:10+0100\n"
+"PO-Revision-Date: 2009-07-29 09:00+0100\n"
+"Last-Translator: Submarine <kairouseki@gmail.com>\n"
+"Language-Team: Fat Cow <zhr@tut.by>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1\n"
+"X-Poedit-Language: Belarusian\n"
+"X-Poedit-Country: BELARUS\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__;_c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /Users/Submarine/Sites/wp251-src/wp-content/plugins/"
+"category-icons\n"
+
+msgid ""
+"<a href=\"edit.php?page=category_icons.php&#38;ig_module=caticons&#38;"
+"ig_tab=options\">Assign icons to your categories easily</a>. Don't forget to "
+"activate the Category Icons widget !"
+msgstr ""
+"<a href=\"edit.php?page=category_icons.php&#38;ig_module=caticons&#38;"
+"ig_tab=options\">Лёгкае даданне абразкоў да вашых рубрык</a>. Не забудзьце "
+"актываваць виджет Category Icons!"
+
+msgid "A new version of the plugin <strong>%s</strong> is available"
+msgstr "Даступная новая версія ўбудовы <strong>%s</strong"
+
+msgid "Are you trying to cheat ?"
+msgstr "Спрабуеце схітраваць?"
+
+msgid "Categories"
+msgstr "Рубрыкі"
+
+msgid "Category ID"
+msgstr "ID рубрыкі"
+
+msgid "Category IDs, separated by commas."
+msgstr "ID рубрык, падзеленыя коскамі."
+
+msgid "Category Icons"
+msgstr "Category Icons"
+
+msgid "Category Icons Settings"
+msgstr "Налады Category Icons"
+
+msgid "Check for updates"
+msgstr "Правяраць на абнаўленні"
+
+msgid "Code"
+msgstr "Код"
+
+msgid "Contact the author"
+msgstr "Зваротная сувязь з аўтарам"
+
+msgid "Delete icons and priority"
+msgstr "Выдаліць абразкі і прыярытэт"
+
+msgid "Display category icons in RSS feeds"
+msgstr "Паказваць абразкі рубрык у RSS-фідах"
+
+msgid "Documentation"
+msgstr "Дакументацыя"
+
+msgid "Easily assign icons to your categories"
+msgstr "Даданне абразкоў да вашых рубрык"
+
+msgid "Edit %s"
+msgstr "Змяніць %s"
+
+msgid ""
+"Enter the maximum number of icons to display in front of the posts titles."
+msgstr ""
+"Пакажыце максімальна колькасць абразкоў, якое варта выводзіць перад назовам "
+"паста."
+
+msgid "Error in Category Icons"
+msgstr "Памылка ў Category Icons"
+
+msgid "Exclude:"
+msgstr "Выключыць:"
+
+msgid "FAQ"
+msgstr "FAQ"
+
+msgid "Filename"
+msgstr "Імя файла"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Icon"
+msgstr "Абразок"
+
+msgid "Icons"
+msgstr "Абразкі"
+
+msgid "Image File Types"
+msgstr "Тыпы файлаў малюнкаў"
+
+msgid "Leave blank to use default upload path"
+msgstr "Пакіньце пустым, каб выкарыстаць шлях па змаўчанні"
+
+msgid "Leave blank to use default upload url"
+msgstr "Пакіньце пустым, каб выкарыстаць url па змаўчанні"
+
+msgid "Left"
+msgstr "Злева"
+
+msgid "Left Spacer Height"
+msgstr "Вышыня левага водступу"
+
+msgid "Left Spacer Width"
+msgstr "Шырыня левага водступу"
+
+msgid "Line Number : Column"
+msgstr "Нумар радка : слупка"
+
+msgid "Local Path to Icons"
+msgstr "Лакальны шлях да тэчкі з абразкамі"
+
+msgid "Maximum number of icons"
+msgstr "Максімальная колькасць абразкоў"
+
+msgid "Name"
+msgstr "Назоў"
+
+msgid "No Icon"
+msgstr "Няма абразка"
+
+msgid "Options"
+msgstr "Налады"
+
+msgid ""
+"Paste the following code in the listed files, at the line and column numbers "
+"displayed below."
+msgstr "Устаўце наступны код у файлы з спісу, размешчанага ніжэй."
+
+msgid "Patch the files if possible (check for true)"
+msgstr "Выправіць файлы, калі гэта магчыма"
+
+msgid ""
+"Position the category icon in sidebar on the left<br/>or on the right of the "
+"category name ?"
+msgstr "Змясціць абразок рубрыкі злева або справа ад назову рубрыкі?"
+
+msgid "Posts"
+msgstr "Запісаў"
+
+msgid "Priority"
+msgstr "Прыярытэт"
+
+msgid "Process the list of categories (usually used in sidebar) ?"
+msgstr "Апрацаваць спіс рубрык?"
+
+msgid "Replace the code"
+msgstr "Заменіце код"
+
+msgid "Right"
+msgstr "Справа"
+
+msgid "Right Spacer Height"
+msgstr "Вышыня правага водступу"
+
+msgid "Right Spacer Width"
+msgstr "Шырыня правага водступу"
+
+msgid "See the changelog of %s version"
+msgstr "Глядзіце спіс змен версіі %s"
+
+msgid ""
+"Select 'Left' if you want to put the category icon in front of the category "
+"name in the sidebar, or 'Right' if you want to put it after. <b>Remember "
+"that you must use the put_cat_icons() function to display icons in the "
+"sidebar</b>."
+msgstr ""
+"Вылучыце \"Злева\", калі жадаеце змясціць абразок рубрыкі перад ёй назовам у "
+"бакавічцы, або \"Справа\", калі жадаеце змясціць яе пасля назову. "
+"<b>Падушыце, што вы павінны исплользовать функцыю put_cat_icons() для "
+"адлюстравання абразкоў у сайдбаре</b>."
+
+msgid "Select Category Icons"
+msgstr "Абразкі рубрык"
+
+msgid "Select Icons"
+msgstr "Вылучыць абразкі"
+
+msgid "Separate by space or comma. E.g. 'jpg gif jpeg png'"
+msgstr "Падзяляйце прабелам або коскі. Напрыклад, \"jpg gif jpeg png\""
+
+msgid "Settings updated."
+msgstr "Налады захаваныя."
+
+msgid "Show hierarchy"
+msgstr "Паказаць іерархію"
+
+msgid "Show post counts"
+msgstr "Паказваць колькасць запісаў"
+
+msgid "Sizes of the margins around the sidebar icons"
+msgstr "Памер водступаў вакол абразкоў у бакавічцы"
+
+msgid "Small Icon"
+msgstr "Маленькі абразок"
+
+msgid "Template Code"
+msgstr "Шаблон кода"
+
+msgid "Template Code for"
+msgstr "Шаблон кода для"
+
+msgid "The field %s is missing."
+msgstr "Адсутнічае поле %s."
+
+msgid "There's nothing to do."
+msgstr "Нічога не трэба рабіць."
+
+msgid "Title:"
+msgstr "Загаловак:"
+
+msgid "Translated by"
+msgstr "Пераклад ад"
+
+msgid "Troubleshooting"
+msgstr "Рашэнне праблем"
+
+msgid "URL to Icons"
+msgstr "URL тэчкі з абразкамі"
+
+msgid "Update Options"
+msgstr "Захаваць налады"
+
+msgid ""
+"Use CSS (in this case, you must handle yourself the space around the icons "
+"with margin)"
+msgstr ""
+"Выкарыстаць CSS (у гэтым выпадку вы павінны паказаць водступы ў файле стыляў)"
+
+msgid "Use SEO Friendly Images plugin"
+msgstr "Выкарыстайце ўбудова SEO Friendly Images"
+
+msgid "Use an image to create spaces around the icons"
+msgstr "Выкарыстаць малюнак для стварэння водступу вакол абразкоў"
+
+msgid "Use this widget to display category icons in a sidebar."
+msgstr ""
+"Выкарыстайце гэты віджэт для адлюстравання абразкоў катэгорый у бакавічцы."
+
+msgid "You are not allowed to delete category icons."
+msgstr "Вы не можаце выдаляць абразкі рубрык."
+
+msgid "by"
+msgstr "на"
+
+msgid ""
+"put_cat_icons : your list is empty ! Don't forget to add <strong>echo=0</"
+"strong> in the parameters of wp_list_categories()."
+msgstr ""
+"put_cat_icons : Ваш спіс пусты! Не забудзьце дадаць <strong>echo=0</strong> "
+"у параметры функцыі wp_list_categories()."
+
+msgid "put_cat_icons() parameters:"
+msgstr "параметры put_cat_icons():"
+
+msgid ""
+"the default upload path is not accessible. Please create one or change the "
+"permissions on the directory."
+msgstr ""
+"тэчка загрузкі па змаўчанні не даступная. Калі ласка, стварыце яе або "
+"зменіце правы доступу."
+
+msgid "translator_name"
+msgstr "Fat Cower"
+
+msgid "translator_url"
+msgstr "http://www.fatcow.com"
+
+msgid "you must deactivate and reactivate this plugin."
+msgstr "вы павінны дэактываваць і паўторна актываваць гэтую ўбудову."
+
+msgid ""
+"you must put the category_icons.php in /wp-content/plugins/category-icons/ "
+"directory.<br/> So deactivate the plugin, and move the file into category-"
+"icons directory.<br/>Click on Plugins 2 times, to restart the plugin "
+"detection.<br/>And then, reactivate it."
+msgstr ""
+"вы павінны змясціць файл category_icons.php у тэчку /wp-content/plugins/"
+"category-icons/.<br/> Дэактывуйце ўбудову і пакладзеце файл у тэчку category-"
+"icons.<br/>Затым паўторна актывуйце яго."

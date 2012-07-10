@@ -1,0 +1,445 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Category Icons\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-08-12 00:34+0100\n"
+"PO-Revision-Date: 2009-08-12 00:35+0100\n"
+"Last-Translator: Submarine <kairouseki@gmail.com>\n"
+"Language-Team: Brahim MACHKOURI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__;_c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons\n"
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:57
+msgid "Settings"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:378
+msgid "put_cat_icons : your list is empty ! Don't forget to add <strong>echo=0</strong> in the parameters of wp_list_categories()."
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:427
+msgid "Easily assign icons to your categories."
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:454
+msgid "translator_name"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:455
+msgid "translator_url"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:460
+msgid "About"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:461
+msgid "Documentation"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:463
+msgid "FAQ"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:465
+msgid "Translate the plugin"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:466
+msgid "Troubleshooting"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:467
+msgid "Contact the author"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:469
+msgid "Translated by"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:513
+msgid "Can't contact www.category-icons.com. Retry later, please."
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:739
+msgid "Filename"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:740
+msgid "Line Number : Column"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:741
+msgid "Code"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:759
+msgid "by"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:780
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:946
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1131
+msgid "Error in Category Icons"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:780
+msgid "the default upload path is not accessible."
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:780
+msgid "Please create one or change the permissions on the directory."
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:895
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:942
+msgid "Are you trying to cheat ?"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:950
+msgid "You are not allowed to delete category icons."
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:964
+msgid "Select Category Icons"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:971
+msgid "Category ID"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:975
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1042
+msgid "Name"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:979
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1045
+msgid "Priority"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:985
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1046
+msgid "Icon"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:986
+msgid "Select a file :"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:988
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1002
+msgid "No Icon"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:993
+msgid "Or enter an URL for the icon :"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:999
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1047
+msgid "Small Icon"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1009
+msgid "Select Icons"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1026
+msgid "Delete icons and priority"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1041
+msgid "ID"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1043
+msgid "Description"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1044
+msgid "Posts"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1117
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1188
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1617
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1818
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons_widget.php:15
+msgid "Category Icons"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1131
+msgid "you must put the category_icons.php in /wp-content/plugins/category-icons/ directory.<br/> So deactivate the plugin, and move the file into category-icons directory.<br/>Click on Plugins 2 times, to restart the plugin detection.<br/>And then, reactivate it."
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1140
+msgid "Settings updated."
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1190
+msgid "Icons"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1191
+msgid "Options"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1192
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1249
+msgid "Template Tags"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1194
+msgid "How To"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1196
+msgid "Support the plugin"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1210
+msgid "I really did put a lot of effort into this WordPress Category Icons plugin & its support. If you want to thank me for my support regarding your issues, or if you like this plugin, or it has benefited you, your support of any amount is welcome."
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1232
+msgid "Category Icons Settings"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1240
+msgid "Database access"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1242
+msgid "A query for each icon"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1243
+msgid "Uncheck the option to use one query for all the icons"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1252
+msgid "Patch the files if possible (check for true)"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1254
+msgid "Process the list of categories (usually used in sidebar) ?"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1260
+msgid "Position of the category icon in the sidebar"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1262
+msgid "Left"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1263
+msgid "Right"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1264
+msgid "Select 'Left' if you want to put the category icon in front of the category name in the sidebar, or 'Right' if you want to put it after. <b>Remember that you must use the put_cat_icons() function to display icons in the sidebar, unless you use the <a href='widgets.php'>widget</a></b>."
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1271
+msgid "Image quality"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1273
+msgid "Use TimThumb resize method"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1274
+msgid "Select this option if you want to enhance the image quality when the images are resized, instead letting the browser resize them. More informations <a href='http://www.darrenhoyt.com/2008/04/02/timthumb-php-script-released/'>here</a>. Credit to Tim McDaniels for his <a href='http://code.google.com/p/timthumb/'>TimThumb</a> script"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1281
+msgid "Sizes of the margins around the sidebar icons"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1283
+msgid "Use CSS"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1284
+msgid "If you decide to use CSS, you must handle yourself the space around the icons with margin"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1285
+msgid "Use an image to create spaces around the icons"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1287
+msgid "Left Spacer Width"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1289
+msgid "Left Spacer Height"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1291
+msgid "Right Spacer Width"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1293
+msgid "Right Spacer Height"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1298
+msgid "Display category icons in RSS feeds"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1301
+msgid "Use SEO Friendly Images plugin"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1306
+msgid "Local Path to Icons"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1308
+msgid "Leave blank to use default upload path"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1311
+msgid "URL to Icons"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1313
+msgid "Leave blank to use default upload url"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1316
+msgid "Image File Types"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1318
+msgid "Separate by space or comma. E.g. 'jpg gif jpeg png'"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1321
+msgid "Maximum icon width"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1323
+msgid "Enter the maximum width of an icon."
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1326
+msgid "Maximum icon height"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1328
+msgid "Enter the maximum height of an icon."
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1331
+msgid "Maximum number of icons"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1333
+msgid "Enter the maximum number of icons to display in front of the posts titles."
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1336
+msgid "Update Options"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1352
+msgid "Loading&#8230;"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1365
+msgid "Remember that these locations are just where you COULD paste the tag, not where you MUST paste it. It's up to you to find the appropriate location within your template files. The tag is usually within the Loop."
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1366
+msgid "Paste the following code in the listed files, at the line and column numbers displayed below."
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1368
+msgid "There's nothing to do."
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1372
+msgid "Template Tags for"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1381
+msgid "Replace the code"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1525
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1654
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons_widget.php:27
+msgid "Categories"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1575
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1739
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons_widget.php:75
+msgid "Title:"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1582
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1746
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons_widget.php:79
+msgid "Show post counts"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1586
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1750
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons_widget.php:81
+msgid "Show hierarchy"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1591
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1755
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons_widget.php:85
+msgid "Order : use My Category Order plugin"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1597
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1761
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons_widget.php:91
+msgid "put_cat_icons() parameters:"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1603
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1767
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons_widget.php:97
+msgid "Exclude:"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1605
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1769
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1776
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons_widget.php:99
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons_widget.php:106
+msgid "Category IDs, separated by commas."
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1614
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1815
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons_widget.php:13
+msgid "Easily assign icons to your categories"
+msgstr ""
+
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons.php:1774
+#: /Users/Submarine/Sites/wp283/wp-content/plugins/category-icons/category_icons_widget.php:104
+msgid "Include:"
+msgstr ""
+

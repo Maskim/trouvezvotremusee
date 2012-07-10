@@ -1,0 +1,358 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: category_icons-ar.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-08-25 18:49+0100\n"
+"PO-Revision-Date: 2008-09-02 13:03+0200\n"
+"Last-Translator: Ahmad Nazer Bekdash <abekdash@hotmail.com>\n"
+"Language-Team: Ahmad Nazer bekdash <abekdash@hotmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: arabic\n"
+"X-Poedit-Country: syria\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:386
+msgid "put_cat_icons : your list is empty ! Don't forget to add <strong>echo=0</strong> in the parameters of wp_list_categories()."
+msgstr "put_cat_icons : القائمة خالية! تذكر أن تضيف <strong>echo=0</strong> in the parameters of wp_list_categories()."
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:439
+#, fuzzy
+msgid "<a href=\"edit.php?page=category_icons.php&#38;ig_module=caticons&#38;ig_tab=options\">Assign icons to your categories easily</a>."
+msgstr "<a href=\"edit.php?page=category_icons.php&#38;ig_module=caticons&#38;ig_tab=options\">الصق الايقونات بالتصنيفات بسهولة</a>. لا تنسى أن تفعل اضافة ايقونات التصنيفات الخاصة بالقائمة الجانبية !"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:468
+#, php-format
+msgid "A new version of the plugin <strong>%s</strong> is available"
+msgstr "هناك أصدار جديد من الاضافة <strong>%s</strong>متوفر حاليا"
+
+# I think you must add the %s somewhere in your sentence...
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:470
+#, php-format
+msgid "See the changelog of %s version"
+msgstr "رؤية ما ممكن أن تفعله %s الاضافة"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:482
+msgid "translator_name"
+msgstr "Ahmad Nazer Bekdash"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:483
+msgid "translator_url"
+msgstr "http://www.abekdash.com"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:489
+msgid "Documentation"
+msgstr "التوثيق"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:490
+msgid "Donate"
+msgstr "اتبرع لمبرمج الاضافة"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:491
+msgid "FAQ"
+msgstr "الأسئلة الشائعة"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:492
+msgid "How To"
+msgstr "كيف "
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:493
+msgid "Troubleshooting"
+msgstr "حل المشاكل"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:494
+msgid "Contact the author"
+msgstr "راسل مبرمج الاضافة"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:496
+msgid "Translated by"
+msgstr "ترجمة عن طريق"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:806
+msgid "Filename"
+msgstr "أسم الملف"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:807
+msgid "Line Number : Column"
+msgstr "رقم السطر: العمود"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:808
+msgid "Code"
+msgstr "الكود"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:826
+msgid "by"
+msgstr "عن طريق"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:846
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1022
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1158
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1236
+msgid "Error in Category Icons"
+msgstr "خطأ في ايقونات التصنيفات"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:846
+msgid "the default upload path is not accessible. Please create one or change the permissions on the directory."
+msgstr "الملف الذي يتم رفع الأيقونات اليه, به خطأ.. تأكد من الصلاحيات أو أنشا مجلد جديد."
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:964
+#, php-format
+msgid "Edit %s"
+msgstr "عدل %s"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1016
+msgid "Are you trying to cheat ?"
+msgstr "هل تحاول أن تغش ؟"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1028
+msgid "You are not allowed to delete category icons."
+msgstr "ليس لديك الصلاحية لحذف هذه الاضافة."
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1044
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1100
+msgid "Select Category Icons"
+msgstr "أختار ايقونات لتصنيفات"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1051
+msgid "Category ID"
+msgstr "كود التصنيف"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1055
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1113
+msgid "Name"
+msgstr "الأسم"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1059
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1115
+msgid "Priority"
+msgstr "درجة النقاهة"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1065
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1116
+msgid "Icon"
+msgstr "أيقونة"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1068
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1078
+msgid "No Icon"
+msgstr "لا يوجد ايقونات"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1075
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1117
+msgid "Small Icon"
+msgstr "ايقونات صغيرة"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1085
+msgid "Select Icons"
+msgstr "أختار الأيقونات"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1103
+msgid "Delete icons and priority"
+msgstr "أحذف الأيقونات ودرجة النقاهة"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1112
+msgid "ID"
+msgstr "كود"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1114
+msgid "Posts"
+msgstr "تدوينة"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1158
+msgid "you must deactivate and reactivate this plugin."
+msgstr "يتوجب عليك وقف الاضافة وتفعيلها مة أخرى"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1160
+#, php-format
+msgid "The field %s is missing."
+msgstr "الملف %s مفقود"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1220
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1617
+msgid "Category Icons"
+msgstr "أيقونات التصنيفات"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1236
+msgid "you must put the category_icons.php in /wp-content/plugins/category-icons/ directory.<br/> So deactivate the plugin, and move the file into category-icons directory.<br/>Click on Plugins 2 times, to restart the plugin detection.<br/>And then, reactivate it."
+msgstr "يتوجب عليك وضع category_icons.php هنا /wp-content/plugins/category-icons/ .<br/>ولذلك يتوجب عليك وقف الاضافة ونقل الملف ثم تفعلها مرة أخرى<br/>اضغط علي الاضافة مرتين, لتبدأ الاضافة بالشعور بالتغيير الذي حدث<br/>وبعد ذلك, أعد تفعيلها."
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1247
+msgid "Settings updated."
+msgstr "تم تفعيل التغيرات"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1269
+msgid "Icons"
+msgstr "أيقونات"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1271
+msgid "Options"
+msgstr "الضبط"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1273
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1324
+#, fuzzy
+msgid "Template Tags"
+msgstr "كدو الفصحة"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1305
+msgid "Category Icons Settings"
+msgstr "ضبط ايقونات التصنيفات"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1308
+msgid "Local Path to Icons"
+msgstr "المكان الذي ترفع اليه الايقونات"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1309
+msgid "Leave blank to use default upload path"
+msgstr "أتركها فارغة وسوف ترفع في المكان الأفتراضي"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1312
+msgid "URL to Icons"
+msgstr "رابط الايقونات"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1313
+msgid "Leave blank to use default upload url"
+msgstr "أتركها فارغة ليتم استعمال الابط الأفتراضي"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1316
+msgid "Image File Types"
+msgstr "نوع (صيغة) الصور"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1317
+msgid "Separate by space or comma. E.g. 'jpg gif jpeg png'"
+msgstr "افصل بينهم بمسافة أو فصلة. كمثال: 'jpg gif jpeg png'"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1320
+msgid "Maximum number of icons"
+msgstr "اقصى رقم للايقونات"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1321
+msgid "Enter the maximum number of icons to display in front of the posts titles."
+msgstr "أدخل الرقم القياسي الأكبر للايقونات التي سوف تظهر بجانب عنوان التدوينات"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1325
+msgid "Patch the files if possible (check for true)"
+msgstr "أختار الملفات إذ أكن (تأكد أنها صحيحة)"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1326
+msgid "Process the list of categories (usually used in sidebar) ?"
+msgstr "عملية وضع التصنيفات في قائمة (تستخدم بشكل كبير في القائمة الجانبية) ؟"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1331
+msgid "Position the category icon in sidebar on the left<br/>or on the right of the category name ?"
+msgstr "مكان الايقونات في القائمة الجانبية تريده أن يكون في جه اليسار <br/> أم اليمين بالنسبة للكلام"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1334
+msgid "Left"
+msgstr "يسار"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1336
+msgid "Right"
+msgstr "يمين"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1337
+msgid "Select 'Left' if you want to put the category icon in front of the category name in the sidebar, or 'Right' if you want to put it after. <b>Remember that you must use the put_cat_icons() function to display icons in the sidebar</b>."
+msgstr "أختار 'يسار' إذا كنت تريد الايقونة أن تظهر قبل اسم التصنيف, أو 'يمين' إذ كنت تيد الأيقونة أن تظهر بعد أسم التصنيف. <b>تذكر أنه يتوجب عليك استعمال put_cat_icons() ما سبق ليتم وضع الأيقونات في القائمة الجانبية</b>."
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1340
+msgid "Sizes of the margins around the sidebar icons"
+msgstr "حجم المساحة بجانب أيقونات القائمة الجانبية"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1342
+msgid "Use CSS (in this case, you must handle yourself the space around the icons with margin)"
+msgstr "أستعمل CSS (في هذه الحالة, يجب أن تتأكد من المساحة المطوبة  للايقونات)"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1342
+msgid "Use an image to create spaces around the icons"
+msgstr "أختار صورة لتتمكن من عمل مسافة حول الأيقونات"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1344
+msgid "Left Spacer Width"
+msgstr "المسافة من الجانب الايسر بالعرض"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1346
+msgid "Left Spacer Height"
+msgstr "المسافة من الجانب الايسر بالطول"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1348
+msgid "Right Spacer Width"
+msgstr "المسافة من الجانب الأيمن بالعرض"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1350
+msgid "Right Spacer Height"
+msgstr "المسافة من الجانب الأيمن بالطول"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1354
+msgid "Check for updates"
+msgstr "تأكد إذا كان هناك إصدارات جديدة"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1356
+msgid "Display category icons in RSS feeds"
+msgstr "أظهر الايقونات في رابط الحلاصات"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1361
+msgid "Use SEO Friendly Images plugin"
+msgstr "أستخدم الصور الصديقة للاضافة"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1366
+msgid "Update Options"
+msgstr "ظبط الترقية"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1377
+msgid "Paste the following code in the listed files, at the line and column numbers displayed below."
+msgstr "اضع الكود التالي في قائمة الملفات, في السطر والعمود المذكورين."
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1379
+msgid "There's nothing to do."
+msgstr "لا يوجد شي لتقوم بفعله"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1384
+#, fuzzy
+msgid "Template Tags for"
+msgstr "كود القالب"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1395
+msgid "Replace the code"
+msgstr "غير الكود"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1524
+msgid "Categories"
+msgstr "التصنيفات"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1575
+msgid "Title:"
+msgstr "العنوان:"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1582
+msgid "Show post counts"
+msgstr "أظهر عدد التدوينات"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1586
+msgid "Show hierarchy"
+msgstr "أظهرهم بشكل هرمي"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1591
+msgid "Order : use <a href=\"http://geekyweekly.com/mycategoryorder\">\"My Category Order\"</a> plugin."
+msgstr "الترتيب : أستخدم <a href=\"http://geekyweekly.com/mycategoryorder\">\"ترتيب التصنيفات\"</a> الاضافة."
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1597
+msgid "put_cat_icons() parameters:"
+msgstr "put_cat_icons() parameters:"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1603
+msgid "Exclude:"
+msgstr "أمنع الأتي من الظهور:"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1605
+msgid "Category IDs, separated by commas."
+msgstr "أكتب كود التصنيفات, مفرقنا بين كل تصنيف وأخر بفصلة"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1614
+msgid "Easily assign icons to your categories"
+msgstr "تستطيع بسهولة لصق الأيقونات بالتصنيفات"
+
+#~ msgid "Use this widget to display category icons in a sidebar."
+#~ msgstr "تستعمل هذه الاضافة, لوضع أيقونات للتصنيفات في القائمة الجانبية. "
+

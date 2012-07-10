@@ -1,0 +1,335 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ikony Kategorii (Category Icons)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-08-07 20:51+0100\n"
+"PO-Revision-Date: 2009-08-10 09:12+0100\n"
+"Last-Translator: Submarine <kairouseki@gmail.com>\n"
+"Language-Team: Krzysiek 'Shlizer' Hinc <shlizer@wp.pl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__;_c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: 0,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-SearchPath-0: /Users/Submarine/Sites/wp25/wp-content/plugins/"
+"category-icons\n"
+
+msgid "A query for each icon"
+msgstr "Zapytanie dla każdej ikony"
+
+msgid "About"
+msgstr "Autorzy"
+
+msgid "Are you trying to cheat ?"
+msgstr "Oszukujemy, co?"
+
+msgid "Categories"
+msgstr "Kategorie"
+
+msgid "Category ID"
+msgstr "ID Kategorii"
+
+msgid "Category IDs, separated by commas."
+msgstr "ID Kategorii, oddzielone przecinkiem."
+
+msgid "Category Icons"
+msgstr "Ikony kategorii"
+
+msgid "Category Icons Settings"
+msgstr "Opcje ikon kategorii"
+
+msgid "Code"
+msgstr "Kod"
+
+msgid "Contact the author"
+msgstr "Skontaktuj się z autorem"
+
+msgid "Database access"
+msgstr "Dostęp do bazy danych"
+
+msgid "Delete icons and priority"
+msgstr "Usuń ikonę i priorytet"
+
+msgid "Description"
+msgstr "Opis"
+
+msgid "Display category icons in RSS feeds"
+msgstr "Wyświetlaj ikony kategorii w RSS."
+
+msgid "Documentation"
+msgstr "Dokumentacja"
+
+msgid "Easily assign icons to your categories"
+msgstr "Łatwo przypisuje ikonę to Twojej kategorii"
+
+msgid "Easily assign icons to your categories."
+msgstr "Przydziel ikony do swoich kategorii w prosty sposób"
+
+msgid "Edit %s"
+msgstr "Edytuj %s"
+
+msgid "Enter the maximum height of an icon."
+msgstr "Wpisz maksymalną wysokość, jaką może mieć ikona."
+
+msgid ""
+"Enter the maximum number of icons to display in front of the posts titles."
+msgstr "Podaj maksymalną liczbę ikon wyświetlanych przy tytułach wpisów."
+
+msgid "Enter the maximum width of an icon."
+msgstr "Wpisz maksymalną szerokość, jaką może mieć ikona."
+
+msgid "Error in Category Icons"
+msgstr "Błąd w ikonach kategorii"
+
+msgid "Exclude:"
+msgstr "Wyklucz:"
+
+msgid "FAQ"
+msgstr "FAQ"
+
+msgid "Filename"
+msgstr "Nazwa pliku"
+
+msgid "How To"
+msgstr "How To"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Icon"
+msgstr "Ikona"
+
+msgid "Icons"
+msgstr "Ikony"
+
+msgid ""
+"If you decide to use CSS, you must handle yourself the space around the "
+"icons with margin"
+msgstr ""
+"Jeśli zdecydujesz się na użycie CSS, musisz sam zatroszczyć się o przestrzeń "
+"wokół ikony i sam poprzydzielać marginesy."
+
+msgid "Image File Types"
+msgstr "Rozszerzenia plików grafiki"
+
+msgid "Image quality"
+msgstr "Jakość obrazka"
+
+msgid "Include:"
+msgstr "Załącz:"
+
+msgid "Leave blank to use default upload path"
+msgstr "Pozostaw puste, aby korzystać z domyślnej ścieżki wgrywanych plików"
+
+msgid "Leave blank to use default upload url"
+msgstr "Pozostaw puste, aby korzystać z domyślnego url wgrywanych plików"
+
+msgid "Left"
+msgstr "Lewa"
+
+msgid "Left Spacer Height"
+msgstr "Wysokość przestrzeni z lewej"
+
+msgid "Left Spacer Width"
+msgstr "Szerokość przestrzeni z lewej"
+
+msgid "Line Number : Column"
+msgstr "Numer linii : Kolumna"
+
+msgid "Local Path to Icons"
+msgstr "Lokalna ścieżka do ikon"
+
+msgid "Maximum icon height"
+msgstr "Maksymalna wysokość ikony"
+
+msgid "Maximum icon width"
+msgstr "Maksymalna szerokość ikony"
+
+msgid "Maximum number of icons"
+msgstr "Maksymalna liczba ikon"
+
+msgid "Name"
+msgstr "Nazwa"
+
+msgid "No Icon"
+msgstr "Brak ikony"
+
+msgid "Options"
+msgstr "Opcje"
+
+msgid "Order : use My Category Order plugin"
+msgstr "Porządkuj: użyj wtyczki My Category Order"
+
+msgid ""
+"Paste the following code in the listed files, at the line and column numbers "
+"displayed below."
+msgstr ""
+"Wklej powyższy kod do podanych plików, w linii oraz kolumnie podanej niżej."
+
+msgid "Patch the files if possible (check for true)"
+msgstr "Uaktualnij pliki jeśli możliwe (zaznacz jeśli prawda)"
+
+msgid "Please create one or change the permissions on the directory."
+msgstr "Stwórz ją lub zmień ustawienia albo uprawnienia ścieżki."
+
+msgid "Position of the category icon in the sidebar"
+msgstr "Pozycja ikony kategorii w pasku bocznym"
+
+msgid "Posts"
+msgstr "Wpisy"
+
+msgid "Priority"
+msgstr "Priorytet"
+
+msgid "Process the list of categories (usually used in sidebar) ?"
+msgstr "Listować kategorie (zazwyczaj potrzebne do paska bocznego)?"
+
+msgid "Replace the code"
+msgstr "Zmień kod"
+
+msgid "Right"
+msgstr "Prawa"
+
+msgid "Right Spacer Height"
+msgstr "Wysokość przestrzeni z prawej"
+
+msgid "Right Spacer Width"
+msgstr "Szerokość przestrzeni z prawej"
+
+msgid ""
+"Select 'Left' if you want to put the category icon in front of the category "
+"name in the sidebar, or 'Right' if you want to put it after. <b>Remember "
+"that you must use the put_cat_icons() function to display icons in the "
+"sidebar, unless you use the <a href='widgets.php'>widget</a></b>."
+msgstr ""
+"Zaznacz 'lewa' jeśli chcesz, aby ikony kategorii zostały wyświetlone przed "
+"nazwą kategorii w panelu bocznym lub 'prawa' jeżeli chcesz, aby były "
+"wyświetklone za nazwą. <b>Pamiętaj, że aby ujrzeć ikony kategorii musisz "
+"użyć funkcji put_cat_icons() w panelu bocznym, chyba że kożystasz z <a "
+"href='widgets.php'>widżetów</a></b>."
+
+msgid "Select Category Icons"
+msgstr "Zaznacz kategorię ikon"
+
+msgid "Select Icons"
+msgstr "Zaznacz ikony"
+
+msgid ""
+"Select this option if you want to enhance the image quality when the images "
+"are resized, instead letting the browser resize them. More informations <a "
+"href='http://www.darrenhoyt.com/2008/04/02/timthumb-php-script-"
+"released/'>here</a>. Credit to Tim McDaniels for his <a href='http://code."
+"google.com/p/timthumb/'>TimThumb</a> script"
+msgstr ""
+"Zaznacz tę opcję jeśli chcesz poprawić jakość obrazka podczas zmiany "
+"rozmiaru, w przeciwnym razie zleć to zadanie przeglądarce. Więcej informacji "
+"<a href='http://www.darrenhoyt.com/2008/04/02/timthumb-php-script-"
+"released/'>tutaj</a>. Podziękowania dla Tima McDanielsa za jego skrypt <a "
+"href='http://code.google.com/p/timthumb/'>TimThumb</a>."
+
+msgid "Separate by space or comma. E.g. 'jpg gif jpeg png'"
+msgstr "Oddzielone spacją lub przecinkiem. Np. 'jpg gif jpeg png'."
+
+msgid "Settings"
+msgstr "Ustawienia"
+
+msgid "Settings updated."
+msgstr "Ustawienia zapisane."
+
+msgid "Show hierarchy"
+msgstr "Pokaż hierarchię"
+
+msgid "Show post counts"
+msgstr "Pokazuj licznik wpisów"
+
+msgid "Sizes of the margins around the sidebar icons"
+msgstr "Rozmiary przestrzeni wokół ikon paska bocznego"
+
+msgid "Small Icon"
+msgstr "Małe ikony"
+
+msgid "Support the plugin"
+msgstr "Wsparcie wtyczki"
+
+msgid "Template Tags"
+msgstr "Tagi szablonu"
+
+msgid "Template Tags for"
+msgstr "Tagi szablonu dla"
+
+msgid "There's nothing to do."
+msgstr "Nie ma zadań do wykonania."
+
+msgid "Title:"
+msgstr "Tytuł:"
+
+msgid "Translate the plugin"
+msgstr "Przetłumacz wtyczki"
+
+msgid "Translated by"
+msgstr "Przetłumaczone przez"
+
+msgid "Troubleshooting"
+msgstr "Usuwanie problemów"
+
+msgid "URL to Icons"
+msgstr "URL do ikon"
+
+msgid "Uncheck the option to use one query for all the icons"
+msgstr ""
+"Odznacz opcję, aby wysyłać do bazy tylko jedno zapytanie dla wszystkich ikon"
+
+msgid "Update Options"
+msgstr "Zapisz ustawienia"
+
+msgid "Use CSS"
+msgstr "Korzystaj z CSS"
+
+msgid "Use SEO Friendly Images plugin"
+msgstr "Użyj wtyczki SEO Friendly Images."
+
+msgid "Use TimThumb resize method"
+msgstr "Użyj metody zmiany rozmiarów TimThumb"
+
+msgid "Use an image to create spaces around the icons"
+msgstr "Użyj obrazka, aby wypełnić przestrzeń wokół obrazka"
+
+msgid "You are not allowed to delete category icons."
+msgstr "Nie masz uprawnień do usuwania ikon kategorii."
+
+msgid "by"
+msgstr "na"
+
+msgid ""
+"put_cat_icons : your list is empty ! Don't forget to add <strong>echo=0</"
+"strong> in the parameters of wp_list_categories()."
+msgstr ""
+"put_cat_icons: Twoja lista jest pusta! Nie zapomnij dodać <strong>echo=0</"
+"strong> w parametrach funkcji wp_list_categories()."
+
+msgid "put_cat_icons() parameters:"
+msgstr "Parametry funkcji put_cat_icons():"
+
+msgid "the default upload path is not accessible."
+msgstr "domyślna ścieżka wgrywanych plików jest niedostępna."
+
+msgid "translator_name"
+msgstr "Krzysiek 'Shlizer' Hinc"
+
+msgid "translator_url"
+msgstr "http://shlizer.vot.pl"
+
+msgid ""
+"you must put the category_icons.php in /wp-content/plugins/category-icons/ "
+"directory.<br/> So deactivate the plugin, and move the file into category-"
+"icons directory.<br/>Click on Plugins 2 times, to restart the plugin "
+"detection.<br/>And then, reactivate it."
+msgstr ""
+"musisz umieścić category_icons.php w lokalizacji '/wp-content/plugins/"
+"category-icons/'.<br/>W tym celu wyłącz wtyczkę i przenieś plik do "
+"odpowiedniego katalogu.<br/>Kliknij na wtyczkę 2 razy, aby ponowić wykrycie "
+"wtyczki.<br/>Następnie włącz ją."

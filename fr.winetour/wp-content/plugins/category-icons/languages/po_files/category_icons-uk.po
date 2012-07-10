@@ -1,0 +1,257 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Category Icons\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-04-12 21:41+0100\n"
+"PO-Revision-Date: 2008-04-25 00:47+0200\n"
+"Last-Translator: Andrew Senyshyn <asenyshyn@gmail.com>\n"
+"Language-Team: Brahim MACHKOURI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__;_c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /Users/Submarine/Sites/wp25/wp-content/plugins/"
+"category-icons\n"
+
+msgid "A new version of the plugin <strong>%s</strong> is available"
+msgstr "Нова версія модуля <strong>%s</strong> доступна для завантаження"
+
+msgid "Are you trying to cheat ?"
+msgstr "Чітер хе-хе?"
+
+msgid "Categories"
+msgstr "Категорії"
+
+msgid "Category ID"
+msgstr "ID категорії"
+
+msgid "Category IDs, separated by commas."
+msgstr "ID категорій, розділені комами"
+
+msgid "Category Icons"
+msgstr "Іконки Категорій"
+
+msgid "Category Icons Settings"
+msgstr "Налаштування Іконок Категорій"
+
+msgid "Check for updates"
+msgstr "Перевірити наявність оновлень"
+
+msgid "Code"
+msgstr "Код"
+
+msgid "Contact the author"
+msgstr "Зв'язатись з автором"
+
+msgid "Delete icons and priority"
+msgstr "Видалити іконку та пріорітет"
+
+msgid "Easily assign icons to your categories"
+msgstr "Легко призначте іконки вашим категоріям"
+
+msgid "Edit %s"
+msgstr "Редагувати %s"
+
+msgid ""
+"Enter the maximum number of icons to display in front of the posts titles."
+msgstr ""
+"Введіть максимальну кількість іконок для відображення навпроти заголовку "
+"поста"
+
+msgid "Error in Category Icons"
+msgstr "Помилка в Іконках Категорій"
+
+msgid "Exclude:"
+msgstr "Виключити:"
+
+msgid "Filename"
+msgstr "Назва файлу"
+
+msgid "Icon"
+msgstr "Іконка"
+
+msgid "Image File Types"
+msgstr "Типи файлів зображень"
+
+msgid "Leave blank to use default upload path"
+msgstr "Залиште пустим для використання шляху за замовчуванням"
+
+msgid "Leave blank to use default upload url"
+msgstr "Залиште пустим для використання url за замовчуванням"
+
+msgid "Left"
+msgstr "Зліва"
+
+msgid "Left Spacer Height"
+msgstr "Висота лівого розділювача"
+
+msgid "Left Spacer Width"
+msgstr "Довжина лівого розділювача"
+
+msgid "Line Number : Column"
+msgstr "Номер Рядка : Колонки"
+
+msgid "Local Path to Icons"
+msgstr "Локальний шлях до іконок"
+
+msgid "Manage"
+msgstr "Управління"
+
+msgid "Maximum number of icons"
+msgstr "Максимальна кількість іконок"
+
+msgid "Name"
+msgstr "Назва"
+
+msgid "No Icon"
+msgstr "Немає іконки"
+
+msgid "Options"
+msgstr "Налаштування"
+
+msgid ""
+"Paste the following code in the listed files, at the line and column numbers "
+"displayed below."
+msgstr ""
+"Вставте наступний код у перелічені файли в рядку/колонці, що вказані нижче."
+
+msgid "Patch the files if possible (check for true)"
+msgstr ""
+"Патчувати файли, якщо є можливість (переважно використовується у боковій "
+"панелі)"
+
+msgid ""
+"Position the category icon in sidebar on the left<br/>or on the right of the "
+"category name ?"
+msgstr ""
+"Розмістити іконку категорії в бічній панелі зліва<br/>чи справа від назви "
+"категорії"
+
+msgid "Posts"
+msgstr "Пости"
+
+msgid "Priority"
+msgstr "Пріорітет"
+
+msgid "Process the list of categories (usually used in sidebar) ?"
+msgstr ""
+"Обробляти список категорій? (переважно використовується в боковій панелі)?"
+
+msgid "Replace the code"
+msgstr "Замініть код"
+
+msgid "Right"
+msgstr "Справа"
+
+msgid "Right Spacer Height"
+msgstr "Висота правого розділювача"
+
+msgid "Right Spacer Width"
+msgstr "Довжина правого розділювача"
+
+msgid ""
+"Select 'Left' if you want to put the category icon in front of the category "
+"name in the sidebar, or 'Right' if you want to put it after. <b>Remember "
+"that you must use the put_cat_icons() function to dislay icons in the "
+"sidebar</b>."
+msgstr ""
+"Виберіть \"Зліва\", якщо хочете вивести іконку перед назвою категорії в "
+"боковій панелі або \"Справа\", якщо хоче вивесть її після назви. "
+"<b>Пам'ятайте, ви повинні використати функцію put_cat_icons() для "
+"відображення іконок в боковій панелі</b>."
+
+msgid "Select Category Icons"
+msgstr "Виберіть категорію іконок"
+
+msgid "Select Icons"
+msgstr "Виберіть іконку"
+
+msgid "Separate by space or comma. E.g. 'jpg gif jpeg png'"
+msgstr "Розділяйте комою або пробілом (нп. 'jpg gif jpeg png')"
+
+msgid "Settings updated."
+msgstr "Налаштування оновлено"
+
+msgid "Show hierarchy"
+msgstr "Показувати ієрархію"
+
+msgid "Show post counts"
+msgstr "Показувати кількість постів"
+
+msgid "Sizes of the spacers around the sidebar icons"
+msgstr "Розмір розділювачів навколо іконок в сайдбарі"
+
+msgid "Small Icon"
+msgstr "Мала іконка"
+
+msgid "Template Code"
+msgstr "Код шаблону"
+
+msgid "Template Code for "
+msgstr "Код шаблону для"
+
+msgid "The field %s is missing."
+msgstr "Бракує поля %s"
+
+msgid "There's nothing to do."
+msgstr "Немає дії для виконання"
+
+msgid "Title:"
+msgstr "Назва:"
+
+msgid "Translated by"
+msgstr "Переклав:"
+
+msgid "Troubleshooting"
+msgstr "Якщо виникли проблеми.."
+
+msgid "URL to Icons"
+msgstr "URL до іконок"
+
+msgid "Update Options"
+msgstr "Зберегти налаштування"
+
+msgid "You are not allowed to delete category icons."
+msgstr "Вам не доволено видаляти іконки категорій"
+
+msgid ""
+"put_cat_icons : your list is empty ! Don't forget to add <strong>echo=0</"
+"strong> in the parameters of wp_list_categories()."
+msgstr ""
+"put_cat_icons: ваш список пустий! Не забудьте додати <strong>echo=0</strong> "
+"в параметри wp_list_categories()."
+
+msgid "put_cat_icons() parameters:"
+msgstr "параметри put_cat_icons():"
+
+msgid ""
+"the default upload path is not accessible. Please create one or change the "
+"permissions on the directory."
+msgstr ""
+"Шлях для закачок за замовчуванням недоступний. Будь ласка своріть його або "
+"змініть дозволи папки."
+
+msgid "translator_name"
+msgstr "Andrew Senyshyn"
+
+msgid "translator_url"
+msgstr "http://airman.myphotos.cc"
+
+msgid "you must deactivate and reactivate this plugin."
+msgstr "ви повинні деактивувати і активувати плагін"
+
+msgid ""
+"you must put the category_icons.php in /wp-content/plugins/category-icons/ "
+"directory.<br/> So deactivate the plugin, and move the file into category-"
+"icons directory.<br/>Click on Plugins 2 times, to restart the plugin "
+"detection.<br/>And then, reactivate it."
+msgstr ""
+"Файл category_icons.php повинен знаходитися в директорії /wp-content/plugins/"
+"category-icons/. <br/> Деактивуйте плагін, перенесіть файл у вказану папку. "
+"<br/> Двічі натисніть на \"Модулях\" для перезапуску пошуку плагінів. <br/> "
+"Повторно активуйте модуль."

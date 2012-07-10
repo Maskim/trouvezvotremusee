@@ -1,0 +1,343 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: category_icons-ja\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-05-21 16:10+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Tenderfeel <tenderfeel@gmail.com>\n"
+"Language-Team: Tenderfeel <tenderfeel@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons-widget.php:16
+msgid "Use this widget to display category icons in a sidebar."
+msgstr "ウィジェットを使用するとサイドバーにアイコンつきのカテゴリーリストを表示します。"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons-widget.php:24
+msgid "Easily assign icons to your categories"
+msgstr "アイコンつきのカテゴリーを表示します"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons-widget.php:27
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1075
+msgid "Category Icons"
+msgstr "カテゴリーアイコン"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons-widget.php:65
+msgid "Title:"
+msgstr "タイトル："
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons-widget.php:72
+msgid "Show post counts"
+msgstr "投稿数を表示"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons-widget.php:76
+msgid "Show hierarchy"
+msgstr "階層を表示"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons-widget.php:80
+msgid "put_cat_icons() parameters:"
+msgstr "put_cat_icons()パラメータ："
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons-widget.php:86
+msgid "Exclude:"
+msgstr "除外ページ："
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons-widget.php:88
+msgid "Category IDs, separated by commas."
+msgstr "カテゴリーIDをコンマで区切って入力"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons-widget.php:101
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:366
+msgid "put_cat_icons : your list is empty ! Don't forget to add <strong>echo=0</strong> in the parameters of wp_list_categories()."
+msgstr "put_cat_icons : リストが空です！wp_list_categories()に<strong>echo=0</strong>パラメータを入れるのを忘れないでください。"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:376
+msgid "<a href=\"edit.php?page=category_icons.php&#38;ig_module=caticons&#38;ig_tab=options\">Assign icons to your categories easily</a>. Don't forget to activate the Category Icons widget !"
+msgstr "<a href=\"edit.php?page=category_icons.php&#38;ig_module=caticons&#38;ig_tab=options\">カテゴリーにアイコンを追加します。</a>カテゴリーアイコンのウィジェットを有効化するのを忘れないでください！"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:404
+#, php-format
+msgid "A new version of the plugin <strong>%s</strong> is available"
+msgstr "プラグインの新しいバージョン<strong>%s</strong>がリリースされました"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:406
+#, php-format
+msgid "See the changelog of %s version"
+msgstr "%sバージョンの更新履歴を見る"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:417
+msgid "translator_name"
+msgstr "Tenderfeel"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:418
+msgid "translator_url"
+msgstr "http://tenderfeel.xsrv.jp/"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:424
+msgid "Documentation"
+msgstr "説明"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:425
+msgid "FAQ"
+msgstr "FAQ"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:426
+msgid "Troubleshooting"
+msgstr "トラブルシューティング"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:427
+msgid "Contact the author"
+msgstr "作者に連絡する"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:429
+msgid "Translated by"
+msgstr "Translated by"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:649
+msgid "Filename"
+msgstr "ファイル名"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:650
+msgid "Line Number : Column"
+msgstr "行：列"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:651
+msgid "Code"
+msgstr "コード"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:669
+msgid "by"
+msgstr "▼"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:689
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:878
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1014
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1133
+msgid "Error in Category Icons"
+msgstr "カテゴリーアイコン　エラー"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:689
+msgid "the default upload path is not accessible. Please create one or change the permissions on the directory."
+msgstr "デフォルトのアップロードパスへアクセス出来ません。ディレクトリのパーミッションを確認してください。"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:807
+#, php-format
+msgid "Edit %s"
+msgstr "編集 %s"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:872
+msgid "Are you trying to cheat ?"
+msgstr "チートを試してみますか？"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:884
+msgid "You are not allowed to delete category icons."
+msgstr "あなたはカテゴリーアイコンの削除を許可されていません。"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:900
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:956
+msgid "Select Category Icons"
+msgstr "カテゴリーアイコン選択"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:907
+msgid "Category ID"
+msgstr "カテゴリーID"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:911
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:969
+msgid "Name"
+msgstr "名前"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:915
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:971
+msgid "Priority"
+msgstr "優先順位"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:921
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:972
+msgid "Icon"
+msgstr "アイコン"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:924
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:934
+msgid "No Icon"
+msgstr "アイコンなし"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:931
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:973
+msgid "Small Icon"
+msgstr "小さいアイコン"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:941
+msgid "Select Icons"
+msgstr "アイコン選択"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:959
+msgid "Delete icons and priority"
+msgstr "アイコンと優先順位を削除"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:968
+msgid "ID"
+msgstr "ＩＤ"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:970
+msgid "Posts"
+msgstr "記事"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1014
+msgid "you must deactivate and reactivate this plugin."
+msgstr "このプラグインを一旦停止し有効化しなおす必要があります"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1016
+#, php-format
+msgid "The field %s is missing."
+msgstr "%sフィールドがミスしています"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1133
+msgid "you must put the category_icons.php in /wp-content/plugins/category-icons/ directory.<br/> So deactivate the plugin, and move the file into category-icons directory.<br/>Click on Plugins 2 times, to restart the plugin detection.<br/>And then, reactivate it."
+msgstr " category_icons.php は /wp-content/plugins/category-icons/ ディレクトリに置かなければなりません。<br />プラグインを停止して、ファイルをカテゴリーアイコンディレクトリに移動してください。<br />プラグインをクリックすると、再起動を検出します。"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1144
+msgid "Icons"
+msgstr "アイコン"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1146
+msgid "Options"
+msgstr "オプション"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1148
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1214
+msgid "Template Code"
+msgstr "テンプレートコード"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1171
+msgid "Settings updated."
+msgstr "変更を保存しました。"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1195
+msgid "Category Icons Settings"
+msgstr "カテゴリーアイコン設定"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1198
+msgid "Local Path to Icons"
+msgstr "アイコンのローカルパス"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1199
+msgid "Leave blank to use default upload path"
+msgstr "空白の場合はデフォルトのアップロードパスを使用します"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1202
+msgid "URL to Icons"
+msgstr "アイコンのＵＲＬ"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1203
+msgid "Leave blank to use default upload url"
+msgstr "空白の場合はデフォルトのアップロードURLを使用します"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1206
+msgid "Image File Types"
+msgstr "画像のファイルタイプ"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1207
+msgid "Separate by space or comma. E.g. 'jpg gif jpeg png'"
+msgstr "スペースかコンマで区切ってください。例 'jpg gif jpeg png'"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1210
+msgid "Maximum number of icons"
+msgstr "アイコンの最大数"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1211
+msgid "Enter the maximum number of icons to display in front of the posts titles."
+msgstr "記事タイトルの前に表示するアイコンの最大数を入力してください。"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1215
+msgid "Patch the files if possible (check for true)"
+msgstr "できればファイルを修正（チェックは実行）"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1216
+msgid "Process the list of categories (usually used in sidebar) ?"
+msgstr "カテゴリーリストを処理する（通常、サイドバーで使用されます）"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1221
+msgid "Position the category icon in sidebar on the left<br/>or on the right of the category name ?"
+msgstr "サイドバーのカテゴリーアイコンを<br />カテゴリー名の左と右どちらに置きますか？"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1224
+msgid "Left"
+msgstr "左側"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1226
+msgid "Right"
+msgstr "右側"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1227
+msgid "Select 'Left' if you want to put the category icon in front of the category name in the sidebar, or 'Right' if you want to put it after. <b>Remember that you must use the put_cat_icons() function to display icons in the sidebar</b>."
+msgstr "「左」を選択するとカテゴリーアイコンをサイドバーのカテゴリー名の前に、「右」を選択すると後ろに表示します。<br /><b>サイドバーにアイコンを表示するにはput_cat_icons()関数を使用します。</b>"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1230
+msgid "Sizes of the margins around the sidebar icons"
+msgstr "サイドバーアイコン周りの余白サイズ"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1232
+msgid "Use CSS (in this case, you must handle yourself the space around the icons with margin)"
+msgstr "CSSを使用する　（これを選択した場合、あなたは自分でアイコンの周りのスペースを調節しなければなりません）"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1232
+msgid "Use an image to create spaces around the icons"
+msgstr "画像を使ってアイコンの周りのスペースを作る"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1234
+msgid "Left Spacer Width"
+msgstr "左側スペースの横幅"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1236
+msgid "Left Spacer Height"
+msgstr "左側スペースの高さ"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1238
+msgid "Right Spacer Width"
+msgstr "右側スペースの横幅"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1240
+msgid "Right Spacer Height"
+msgstr "左側スペースの高さ"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1244
+msgid "Check for updates"
+msgstr "更新をチェックする"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1246
+msgid "Display category icons in RSS feeds"
+msgstr "ＲＳＳフィードにカテゴリーアイコンを表示する"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1249
+msgid "Use SEO Friendly Images plugin"
+msgstr "SEO Friendly Imagesプラグインを使用する"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1253
+msgid "Update Options"
+msgstr "変更を保存"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1264
+msgid "Paste the following code in the listed files, at the line and column numbers displayed below."
+msgstr "リストアップしたファイルに次のコードを貼り付けます。行と列の数字は下に表示されます。"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1266
+msgid "There's nothing to do."
+msgstr "何もありません。"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1271
+msgid "Template Code for"
+msgstr "テンプレートコード："
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1281
+msgid "Replace the code"
+msgstr "コードを戻す"
+

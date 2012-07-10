@@ -1,0 +1,282 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Category Icons\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-08-23 20:23+0100\n"
+"PO-Revision-Date: 2008-11-07 12:49-0300\n"
+"Last-Translator: Pedro Germani Ghiorzi <virtualpedro@gmail.com>\n"
+"Language-Team: Pedro Germani Ghiorzi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: Brazil\n"
+
+msgid ""
+"<a href=\"edit.php?page=category_icons.php&#38;ig_module=caticons&#38;"
+"ig_tab=options\">Assign icons to your categories easily</a>."
+msgstr ""
+"<a href=\"edit.php?page=category_icons.php&#38;ig_module=caticons&#38;"
+"ig_tab=options\">Associe ícones às suas categorias facilmente</a>."
+
+msgid "A new version of the plugin <strong>%s</strong> is available"
+msgstr "Uma nova versão do plugin <strong>%s</strong> está disponível"
+
+msgid "Are you trying to cheat ?"
+msgstr "Você está tentando burlar as regras?"
+
+msgid "Categories"
+msgstr "Categorias"
+
+msgid "Category ID"
+msgstr "ID Categoria"
+
+msgid "Category IDs, separated by commas."
+msgstr "IDs das Categorias, separados por vírgulas."
+
+msgid "Category Icons"
+msgstr "Ícones de Categorias"
+
+msgid "Category Icons Settings"
+msgstr "Opções dos Ícones de Categorias"
+
+msgid "Check for updates"
+msgstr "Verificar atualizações"
+
+msgid "Code"
+msgstr "Código"
+
+msgid "Contact the author"
+msgstr "Entre em contato com o autor"
+
+msgid "Delete icons and priority"
+msgstr "Apagar ícones e prioridades"
+
+msgid "Display category icons in RSS feeds"
+msgstr "Exibir ícones de categorias nos feeds RSS"
+
+msgid "Documentation"
+msgstr "Documentação"
+
+msgid "Easily assign icons to your categories"
+msgstr "Acossie facilmente ícones às Categorias"
+
+msgid "Edit %s"
+msgstr "Editar %s"
+
+msgid ""
+"Enter the maximum number of icons to display in front of the posts titles."
+msgstr ""
+"Entre com o número máximo de ícones a serem exibidos ao lado do título do "
+"artigo."
+
+msgid "Error in Category Icons"
+msgstr "Erro no Category Icons"
+
+msgid "Exclude:"
+msgstr "Excluir:"
+
+msgid "Filename"
+msgstr "Nome do Arquivo"
+
+msgid "Icon"
+msgstr "Ícone"
+
+msgid "Icons"
+msgstr "Ícones"
+
+msgid "Image File Types"
+msgstr "Tipos de arquivos de imagens"
+
+msgid "Leave blank to use default upload path"
+msgstr "Deixe em branco para usar o caminho padrão da pasta de upload"
+
+msgid "Leave blank to use default upload url"
+msgstr "Deixe em branco para usar o caminho padrão do URL de upload"
+
+msgid "Left"
+msgstr "Esquerda"
+
+msgid "Left Spacer Height"
+msgstr "Altura do espaçador da esquerda"
+
+msgid "Left Spacer Width"
+msgstr "Largura do espaçador da esquerda"
+
+msgid "Line Number : Column"
+msgstr "Número da Linha: Coluna"
+
+msgid "Local Path to Icons"
+msgstr "Caminho local para os ícones"
+
+msgid "Maximum number of icons"
+msgstr "Número máximo de ícones"
+
+msgid "Name"
+msgstr "Nome"
+
+msgid "No Icon"
+msgstr "Sem ícone"
+
+msgid "Options"
+msgstr "Opções"
+
+msgid ""
+"Order : use <a href=\"http://geekyweekly.com/mycategoryorder\">\"My Category "
+"Order\"</a> plugin."
+msgstr ""
+"Ordem : use o plugin <a href=\"http://geekyweekly.com/mycategoryorder\">\"My "
+"Category Order\"</a>."
+
+msgid ""
+"Paste the following code in the listed files, at the line and column numbers "
+"displayed below."
+msgstr ""
+"Cole o código a seguir nos arquivos listados, na linha e colunas indicadas "
+"abaixo."
+
+msgid "Patch the files if possible (check for true)"
+msgstr "Aplicar mudanças nos arquivos se possível"
+
+msgid ""
+"Position the category icon in sidebar on the left<br/>or on the right of the "
+"category name ?"
+msgstr ""
+"Posicionar o ícone de categoria na sidebar na esquerda <br/> ou na direita "
+"do nome da categoria?"
+
+msgid "Posts"
+msgstr "Artigos"
+
+msgid "Priority"
+msgstr "Prioridade"
+
+msgid "Process the list of categories (usually used in sidebar) ?"
+msgstr "Processar a lista de categorias (normalmente usado nas sidebars) ?"
+
+msgid "Replace the code"
+msgstr "Substitua o código"
+
+msgid "Right"
+msgstr "Direita"
+
+msgid "Right Spacer Height"
+msgstr "Altura do espaçador da direita"
+
+msgid "Right Spacer Width"
+msgstr "Largura do espaçador da direita"
+
+msgid "See the changelog of %s version"
+msgstr "Veja o log de mudanças de versão do %s"
+
+msgid ""
+"Select 'Left' if you want to put the category icon in front of the category "
+"name in the sidebar, or 'Right' if you want to put it after. <b>Remember "
+"that you must use the put_cat_icons() function to display icons in the "
+"sidebar</b>."
+msgstr ""
+"Selecione 'Esquerda' se você quer colocar  o ícone na frente do nome da "
+"categoria na barra lateral, ou 'Direita' se você quer colocar depois.<b> "
+"Lembre-se de que você deve usar a função put_cat_icons() para mostrar os "
+"ícones na barra lateral</b>"
+
+msgid "Select Category Icons"
+msgstr "Selecione os ícones de Categorias"
+
+msgid "Select Icons"
+msgstr "Selecione ícones"
+
+msgid "Separate by space or comma. E.g. 'jpg gif jpeg png'"
+msgstr "Separe com espaços ou vígulas. ex.: 'jpg gif jpeg png'"
+
+msgid "Settings updated."
+msgstr "Opções atualizadas."
+
+msgid "Show hierarchy"
+msgstr "Mostrar hierarquia"
+
+msgid "Show post counts"
+msgstr "Mostar contagem de Artigos"
+
+msgid "Sizes of the margins around the sidebar icons"
+msgstr "Tamanhos das margens em volta dos ícones nas barras laterais"
+
+msgid "Small Icon"
+msgstr "Ícone pequeno"
+
+msgid "Template Tags"
+msgstr "Marcações para o Tema"
+
+msgid "Template Tags for"
+msgstr "Marcações de temas para"
+
+msgid "The field %s is missing."
+msgstr "O campo %s está faltando"
+
+msgid "There's nothing to do."
+msgstr "Não há nada a ser feito."
+
+msgid "Title:"
+msgstr "Título:"
+
+msgid "Translated by"
+msgstr "Traduzido por"
+
+msgid "Troubleshooting"
+msgstr "Solução de problemas"
+
+msgid "URL to Icons"
+msgstr "URL para os ícones"
+
+msgid "Update Options"
+msgstr "Salvar alterações"
+
+msgid ""
+"Use CSS (in this case, you must handle yourself the space around the icons "
+"with margin)"
+msgstr ""
+"Utilizar CSS (neste caso, você deve gerenciar os espaços em volta dos ícones "
+"com margens)"
+
+msgid "Use SEO Friendly Images plugin"
+msgstr "Utilize o plugin de imagens 'SEO Friendly'"
+
+msgid "Use an image to create spaces around the icons"
+msgstr "Utilize uma imagem para criar espaços em volta dos ícones"
+
+msgid "You are not allowed to delete category icons."
+msgstr "Você não tem permissão para apagar o Category Icons"
+
+msgid "by"
+msgstr "por"
+
+msgid ""
+"put_cat_icons : your list is empty ! Don't forget to add <strong>echo=0</"
+"strong> in the parameters of wp_list_categories()."
+msgstr ""
+"put_cat_icons : sua lista está vazia! Não esqueça de adicionar "
+"<strong>echo=0</strong> nos parâmetros de wp_list_categories()."
+
+msgid "put_cat_icons() parameters:"
+msgstr "parâmetros do put_cat_icons():"
+
+msgid ""
+"the default upload path is not accessible. Please create one or change the "
+"permissions on the directory."
+msgstr ""
+"o caminho padrão da pasta de upload não é acessível. Por favor crie uma ou "
+"mude as permissões da pasta atual."
+
+msgid "you must deactivate and reactivate this plugin."
+msgstr "você deve desativar e reativar este plugin"
+
+msgid ""
+"you must put the category_icons.php in /wp-content/plugins/category-icons/ "
+"directory.<br/> So deactivate the plugin, and move the file into category-"
+"icons directory.<br/>Click on Plugins 2 times, to restart the plugin "
+"detection.<br/>And then, reactivate it."
+msgstr ""
+"você deve colocar o category_icons.php em /wp-content/plugins/category-"
+"icons/ directory.<br/> Então desative o plugin e mova os arquivos para a "
+"pasta category-icons.<br/>Clique em Plugins duas vezes, para reiniciar a "
+"detecção de plugins.<br/>E então, reative-o."

@@ -1,0 +1,298 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Category Icons\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-08-23 20:23+0100\n"
+"PO-Revision-Date: 2008-08-24 10:15+0200\n"
+"Last-Translator: Selim Başak <elfselo@yahoo.com>\n"
+"Language-Team: Brahim MACHKOURI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__;_c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /Users/Submarine/Sites/wp251-src/wp-content/plugins/"
+"category-icons\n"
+
+msgid ""
+"<a href=\"edit.php?page=category_icons.php&#38;ig_module=caticons&#38;"
+"ig_tab=options\">Assign icons to your categories easily</a>."
+msgstr ""
+"<a href=\"edit.php?page=category_icons.php&#38;ig_module=caticons&#38;"
+"ig_tab=options\">Kategorilerinize kolayca ikonlar atayın</a>."
+
+msgid "A new version of the plugin <strong>%s</strong> is available"
+msgstr "<strong>%s</strong> eklentisinin yeni bir sürümü mevcut"
+
+msgid "Are you trying to cheat ?"
+msgstr "Hile mi yapmaya çalışıyorsunuz ?"
+
+msgid "Categories"
+msgstr "Kategoriler"
+
+msgid "Category ID"
+msgstr "Kategori ID"
+
+msgid "Category IDs, separated by commas."
+msgstr "Kategori ID'leri, virgülle ayrılmış."
+
+msgid "Category Icons"
+msgstr "Kategori İkonları"
+
+msgid "Category Icons Settings"
+msgstr "Kategori İkonları Seçenekleri"
+
+msgid "Check for updates"
+msgstr "Güncellemeleri kontrol et"
+
+msgid "Code"
+msgstr "Kod"
+
+msgid "Contact the author"
+msgstr "Yazarla iletişim"
+
+msgid "Delete icons and priority"
+msgstr "İkonları ve öncelikleri sil"
+
+msgid "Display category icons in RSS feeds"
+msgstr "Kategori ikonlarını RSS'lerde göster"
+
+msgid "Documentation"
+msgstr "Dokümanlar"
+
+msgid "Easily assign icons to your categories"
+msgstr "Kategorilerinize kolayca ikonlar atayın"
+
+msgid "Edit %s"
+msgstr "Düzenle %s"
+
+msgid ""
+"Enter the maximum number of icons to display in front of the posts titles."
+msgstr "Yazı başlıklarının önünde gösterilecek maksimum ikon sayısını girin."
+
+msgid "Error in Category Icons"
+msgstr "Kategori ikonları'nda hata"
+
+msgid "Exclude:"
+msgstr "Hariç tut:"
+
+msgid "FAQ"
+msgstr "SSS"
+
+msgid "Filename"
+msgstr "Dosya adı"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Icon"
+msgstr "İkon"
+
+msgid "Icons"
+msgstr "İkonlar"
+
+msgid "Image File Types"
+msgstr "Görüntü Dosyası Türleri"
+
+msgid "Leave blank to use default upload path"
+msgstr "Varsayılan yükleme yolunu kullanmak için boş bırakın"
+
+msgid "Leave blank to use default upload url"
+msgstr "Varsayılan yükleme url'sini kullanmak için boş bırakın"
+
+msgid "Left"
+msgstr "Sol"
+
+msgid "Left Spacer Height"
+msgstr "Sol Boşluk Yüksekliği"
+
+msgid "Left Spacer Width"
+msgstr "Sol Boşluk Genişliği"
+
+msgid "Line Number : Column"
+msgstr "Satır numarası : Sütun"
+
+msgid "Local Path to Icons"
+msgstr "İkonların Lokal Yolu"
+
+msgid "Maximum number of icons"
+msgstr "İkonların maksimum sayısı"
+
+msgid "Name"
+msgstr "İsim"
+
+msgid "No Icon"
+msgstr "İkon yok"
+
+msgid "Options"
+msgstr "Seçenekler"
+
+msgid ""
+"Order : use <a href=\"http://geekyweekly.com/mycategoryorder\">\"My Category "
+"Order\"</a> plugin."
+msgstr ""
+"Sıra: <a href=\"http://geekyweekly.com/mycategoryorder\">\"My Category Order"
+"\"</a> eklentisini kullanınız."
+
+msgid ""
+"Paste the following code in the listed files, at the line and column numbers "
+"displayed below."
+msgstr ""
+"Şu kodu, listelenmiş dosyaların aşşağıda gösterilen satır ve sütun "
+"numaralarında giriniz."
+
+msgid "Patch the files if possible (check for true)"
+msgstr "Mümkünse dosyaları yama (yamamak için işaretleyin)"
+
+msgid ""
+"Position the category icon in sidebar on the left<br/>or on the right of the "
+"category name ?"
+msgstr ""
+"Kategori ikonu yan menüde kategori isminin<br/> soluna mı, sağına mı "
+"yerleşsin?"
+
+msgid "Posts"
+msgstr "Yazılar"
+
+msgid "Priority"
+msgstr "Öncelik"
+
+msgid "Process the list of categories (usually used in sidebar) ?"
+msgstr "Kategori listelerinde uygula (genelde yan menüde kullanılır) ?"
+
+msgid "Replace the code"
+msgstr "Kodu değiştir"
+
+msgid "Right"
+msgstr "Sağ"
+
+msgid "Right Spacer Height"
+msgstr "Sağ Boşluk Yüksekliği"
+
+msgid "Right Spacer Width"
+msgstr "Sağ Boşluk Genişliği"
+
+msgid "See the changelog of %s version"
+msgstr "%s sürümünün değişmiş özelliklerine bakın"
+
+msgid ""
+"Select 'Left' if you want to put the category icon in front of the category "
+"name in the sidebar, or 'Right' if you want to put it after. <b>Remember "
+"that you must use the put_cat_icons() function to display icons in the "
+"sidebar</b>."
+msgstr ""
+"Kategori ikonu kategori isminin öncesinde olsun istiyorsanız 'Sol'u, "
+"sonrasında olsun istiyorsanız 'Sağ'ı seçin. <b>İkonların yan menüde "
+"görüntülenmesini istiyorsanız, put_cat_icons() değerini kullanmanız "
+"gerektiğini unutmayın</b>."
+
+msgid "Select Category Icons"
+msgstr "Kategori ikonlarını seçin."
+
+msgid "Select Icons"
+msgstr "İkonları seç"
+
+msgid "Separate by space or comma. E.g. 'jpg gif jpeg png'"
+msgstr "Boşluk veya virgül ile ayırın. Örn.  'jpg gif jpeg png'"
+
+msgid "Settings updated."
+msgstr "Ayarlar güncellendi."
+
+msgid "Show hierarchy"
+msgstr "Hiyerarşiyi göster"
+
+msgid "Show post counts"
+msgstr "Yazı sayısını göster"
+
+msgid "Sizes of the margins around the sidebar icons"
+msgstr "Yan menü ikonlarının çevresindeki çerçevelerin(boşlukların) boyutu"
+
+msgid "Small Icon"
+msgstr "Küçük ikon"
+
+msgid "Template Tags"
+msgstr "Tema Tagları"
+
+msgid "Template Tags for"
+msgstr "Tema Tag'leri"
+
+msgid "The field %s is missing."
+msgstr "%s alanı kayıp."
+
+msgid "There's nothing to do."
+msgstr "Yapılacak birşey yok."
+
+msgid "Title:"
+msgstr "Başlık:"
+
+msgid "Translated by"
+msgstr "Çeviren"
+
+msgid "Troubleshooting"
+msgstr "Sorun Giderme"
+
+msgid "URL to Icons"
+msgstr "İkonların URL'si"
+
+msgid "Update Options"
+msgstr "Seçenekleri güncelle"
+
+msgid ""
+"Use CSS (in this case, you must handle yourself the space around the icons "
+"with margin)"
+msgstr ""
+"CSS kullan (bunu seçerseniz, ikonların çevresindeki boşlukları margin ile "
+"kendiniz girmelisiniz)"
+
+msgid "Use SEO Friendly Images plugin"
+msgstr "SEO Dostu Görüntüler eklentisini kullan"
+
+msgid "Use an image to create spaces around the icons"
+msgstr "İkonların çevresinde boşluk yaratmak için bir resim kullan"
+
+msgid "You are not allowed to delete category icons."
+msgstr "Kategori ikonlarını silmeye izniniz yok."
+
+msgid "by"
+msgstr "tarafından"
+
+msgid ""
+"put_cat_icons : your list is empty ! Don't forget to add <strong>echo=0</"
+"strong> in the parameters of wp_list_categories()."
+msgstr ""
+"put_cat_icons : listeniz boş! <strong>echo=0</strong> değerini "
+"wp_list_categories() parametrelerine yazmayı unutmayınız."
+
+msgid "put_cat_icons() parameters:"
+msgstr "put_cat_icons() parametreleri:"
+
+msgid ""
+"the default upload path is not accessible. Please create one or change the "
+"permissions on the directory."
+msgstr ""
+"varsayılan yükleme yolu erişilemez durumda. Lütfen yeni bir tane yaratın "
+"yada dizin üzerindeki izinleri değiştirin."
+
+msgid "translator_name"
+msgstr "çevirmen_adı"
+
+msgid "translator_url"
+msgstr "çevirmen_url"
+
+msgid "you must deactivate and reactivate this plugin."
+msgstr "bu eklentiyi önce etkisizleştirip sonra etkinleştirmelisiniz."
+
+msgid ""
+"you must put the category_icons.php in /wp-content/plugins/category-icons/ "
+"directory.<br/> So deactivate the plugin, and move the file into category-"
+"icons directory.<br/>Click on Plugins 2 times, to restart the plugin "
+"detection.<br/>And then, reactivate it."
+msgstr ""
+"category_icons.php dosyasını /wp-content/plugins/category-icons/ dizinine "
+"koymalısınız. <br/> Yani eklentiyi etkisizleştirin, ve dosyayı category-"
+"icons dizinine taşıyın.<br/>Eklenti algılamasını tekrar başlatmak için, "
+"Eklentiler'e 2 kere tıklayın.<br/>Sonra tekrar active edin."

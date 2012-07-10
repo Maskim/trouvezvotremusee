@@ -1,0 +1,241 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Category Icons\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-04-12 21:41+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: hugo5688 <hugo5688>\n"
+"Language-Team: Hugo5688 <hugo5688@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+
+msgid "A new version of the plugin <strong>%s</strong> is available"
+msgstr "新版本的 plugin <strong>%s</strong> 已釋出"
+
+msgid "Are you trying to cheat ?"
+msgstr "您嘗試做弊？"
+
+msgid "Categories"
+msgstr "分類"
+
+msgid "Category ID"
+msgstr "分類ID"
+
+msgid "Category IDs, separated by commas."
+msgstr "分類IDs，以逗號分隔。"
+
+msgid "Category Icons"
+msgstr "Category Icons"
+
+msgid "Category Icons Settings"
+msgstr "分類圖示設定"
+
+msgid "Check for updates"
+msgstr "檢查更新"
+
+msgid "Code"
+msgstr "程式碼"
+
+msgid "Contact the author"
+msgstr "與作者聯絡"
+
+msgid "Delete icons and priority"
+msgstr "刪除圖示及順序"
+
+msgid "Easily assign icons to your categories"
+msgstr "輕鬆地將圖示指定到您的分類"
+
+msgid "Edit %s"
+msgstr "編輯 %s"
+
+msgid ""
+"Enter the maximum number of icons to display in front of the posts titles."
+msgstr "請輸入可在前端顯示的文章標題圖示的最大數目。"
+
+msgid "Error in Category Icons"
+msgstr "分類圖示錯誤 : "
+
+msgid "Exclude:"
+msgstr "排除:"
+
+msgid "Filename"
+msgstr "檔案名稱"
+
+msgid "Icon"
+msgstr "圖示"
+
+msgid "Image File Types"
+msgstr "圖像檔案類型 :"
+
+msgid "Leave blank to use default upload path"
+msgstr "如保留空白將使用預設的上載路徑"
+
+msgid "Leave blank to use default upload url"
+msgstr "如保留空白將使用預設的上載網址"
+
+msgid "Left"
+msgstr "左側"
+
+msgid "Left Spacer Height"
+msgstr "左側空格字元高度 :"
+
+msgid "Left Spacer Width"
+msgstr "左側空格字元寬度 :"
+
+msgid "Line Number : Column"
+msgstr "列數：行數"
+
+msgid "Local Path to Icons"
+msgstr "本地圖示路徑 :"
+
+msgid "Manage"
+msgstr "管理"
+
+msgid "Maximum number of icons"
+msgstr "圖示最大數 :"
+
+msgid "Name"
+msgstr "名稱"
+
+msgid "No Icon"
+msgstr "沒有圖示"
+
+msgid "Options"
+msgstr "選項"
+
+msgid ""
+"Paste the following code in the listed files, at the line and column numbers "
+"displayed below."
+msgstr "請將下列程式碼貼在顯示列數和行數的下方"
+
+msgid "Patch the files if possible (check for true)"
+msgstr "如果可以的話則更新檔案 (檢查是否屬實) :"
+
+msgid ""
+"Position the category icon in sidebar on the left<br/>or on the right of the "
+"category name ?"
+msgstr "放至分類圖示到側邊欄左側<br/>或是在分類名稱的右側 ?"
+
+msgid "Posts"
+msgstr "文章"
+
+msgid "Priority"
+msgstr "順序"
+
+msgid "Process the list of categories (usually used in sidebar) ?"
+msgstr "分類處理清單 (通常是使用在側邊欄) ?"
+
+msgid "Replace the code"
+msgstr "替換程式碼"
+
+msgid "Right"
+msgstr "右側"
+
+msgid "Right Spacer Height"
+msgstr "右側空格字元高度 : "
+
+msgid "Right Spacer Width"
+msgstr "右側空格字元寬度 :"
+
+msgid ""
+"Select 'Left' if you want to put the category icon in front of the category "
+"name in the sidebar, or 'Right' if you want to put it after. <b>Remember "
+"that you must use the put_cat_icons() function to dislay icons in the "
+"sidebar</b>."
+msgstr ""
+"如果您想把分類圖示放在分類名稱的前面請選擇「左側」，或是選擇「右側」放在之"
+"後。<b>請記住您必需使用 put_cat_icons() 這功能來顯示在側邊。</b>"
+
+msgid "Select Category Icons"
+msgstr "選擇分類圖示"
+
+msgid "Select Icons"
+msgstr "選擇圖示"
+
+msgid "Separate by space or comma. E.g. 'jpg gif jpeg png'"
+msgstr "請以「空格」或「逗號」分隔。像是 'jpg gif jpeg png'"
+
+msgid "Settings updated."
+msgstr "設定已更新"
+
+msgid "Show hierarchy"
+msgstr "以階層顯示"
+
+msgid "Show post counts"
+msgstr "顯示文章數目"
+
+msgid "Sizes of the spacers around the sidebar icons"
+msgstr "側邊欄圖示周圍的空白間隔字元大小"
+
+msgid "Small Icon"
+msgstr "小圖示"
+
+msgid "Template Code"
+msgstr "佈景主題程式碼"
+
+msgid "Template Code for "
+msgstr "範本程式碼 for"
+
+msgid "The field %s is missing."
+msgstr "欄位 %s 遺失。"
+
+msgid "There's nothing to do."
+msgstr "沒什麼可做的"
+
+msgid "Title:"
+msgstr "標題:"
+
+msgid "Translated by"
+msgstr "翻譯者"
+
+msgid "Troubleshooting"
+msgstr "疑難排解"
+
+msgid "URL to Icons"
+msgstr "URL 圖示位置 :"
+
+msgid "Update Options"
+msgstr "Update Options"
+
+msgid "You are not allowed to delete category icons."
+msgstr "您並不允許刪除分類圖示。"
+
+msgid "by"
+msgstr "替換成"
+
+msgid ""
+"put_cat_icons : your list is empty ! Don't forget to add <strong>echo=0</"
+"strong> in the parameters of wp_list_categories()."
+msgstr ""
+"put_cat_icons : 您的清單是空的 ! 請別忘了新增 echo = 0 到 wp_list_categories"
+"() 參數中。"
+
+msgid "put_cat_icons() parameters:"
+msgstr "put_cat_icons() 參數:"
+
+msgid ""
+"the default upload path is not accessible. Please create one or change the "
+"permissions on the directory."
+msgstr "原始上傳路徑無法存取。請建立一個或是更新資料夾權限。"
+
+msgid "translator_name"
+msgstr "translator_name"
+
+msgid "translator_url"
+msgstr "translator_url"
+
+msgid "you must deactivate and reactivate this plugin."
+msgstr "您必須停用並重新啟動此外掛程式。"
+
+msgid ""
+"you must put the category_icons.php in /wp-content/plugins/category-icons/ "
+"directory.<br/> So deactivate the plugin, and move the file into category-"
+"icons directory.<br/>Click on Plugins 2 times, to restart the plugin "
+"detection.<br/>And then, reactivate it."
+msgstr ""
+"您必需將必須將 category_icons.php 放在 /wp-content/plugins/category-icons/ 目"
+"錄裡<br/> 請先停用此外掛，並將檔案移動到存放外掛 category-icons 的目錄底下"
+"<br/> 為了要重新啟動外掛程式的偵測，請雙擊外掛兩次，然後再重新的啟動它。"

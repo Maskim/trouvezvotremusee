@@ -1,0 +1,346 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Category Icons\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-05-21 16:10+0100\n"
+"PO-Revision-Date: 2008-07-20 15:03+0300\n"
+"Last-Translator: Dimox <http://dimox.name>\n"
+"Language-Team: Brahim MACHKOURI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__;_c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons\n"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons-widget.php:16
+msgid "Use this widget to display category icons in a sidebar."
+msgstr "Используйте этот виджет для отображения иконок категорий в сайдбаре."
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons-widget.php:24
+msgid "Easily assign icons to your categories"
+msgstr "Добавление иконок к вашим рубрикам"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons-widget.php:27
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1075
+msgid "Category Icons"
+msgstr "Category Icons"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons-widget.php:65
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons-widget.php:72
+msgid "Show post counts"
+msgstr "Показывать количество записей"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons-widget.php:76
+msgid "Show hierarchy"
+msgstr "Показать иерархию"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons-widget.php:80
+msgid "put_cat_icons() parameters:"
+msgstr "параметры put_cat_icons():"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons-widget.php:86
+msgid "Exclude:"
+msgstr "Исключить:"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons-widget.php:88
+msgid "Category IDs, separated by commas."
+msgstr "ID рубрик, разделенные запятыми."
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons-widget.php:101
+msgid "Categories"
+msgstr "Рубрики"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:366
+msgid "put_cat_icons : your list is empty ! Don't forget to add <strong>echo=0</strong> in the parameters of wp_list_categories()."
+msgstr "put_cat_icons : Ваш список пуст! Не забудьте добавить <strong>echo=0</strong> в параметры функции wp_list_categories()."
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:376
+msgid "<a href=\"edit.php?page=category_icons.php&#38;ig_module=caticons&#38;ig_tab=options\">Assign icons to your categories easily</a>. Don't forget to activate the Category Icons widget !"
+msgstr "<a href=\"edit.php?page=category_icons.php&#38;ig_module=caticons&#38;ig_tab=options\">Легкое добавление иконок к вашим рубрикам</a>. Не забудьте активировать виджет Category Icons!"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:404
+#, php-format
+msgid "A new version of the plugin <strong>%s</strong> is available"
+msgstr "Доступна новая версия плагина <strong>%s</strong"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:406
+#, php-format
+msgid "See the changelog of %s version"
+msgstr "Смотрите список изменений версии %s"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:417
+msgid "translator_name"
+msgstr "Dimox"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:418
+msgid "translator_url"
+msgstr "http://dimox.name"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:424
+msgid "Documentation"
+msgstr "Документация"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:425
+msgid "FAQ"
+msgstr "FAQ"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:426
+msgid "Troubleshooting"
+msgstr "Решение проблем"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:427
+msgid "Contact the author"
+msgstr "Обратная связь с автором"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:429
+msgid "Translated by"
+msgstr "Перевод от"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:649
+msgid "Filename"
+msgstr "Имя файла"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:650
+msgid "Line Number : Column"
+msgstr "Номер строки : столбца"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:651
+msgid "Code"
+msgstr "Код"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:669
+msgid "by"
+msgstr "на"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:689
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:878
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1014
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1133
+msgid "Error in Category Icons"
+msgstr "Ошибка в Category Icons"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:689
+msgid "the default upload path is not accessible. Please create one or change the permissions on the directory."
+msgstr "папка загрузки по умолчанию не доступна. Пожалуйста, создайте ее или измените права доступа."
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:807
+#, php-format
+msgid "Edit %s"
+msgstr "Изменить %s"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:872
+msgid "Are you trying to cheat ?"
+msgstr "Пытаетесь схитрить?"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:884
+msgid "You are not allowed to delete category icons."
+msgstr "Вы не можете удалять иконки рубрик."
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:900
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:956
+msgid "Select Category Icons"
+msgstr "Иконки рубрик"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:907
+msgid "Category ID"
+msgstr "ID рубрики"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:911
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:969
+msgid "Name"
+msgstr "Название"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:915
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:971
+msgid "Priority"
+msgstr "Приоритет"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:921
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:972
+msgid "Icon"
+msgstr "Иконка"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:924
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:934
+msgid "No Icon"
+msgstr "Нет иконки"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:931
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:973
+msgid "Small Icon"
+msgstr "Маленькая иконка"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:941
+msgid "Select Icons"
+msgstr "Выбрать иконки"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:959
+msgid "Delete icons and priority"
+msgstr "Удалить иконки и приоритет"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:968
+msgid "ID"
+msgstr "ID"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:970
+msgid "Posts"
+msgstr "Записей"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1014
+msgid "you must deactivate and reactivate this plugin."
+msgstr "вы должны деактивировать и повторно активировать этот плагин."
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1016
+#, php-format
+msgid "The field %s is missing."
+msgstr "Отстутствует поле %s."
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1133
+msgid "you must put the category_icons.php in /wp-content/plugins/category-icons/ directory.<br/> So deactivate the plugin, and move the file into category-icons directory.<br/>Click on Plugins 2 times, to restart the plugin detection.<br/>And then, reactivate it."
+msgstr "вы должны поместить файл category_icons.php в папку /wp-content/plugins/category-icons/.<br/> Деактивируйте плагин и положите файл в папку category-icons.<br/>Затем повторно активируйте его."
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1144
+msgid "Icons"
+msgstr "Иконки"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1146
+msgid "Options"
+msgstr "Настройки"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1148
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1214
+msgid "Template Code"
+msgstr "Шаблон кода"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1171
+msgid "Settings updated."
+msgstr "Настройки сохранены."
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1195
+msgid "Category Icons Settings"
+msgstr "Настройки Category Icons"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1198
+msgid "Local Path to Icons"
+msgstr "Локальный путь к папке с иконками"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1199
+msgid "Leave blank to use default upload path"
+msgstr "Оставьте пустым, чтобы использовать путь по умолчанию"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1202
+msgid "URL to Icons"
+msgstr "URL папки с иконками"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1203
+msgid "Leave blank to use default upload url"
+msgstr "Оставьте пустым, чтобы использовать url по умолчанию"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1206
+msgid "Image File Types"
+msgstr "Типы файлов изображений"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1207
+msgid "Separate by space or comma. E.g. 'jpg gif jpeg png'"
+msgstr "Разделяйте пробелом или запятой. Например, \"jpg gif jpeg png\""
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1210
+msgid "Maximum number of icons"
+msgstr "Максимальное количество иконок"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1211
+msgid "Enter the maximum number of icons to display in front of the posts titles."
+msgstr "Укажите максимально количество иконок, которое следует выводить перед названием поста."
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1215
+msgid "Patch the files if possible (check for true)"
+msgstr "Исправить файлы, если это возможно"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1216
+msgid "Process the list of categories (usually used in sidebar) ?"
+msgstr "Обработать список рубрик?"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1221
+msgid "Position the category icon in sidebar on the left<br/>or on the right of the category name ?"
+msgstr "Поместить иконку рубрики слева или справа от названия рубрики?"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1224
+msgid "Left"
+msgstr "Слева"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1226
+msgid "Right"
+msgstr "Справа"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1227
+msgid "Select 'Left' if you want to put the category icon in front of the category name in the sidebar, or 'Right' if you want to put it after. <b>Remember that you must use the put_cat_icons() function to display icons in the sidebar</b>."
+msgstr "Выберите \"Слева\", если желаете поместить иконку рубрики перед ее названием в сайдбаре, или \"Справа\", если хотите поместить ее после названия. <b>Помните, что вы должны исплользовать функцию put_cat_icons() для отображения иконок в сайдбаре</b>."
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1230
+msgid "Sizes of the margins around the sidebar icons"
+msgstr "Размер отступов вокруг иконок в садбаре"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1232
+msgid "Use CSS (in this case, you must handle yourself the space around the icons with margin)"
+msgstr "Использовать CSS (в этом случае вы должны указать отступы в файле стилей)"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1232
+msgid "Use an image to create spaces around the icons"
+msgstr "Использовать изображение для создания отступа вокруг иконок"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1234
+msgid "Left Spacer Width"
+msgstr "Ширина левого отступа"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1236
+msgid "Left Spacer Height"
+msgstr "Высота левого отступа"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1238
+msgid "Right Spacer Width"
+msgstr "Ширина правого отступа"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1240
+msgid "Right Spacer Height"
+msgstr "Высота правого отступа"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1244
+msgid "Check for updates"
+msgstr "Проверять на обновления"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1246
+msgid "Display category icons in RSS feeds"
+msgstr "Показывать иконки рубрик в RSS-фидах"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1249
+msgid "Use SEO Friendly Images plugin"
+msgstr "Используйте плагин SEO Friendly Images"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1253
+msgid "Update Options"
+msgstr "Сохранить настройки"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1264
+msgid "Paste the following code in the listed files, at the line and column numbers displayed below."
+msgstr "Вставьте следующий код в файлы из списка, расположенного ниже."
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1266
+msgid "There's nothing to do."
+msgstr "Ничего не нужно делать."
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1271
+msgid "Template Code for"
+msgstr "Шаблон кода для"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1281
+msgid "Replace the code"
+msgstr "Замените код"
+

@@ -1,0 +1,341 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: category-icons\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-08-23 20:23+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Hunter <hunter.cdl@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:386
+msgid "put_cat_icons : your list is empty ! Don't forget to add <strong>echo=0</strong> in the parameters of wp_list_categories()."
+msgstr "put_cat_icons : 您的列表为空 ! 请别忘了新增 echo = 0 到 wp_list_categories() 参数中。"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:439
+msgid "<a href=\"edit.php?page=category_icons.php&#38;ig_module=caticons&#38;ig_tab=options\">Assign icons to your categories easily</a>."
+msgstr "<a href=\"edit.php?page=category_icons.php&#38;ig_module=caticons&#38;ig_tab=options\">轻松地将图标指定到您的分类</a>."
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:468
+#, php-format
+msgid "A new version of the plugin <strong>%s</strong> is available"
+msgstr "发现一个新的版本 <strong>%s</strong> "
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:470
+#, php-format
+msgid "See the changelog of %s version"
+msgstr "查看 %s 版本更新日志"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:483
+msgid "translator_name"
+msgstr "translator_name"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:484
+msgid "translator_url"
+msgstr "translator_url"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:490
+msgid "Documentation"
+msgstr "Documentation"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:491
+msgid "FAQ"
+msgstr "FAQ"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:492
+msgid "Troubleshooting"
+msgstr "疑难解答"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:493
+msgid "Contact the author"
+msgstr "联系作者"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:495
+msgid "Translated by"
+msgstr "翻译者"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:804
+msgid "Filename"
+msgstr "文件名"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:805
+msgid "Line Number : Column"
+msgstr "列数:行数"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:806
+msgid "Code"
+msgstr "代码"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:824
+msgid "by"
+msgstr "替换成"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:844
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1020
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1156
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1234
+msgid "Error in Category Icons"
+msgstr "分类图标错误"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:844
+msgid "the default upload path is not accessible. Please create one or change the permissions on the directory."
+msgstr "默认上传路径是无法访问。请创建一个或更改目录的权限。"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:962
+#, php-format
+msgid "Edit %s"
+msgstr "编辑 %s"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1014
+msgid "Are you trying to cheat ?"
+msgstr "您尝试作弊？"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1026
+msgid "You are not allowed to delete category icons."
+msgstr "您不可以删除分类图标。"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1042
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1098
+msgid "Select Category Icons"
+msgstr "选择分类图标"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1049
+msgid "Category ID"
+msgstr "分类 ID"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1053
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1111
+msgid "Name"
+msgstr "名称"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1057
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1113
+msgid "Priority"
+msgstr "顺序"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1063
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1114
+msgid "Icon"
+msgstr "图标"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1066
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1076
+msgid "No Icon"
+msgstr "无图标"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1073
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1115
+msgid "Small Icon"
+msgstr "小图标"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1083
+msgid "Select Icons"
+msgstr "选择图标"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1101
+msgid "Delete icons and priority"
+msgstr "删除图标和顺序"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1110
+msgid "ID"
+msgstr "ID"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1112
+msgid "Posts"
+msgstr "文章"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1156
+msgid "you must deactivate and reactivate this plugin."
+msgstr "您必须禁用并重新启用此插件。"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1158
+#, php-format
+msgid "The field %s is missing."
+msgstr "栏位 %s 丢失。"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1218
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1616
+msgid "Category Icons"
+msgstr "分类图标"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1234
+msgid "you must put the category_icons.php in /wp-content/plugins/category-icons/ directory.<br/> So deactivate the plugin, and move the file into category-icons directory.<br/>Click on Plugins 2 times, to restart the plugin detection.<br/>And then, reactivate it."
+msgstr "您必须将 category_icons.php 放在 /wp-content/plugins/category-icons/ 目录里。<br/> 请先停用此插件，并将文件移动到存放插件 category-icons 的目录底下。<br/> 為了要重新启动插件检测，请点击插件两次，然後再重新启用它。"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1245
+msgid "Settings updated."
+msgstr "选项已更新"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1267
+msgid "Icons"
+msgstr "图标"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1269
+msgid "Options"
+msgstr "选项"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1271
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1323
+msgid "Template Tags"
+msgstr "模板标记"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1304
+msgid "Category Icons Settings"
+msgstr "分类图标选项"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1307
+msgid "Local Path to Icons"
+msgstr "本地图标路径"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1308
+msgid "Leave blank to use default upload path"
+msgstr "留空将使用默认上传路径"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1311
+msgid "URL to Icons"
+msgstr "图标网址"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1312
+msgid "Leave blank to use default upload url"
+msgstr "留空将使用默认上传网址"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1315
+msgid "Image File Types"
+msgstr "图标文件类型"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1316
+msgid "Separate by space or comma. E.g. 'jpg gif jpeg png'"
+msgstr "请以「空格」或「逗号」分隔。例如 'jpg gif jpeg png'"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1319
+msgid "Maximum number of icons"
+msgstr "图标最大数"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1320
+msgid "Enter the maximum number of icons to display in front of the posts titles."
+msgstr "请输入可在文章标题前面显示的图标的最大数目。"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1324
+msgid "Patch the files if possible (check for true)"
+msgstr "如果可以的话则更新文件 (检查是否可用)"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1325
+msgid "Process the list of categories (usually used in sidebar) ?"
+msgstr "分类处理列表 (通常是使用在侧边栏) ?"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1330
+msgid "Position the category icon in sidebar on the left<br/>or on the right of the category name ?"
+msgstr "放至分类图标到侧边栏左侧<br/>或是分类名称的右侧 ?"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1333
+msgid "Left"
+msgstr "左侧"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1335
+msgid "Right"
+msgstr "右侧"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1336
+msgid "Select 'Left' if you want to put the category icon in front of the category name in the sidebar, or 'Right' if you want to put it after. <b>Remember that you must use the put_cat_icons() function to display icons in the sidebar</b>."
+msgstr "如果您想把分类图标放在分类名称的前面请选择 [左侧] ，或者选择 [右侧] 放在之后。<b>请记住您必须使用 put_cat_icons() 这功能来显示在侧边栏。</b>"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1339
+msgid "Sizes of the margins around the sidebar icons"
+msgstr "侧边栏图标周围的间隔大小"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1341
+msgid "Use CSS (in this case, you must handle yourself the space around the icons with margin)"
+msgstr "使用CSS （在这种情况下，你必须自己处理图标周围的间隔差值）"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1341
+msgid "Use an image to create spaces around the icons"
+msgstr "给图标加上一个图片边框"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1343
+msgid "Left Spacer Width"
+msgstr "左侧间隔宽度"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1345
+msgid "Left Spacer Height"
+msgstr "左侧间隔高度"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1347
+msgid "Right Spacer Width"
+msgstr "右侧间隔宽度"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1349
+msgid "Right Spacer Height"
+msgstr "右侧间隔高度"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1353
+msgid "Check for updates"
+msgstr "检查更新"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1355
+msgid "Display category icons in RSS feeds"
+msgstr "将分类图标插入RSS feeds中"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1360
+msgid "Use SEO Friendly Images plugin"
+msgstr "使用 SEO Friendly Images 插件"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1365
+msgid "Update Options"
+msgstr "更新选项"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1376
+msgid "Paste the following code in the listed files, at the line and column numbers displayed below."
+msgstr "请将下面的代码粘贴在列表中所示的代码下面"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1378
+msgid "There's nothing to do."
+msgstr "没什么可做的"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1383
+msgid "Template Tags for"
+msgstr "模板标签 for"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1394
+msgid "Replace the code"
+msgstr "替换代码"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1523
+msgid "Categories"
+msgstr "分类"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1574
+msgid "Title:"
+msgstr "标题:"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1581
+msgid "Show post counts"
+msgstr "显示文章数目"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1585
+msgid "Show hierarchy"
+msgstr "Show hierarchy"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1590
+msgid "Order : use <a href=\"http://geekyweekly.com/mycategoryorder\">\"My Category Order\"</a> plugin."
+msgstr "Order : 使用 <a href=\"http://geekyweekly.com/mycategoryorder\">\"My Category Order\"</a> 插件."
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1596
+msgid "put_cat_icons() parameters:"
+msgstr "put_cat_icons() 参数:"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1602
+msgid "Exclude:"
+msgstr "排除:"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1604
+msgid "Category IDs, separated by commas."
+msgstr "多个分类ID，以逗号分割。"
+
+#: /Users/Submarine/Sites/wp251-src/wp-content/plugins/category-icons/category_icons.php:1613
+msgid "Easily assign icons to your categories"
+msgstr "轻松地将图标指定到您的分类"
+

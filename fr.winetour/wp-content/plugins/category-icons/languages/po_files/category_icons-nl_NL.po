@@ -1,0 +1,295 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Category Icons\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-05-16 17:52+0100\n"
+"PO-Revision-Date: 2008-05-16 20:32+0100\n"
+"Last-Translator: \n"
+"Language-Team: Brahim MACHKOURI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__;_c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /Users/Submarine/Sites/wp251-src/wp-content/plugins/"
+"category-icons\n"
+
+msgid ""
+"<a href=\"edit.php?page=category_icons.php&#38;ig_module=caticons&#38;"
+"ig_tab=options\">Assign icons to your categories easily</a>. Don't forget to "
+"activate the Category Icons widget !"
+msgstr ""
+"<a href=\"edit.php?page=category_icons.php&#38;ig_module=caticons&#38;"
+"ig_tab=options\">Koppel de iconen gemakkelijk aan jouw categorieën </a>. "
+"Niet vergeten de Categorie Icoon Widget te activeren !"
+
+msgid "A new version of the plugin <strong>%s</strong> is available"
+msgstr "Een nieuwe versie van de plugin <strong>%s</strong> is beschikbaar"
+
+msgid "Are you trying to cheat ?"
+msgstr "Dit gaat niet goed."
+
+msgid "Categories"
+msgstr "Categorieën"
+
+msgid "Category ID"
+msgstr "Categorie ID"
+
+msgid "Category IDs, separated by commas."
+msgstr "Categorie Ids, uit elkaar gehouden door komma's"
+
+msgid "Category Icons"
+msgstr "Categorie Iconen"
+
+msgid "Category Icons Settings"
+msgstr "Instellingen Categorie Iconen"
+
+msgid "Check for updates"
+msgstr "Controleer op updates"
+
+msgid "Code"
+msgstr "Code"
+
+msgid "Contact the author"
+msgstr "Benader de auteur "
+
+msgid "Delete icons and priority"
+msgstr "Verwijder de iconen en de prioriteit"
+
+msgid "Display category icons in RSS feeds"
+msgstr "Laat de icoon zien in de RSS feed"
+
+msgid "Documentation"
+msgstr "Documentatie"
+
+msgid "Easily assign icons to your categories"
+msgstr "Gemakkelijk iconen toewijzen aan je categorieën"
+
+msgid "Edit %s"
+msgstr "Pas aan %s"
+
+msgid ""
+"Enter the maximum number of icons to display in front of the posts titles."
+msgstr ""
+"Noem het maximaal aantal iconen dat geplaatst mag worden voor de post titels."
+
+msgid "Error in Category Icons"
+msgstr "Error in de Categorie Iconen"
+
+msgid "Exclude:"
+msgstr "Niet toevoegen: "
+
+msgid "FAQ"
+msgstr "FAQ"
+
+msgid "Filename"
+msgstr "Filenaam"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Icon"
+msgstr "Icoon"
+
+msgid "Icons"
+msgstr "Iconen"
+
+msgid "Image File Types"
+msgstr "Image bestand type "
+
+msgid "Leave blank to use default upload path"
+msgstr "Laat leeg voor het gebruik van het standaard upload pad"
+
+msgid "Leave blank to use default upload url"
+msgstr "Laat leeg voor het gebruik van het standaard upload URL"
+
+msgid "Left"
+msgstr "Links"
+
+msgid "Left Spacer Height"
+msgstr "Hoogte Ruimte Links"
+
+msgid "Left Spacer Width"
+msgstr "Breedte Ruimte Links"
+
+msgid "Line Number : Column"
+msgstr "Lijn Nummer: Kolom "
+
+msgid "Local Path to Icons"
+msgstr "Lokaal pad naar Iconen"
+
+msgid "Maximum number of icons"
+msgstr "Maximaal aantal iconen"
+
+msgid "Name"
+msgstr "Naam"
+
+msgid "No Icon"
+msgstr "Geen Icoon"
+
+msgid "Options"
+msgstr "Opties"
+
+msgid ""
+"Paste the following code in the listed files, at the line and column numbers "
+"displayed below."
+msgstr ""
+"Kopieer de volgende code in de files, bij de lijn en kolom nummers die hier "
+"beneden staan."
+
+msgid "Patch the files if possible (check for true)"
+msgstr "Wanneer mogelijk, patch de bestanden (check voor waar)"
+
+msgid ""
+"Position the category icon in sidebar on the left<br/>or on the right of the "
+"category name ?"
+msgstr ""
+"Positioneer de categorie iconen in de sidebar links <br/> of rechts van de "
+"categorie titel ?"
+
+msgid "Posts"
+msgstr "Posts"
+
+msgid "Priority"
+msgstr "Prioriteit"
+
+msgid "Process the list of categories (usually used in sidebar) ?"
+msgstr "Proces de lijst van categorieën (meestal gebruikt in de sidebar) ?"
+
+msgid "Replace the code"
+msgstr "Vervang de code"
+
+msgid "Right"
+msgstr "Rechts"
+
+msgid "Right Spacer Height"
+msgstr "Hoogte Ruimte Rechts"
+
+msgid "Right Spacer Width"
+msgstr "Breedte Ruimte Rechts"
+
+msgid "See the changelog of %s version"
+msgstr "Bekijk het changelog van %s versie"
+
+msgid ""
+"Select 'Left' if you want to put the category icon in front of the category "
+"name in the sidebar, or 'Right' if you want to put it after. <b>Remember "
+"that you must use the put_cat_icons() function to display icons in the "
+"sidebar</b>."
+msgstr ""
+"Selecteer 'Links' wanneer je de categorie icon voor de categorie naam wil "
+"hebben in de sidebar,  of 'Rechts' wanneer je hem erachter wilt. <b> Vergeet "
+"niet dat je de put_cat_icons() functie moet gebruiken om de iconen weer te "
+"geven in de sidebar </b>."
+
+msgid "Select Category Icons"
+msgstr "Selecteer de categorie iconen"
+
+msgid "Select Icons"
+msgstr "Selecteer Iconen"
+
+msgid "Separate by space or comma. E.g. 'jpg gif jpeg png'"
+msgstr "Gescheiden door spatie of komma's b.v. 'jpg gif jpeg png'"
+
+msgid "Settings updated."
+msgstr "Instellingen zijn geüpdate."
+
+msgid "Show hierarchy"
+msgstr "Display de hiërarchie"
+
+msgid "Show post counts"
+msgstr "Display het aantal posts"
+
+msgid "Sizes of the margins around the sidebar icons"
+msgstr "Afmetingen van de ruimte om de sidebar iconen"
+
+msgid "Small Icon"
+msgstr "Klein Icoon"
+
+msgid "Template Code"
+msgstr "Template Code"
+
+msgid "Template Code for"
+msgstr "Template code voor"
+
+msgid "The field %s is missing."
+msgstr "Dit veld %s ontbreekt."
+
+msgid "There's nothing to do."
+msgstr "Er is niets te doen."
+
+msgid "Title:"
+msgstr "Titel:"
+
+msgid "Translated by"
+msgstr "Vertaald door"
+
+msgid "Troubleshooting"
+msgstr "Probleem oplosser"
+
+msgid "URL to Icons"
+msgstr "URl naar Iconen"
+
+msgid "Update Options"
+msgstr "Update opties"
+
+msgid ""
+"Use CSS (in this case, you must handle yourself the space around the icons "
+"with margin)"
+msgstr ""
+"Gebruik CSS (in dit geval moet je zelf de ruimte rond de iconen instellen "
+"met marges)"
+
+msgid "Use an image to create spaces around the icons"
+msgstr "Gebruik een afbeelding om een ruimte te creëren rond de icoon"
+
+msgid "Use this widget to display category icons in a sidebar."
+msgstr ""
+"Gebruik deze Widget om de Categorie Iconen weer te geven in de sidebar."
+
+msgid "You are not allowed to delete category icons."
+msgstr "Het is niet toegestaan zo de categorie iconen te verwijderen."
+
+msgid "by"
+msgstr "Door"
+
+msgid ""
+"put_cat_icons : your list is empty ! Don't forget to add <strong>echo=0</"
+"strong> in the parameters of wp_list_categories()."
+msgstr ""
+"put_cat_icons : Je lijst is leeg! Vergeet niet om <strong>echo=0</strong> "
+"toe te voegen in de parameters van wp_list_categories()."
+
+msgid "put_cat_icons() parameters:"
+msgstr "put_cat_icons() parameters:"
+
+msgid ""
+"the default upload path is not accessible. Please create one or change the "
+"permissions on the directory."
+msgstr ""
+"Het standaard upload pad is niet beschikbaar. Maak een nieuwe aan of "
+"verander de permissies in de directories."
+
+msgid "translator_name"
+msgstr "Vincent Sparreboom"
+
+msgid "translator_url"
+msgstr "http://www.eenblogvoorbloggers.nl"
+
+msgid "you must deactivate and reactivate this plugin."
+msgstr "Je moet de plugin deactiveren en opnieuw activeren."
+
+msgid ""
+"you must put the category_icons.php in /wp-content/plugins/category-icons/ "
+"directory.<br/> So deactivate the plugin, and move the file into category-"
+"icons directory.<br/>Click on Plugins 2 times, to restart the plugin "
+"detection.<br/>And then, reactivate it."
+msgstr ""
+"Je moet de category_icons.php plaatsen in /wp-content/plugins/category-"
+"icons/ directory.<br/> Dus deactiveer de plugin en plaats het bestand in de "
+"category-icons directory.<br/> Click 2 maal op Plugins, voor het herstarten "
+"van de plugin detectie.<br/> en dan kan je hem reactiveren."

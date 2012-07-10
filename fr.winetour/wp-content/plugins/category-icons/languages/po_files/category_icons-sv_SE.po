@@ -1,0 +1,299 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Category Icons\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-08-23 20:23+0100\n"
+"PO-Revision-Date: 2008-09-09 10:33+0100\n"
+"Last-Translator: \n"
+"Language-Team: Brahim MACHKOURI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__;_c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /Users/Submarine/Sites/wp251-src/wp-content/plugins/"
+"category-icons\n"
+
+msgid ""
+"<a href=\"edit.php?page=category_icons.php&#38;ig_module=caticons&#38;"
+"ig_tab=options\">Assign icons to your categories easily</a>."
+msgstr ""
+"<a href=\"edit.php?page=category_icons.php&#38;ig_module=caticons&#38;"
+"ig_tab=options\">Tilldela ikoner till dina kategorier enkelt.</a>."
+
+msgid "A new version of the plugin <strong>%s</strong> is available"
+msgstr "En ny version av denna plugin <strong>%s</strong> finns"
+
+msgid "Are you trying to cheat ?"
+msgstr "Försöker du fuska?"
+
+msgid "Categories"
+msgstr "Kategorier"
+
+msgid "Category ID"
+msgstr "Kategori ID"
+
+msgid "Category IDs, separated by commas."
+msgstr "Kategori ID, separerade med komma."
+
+msgid "Category Icons"
+msgstr "Category Icons"
+
+msgid "Category Icons Settings"
+msgstr "Category Icons inställningar"
+
+msgid "Check for updates"
+msgstr "Sök efter uppdateringar"
+
+msgid "Code"
+msgstr "Kod"
+
+msgid "Contact the author"
+msgstr "Kontakta upphovsmannen"
+
+msgid "Delete icons and priority"
+msgstr "Radera ikoner och prioritet"
+
+msgid "Display category icons in RSS feeds"
+msgstr "Visa category_icons i RSS feeds"
+
+msgid "Documentation"
+msgstr "Dokumentation"
+
+msgid "Easily assign icons to your categories"
+msgstr "Lägg till ikoner till dina kategorier på ett enkelt sätt"
+
+msgid "Edit %s"
+msgstr "Redigera %s"
+
+msgid ""
+"Enter the maximum number of icons to display in front of the posts titles."
+msgstr ""
+"Skriv in det maximala antalet ikoner att visa framför inläggens rubriker."
+
+msgid "Error in Category Icons"
+msgstr "Fel i Category Icons"
+
+msgid "Exclude:"
+msgstr "Exkludera:"
+
+msgid "FAQ"
+msgstr "FAQ"
+
+msgid "Filename"
+msgstr "Filnamn"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Icon"
+msgstr "Ikon"
+
+msgid "Icons"
+msgstr "Ikoner"
+
+msgid "Image File Types"
+msgstr "Filtyper för bilder"
+
+msgid "Leave blank to use default upload path"
+msgstr "Lämna blankt för att använda förinställd sökväg för uppladdningar."
+
+msgid "Leave blank to use default upload url"
+msgstr "Lämna blankt för att använda förinställd sökväg för uppladdningar"
+
+msgid "Left"
+msgstr "Vänster"
+
+msgid "Left Spacer Height"
+msgstr "Vänster indrag höjd"
+
+msgid "Left Spacer Width"
+msgstr "Vänster indrag bredd"
+
+msgid "Line Number : Column"
+msgstr "Radnummer : Kolumn"
+
+msgid "Local Path to Icons"
+msgstr "Lokal sökväg till ikoner"
+
+msgid "Maximum number of icons"
+msgstr "Max antal ikoner"
+
+msgid "Name"
+msgstr "Namn"
+
+msgid "No Icon"
+msgstr "Ingen ikon"
+
+msgid "Options"
+msgstr "Alternativ"
+
+msgid ""
+"Order : use <a href=\"http://geekyweekly.com/mycategoryorder\">\"My Category "
+"Order\"</a> plugin."
+msgstr ""
+"Ordning : Använd <a href=\"http://geekyweekly.com/mycategoryorder\">\"Min "
+"ordning\"</a> plugin."
+
+msgid ""
+"Paste the following code in the listed files, at the line and column numbers "
+"displayed below."
+msgstr ""
+"Klistra in följande kod i de listade filerna. Klistra in kod på de rad- och "
+"kolumnnummer som anges nedan."
+
+msgid "Patch the files if possible (check for true)"
+msgstr "Uppgradera filerna om möjligt (kontrollera att lyckats)"
+
+msgid ""
+"Position the category icon in sidebar on the left<br/>or on the right of the "
+"category name ?"
+msgstr ""
+"Placera kategori-ikonen i sidokolumnen på vänstra<br/>eller på högra sidan "
+"om kategorinamn?"
+
+msgid "Posts"
+msgstr "Inlägg"
+
+msgid "Priority"
+msgstr "Prioritet"
+
+msgid "Process the list of categories (usually used in sidebar) ?"
+msgstr "Behandla listan över kategorier (vanligtvis i sidokolumnen)?"
+
+msgid "Replace the code"
+msgstr "Ersätt koden"
+
+msgid "Right"
+msgstr "Höger"
+
+msgid "Right Spacer Height"
+msgstr "Höger indrag höjd"
+
+msgid "Right Spacer Width"
+msgstr "Höger indrag bredd"
+
+msgid "See the changelog of %s version"
+msgstr "Se changelog för %s version"
+
+msgid ""
+"Select 'Left' if you want to put the category icon in front of the category "
+"name in the sidebar, or 'Right' if you want to put it after. <b>Remember "
+"that you must use the put_cat_icons() function to display icons in the "
+"sidebar</b>."
+msgstr ""
+"Välj 'Vänster' om du vill att kategori-ikonen ska stå framför kategorinamnet "
+"i sidokolumnen. Annars 'Höger' om du vill att ikonen ska stå efter "
+"kategorinamnet.<b>Kom ihåg att du måste använda funktionen put_cat_icons() "
+"för att visa ikoner i sidokolumnen</b>."
+
+msgid "Select Category Icons"
+msgstr "Välj Category Icons"
+
+msgid "Select Icons"
+msgstr "Välj ikoner"
+
+msgid "Separate by space or comma. E.g. 'jpg gif jpeg png'"
+msgstr "Separera med mellanslag eller komma. T.ex. 'jpg gif jpeg png'"
+
+msgid "Settings updated."
+msgstr "Inställningar uppdaterade."
+
+msgid "Show hierarchy"
+msgstr "Visa hierarki"
+
+msgid "Show post counts"
+msgstr "Visa antalet inlägg"
+
+msgid "Sizes of the margins around the sidebar icons"
+msgstr "Storlek på marginaler runt ikoner i sidokolumn"
+
+msgid "Small Icon"
+msgstr "Liten ikon"
+
+msgid "Template Tags"
+msgstr "Template taggar"
+
+msgid "Template Tags for"
+msgstr "Template-taggar för"
+
+msgid "The field %s is missing."
+msgstr "Fältet % saknas."
+
+msgid "There's nothing to do."
+msgstr "Det finns inget att göra."
+
+msgid "Title:"
+msgstr "Titel:"
+
+msgid "Translated by"
+msgstr "Översatt av"
+
+msgid "Troubleshooting"
+msgstr "Problemlösning"
+
+msgid "URL to Icons"
+msgstr "URL till ikoner"
+
+msgid "Update Options"
+msgstr "Uppdatera inställningar"
+
+msgid ""
+"Use CSS (in this case, you must handle yourself the space around the icons "
+"with margin)"
+msgstr ""
+"Använd CSS (i detta fall måste du själv hantera utrymme mellan ikoner med "
+"hjälp av marginaler)"
+
+msgid "Use SEO Friendly Images plugin"
+msgstr "Använd SEO Friendly Images plugin."
+
+msgid "Use an image to create spaces around the icons"
+msgstr "Använd en bild för att skapa utrymme mellan ikoner"
+
+msgid "You are not allowed to delete category icons."
+msgstr "Du har inte rättighet att radera category icons."
+
+msgid "by"
+msgstr "av"
+
+msgid ""
+"put_cat_icons : your list is empty ! Don't forget to add <strong>echo=0</"
+"strong> in the parameters of wp_list_categories()."
+msgstr ""
+"put_cat_icons: Din lista är tom! Glöm inte att lägga till <strong>echo=0</"
+"strong> som parameter för wp_list_categories()."
+
+msgid "put_cat_icons() parameters:"
+msgstr "Parametrar för put_cat_icons():"
+
+msgid ""
+"the default upload path is not accessible. Please create one or change the "
+"permissions on the directory."
+msgstr ""
+"Den förinställda uppladdningssökvägen är inte tillgänglig. Var god skapa en "
+"giltig sökväg eller ändra rättigheterna för katalogen."
+
+msgid "translator_name"
+msgstr "P-C"
+
+msgid "translator_url"
+msgstr "PCJiggly.com"
+
+msgid "you must deactivate and reactivate this plugin."
+msgstr "Du måste avaktivera och omaktivera denna plugin."
+
+msgid ""
+"you must put the category_icons.php in /wp-content/plugins/category-icons/ "
+"directory.<br/> So deactivate the plugin, and move the file into category-"
+"icons directory.<br/>Click on Plugins 2 times, to restart the plugin "
+"detection.<br/>And then, reactivate it."
+msgstr ""
+"du måste spara category_icons.php i katalogen  /wp-content/plugins/category-"
+"icons/ .<br/>Så avaktivera denna plkugin och flytta filen till katalogen "
+"category-icons.<br/>Klicka på Plugins två gånger för att ladda listan över "
+"plugins.<br/>Omaktivera sedan denna plugin."

@@ -1,0 +1,498 @@
+    /*
+
+     Theme Name: Ken Burns Slider
+     Description: custom jQuery slide plugin for codecanyon.net
+     Theme Owner: pixelentity
+     File: Skins Common css file
+     Designers/Developers : Fabio Cairo aka bitfade & Donagh O'Keeffe aka iamdok 
+     Web:   http://www.iamdok.com
+            http://bitfade.com
+            http://themeforest.net/user/pixelentity
+        
+    */
+    
+    /*------------------------------------------------------------------------*/
+    
+    /* SLIDER */
+    
+    
+    /*GENERAL*/
+    
+    .peKenBurns{
+		position:relative;
+		overflow: hidden;
+	}
+    
+	.peKenBurns > div {
+		display: none;
+	}
+	
+	.peKenBurns > div.peKb_active {
+		overflow: hidden;
+		width: inherit;
+		height: inherit;
+		display: block;
+	}
+	
+	.peKenBurns > div > h1, .peKenBurns > div > h2, .peKenBurns > div > h3, .peKenBurns > div > h4, .peKenBurns > div > p {
+		display: none;
+	}
+	
+	.peKenBurns > div.peKb_active > h1, .peKenBurns > div.peKb_active > h2, .peKenBurns > div.peKb_active > h3, .peKenBurns > div.peKb_active > h4, .peKenBurns > div.peKb_active > p {
+		display: block;
+	}
+	
+    .peKenBurns a:focus {
+    	outline: 0;
+    }
+    
+    .peKenBurns img {
+		border:none;
+    }
+    
+    .peKenBurns .peKb_noBack {
+    	background: transparent !important;
+    }
+    
+    /* RESET */
+    
+    .peKenBurns ul, .peKenBurns li {
+		margin:0;
+		padding:0;
+		border:0;
+		outline:0;
+	}
+
+    /*SLIDES*/
+    
+    .peKenBurns .peKb_slides {
+		display: block;
+		position:relative;
+		overflow:hidden;
+		padding:15px;   
+    }
+    
+    
+    .peKenBurns .peKb_slides>div {
+        position:absolute;
+		overflow:hidden;
+        display: none;
+		z-index: 1;
+    }
+    
+
+    .peKenBurns .peKb_slides div.peKb_active {
+    	z-index: 2;
+    	display:block;
+    }
+    
+  
+    /*CAPTIONS*/
+    
+    .peKenBurns .peKb_slides .peKb_caption{
+		display:inline;
+		position:absolute;
+		left:0;
+		top:0;
+		z-index: 200;
+		margin: 0px 5px 10px 5px;
+    }
+    
+    .peKenBurns .peKb_slides .peKb_caption .peKb_holder{
+		position:absolute;
+    }
+    
+    .peKenBurns .peKb_slides .peKb_caption .peKb_real{
+		padding:30px;
+		overflow:hidden;
+		position:absolute;
+		z-index:10;
+    }
+    
+    .peKenBurns .peKb_slides .peKb_caption .peKb_real > h1, .peKenBurns .peKb_slides .peKb_caption .peKb_real > h2, .peKenBurns .peKb_slides .peKb_caption .peKb_real > h3, .peKenBurns .peKb_slides .peKb_caption .peKb_real > h4, .peKenBurns .peKb_slides .peKb_caption .peKb_real > p {
+    	display: block;
+    	margin: 0px;
+    	padding: 0px;
+    	background: none;
+    	-moz-border-radius: 0px; 
+		-webkit-border-radius: 0px; 
+		border-radius: 0px;
+		border: none;
+		white-space:nowrap;
+    }
+    
+    .peKenBurns .peKb_slides .peKb_caption .peKb_background{
+		display:block;
+		position:absolute;
+		z-index:9;
+    }
+    
+    
+    /*END CAPTIONS*/
+   
+   .peKenBurns .peKb_slides .peKb_frame{
+    	z-index: 0;
+    	width: 100%;
+    	height: 100%;
+        display:block;  
+    }
+   
+    .peKenBurns .peKb_slides .peKb_spinner{
+    	z-index: 201;
+    	width: 100%;
+    	height: 100%;
+        display:block;  
+    }
+    
+    .peKenBurns .peKb_slides .peKb_videooverlay{
+    	z-index: 202;
+    	width: 100%;
+    	height: 100%;
+    	cursor: pointer;
+        display:block;  
+    }
+    
+    /*END SLIDES*/
+    
+    
+    
+    /* CONTROLS */
+    
+    .peKenBurns .peKb_controls{
+		display:block;
+		position:relative;
+		height:50px;
+		overflow:hidden;
+		margin-top:-16px;
+    }
+    
+    .peKenBurns .peKb_controls .peKb_holder{
+		height:50px;
+		position:relative;
+		overflow:hidden;
+		margin-top:-6px;
+    }
+    
+    .peKenBurns .peKb_controls .peKb_mainPanel{
+		position:relative;
+		overflow:hidden;
+		height:50px;
+		float:left;
+    }
+    
+    .peKenBurns .peKb_controls .peKb_slideBtns{
+		margin-top:15px;
+		margin-bottom:15px;
+		padding-left:15px;
+		padding-right:15px;
+		list-style-type:none;
+		text-align: center;
+		height:23px;
+		float:left;
+		position:relative;
+    }
+
+    .peKenBurns .peKb_controls .peKb_slideBtns li{
+		float:left;
+		display: block;
+		margin:0;
+		height:23px;
+		text-indent:-9999px;
+	}
+    
+    .peKenBurns .peKb_controls .peKb_slideBtns li a{
+		display:block;
+		width:22px;
+		height:23px;
+		line-height:23px;
+		margin:0;
+		overflow:hidden;
+		outline: 0;
+    }
+    
+    
+    .peKenBurns .peKb_controls .peKb_arrows{
+		float:left;
+		margin-top:15px;
+		margin-bottom:15px;
+		padding-left:8px;
+		padding-right:8px;
+		line-height:23px;
+		width:76px;
+		text-indent:-9999px;
+    }
+    
+    .peKenBurns .peKb_controls .peKb_arrows .peKb_prev, .peKb_controls .peKb_arrows .peKb_next {
+		height:23px;
+		width:22px;
+		display:block;
+		float:left;
+    }
+    
+    .peKenBurns .peKb_controls .peKb_arrows .peKb_prev {
+		padding-left:10px;
+		padding-right:5px;
+    }
+    
+    .peKenBurns .peKb_controls .peKb_arrows .peKb_next {
+		padding-left:5px;
+		padding-right:10px;
+	
+    }
+    
+    /*TIMER*/
+    .peKenBurns .peKb_timer{
+		z-index: 210;
+		position: absolute;
+		display: none;
+		width: 22px;
+		height: 24px;
+    }
+
+    .peKenBurns .peKb_timer .peKb_overlay {
+		width: 22px;
+		height: 24px;
+		position: absolute;
+		z-index: 1;
+    }
+
+    .peKenBurns .peKb_timer .peKb_sprite {
+		margin-top: 1px;
+		position: absolute;
+		width: 22px;
+		height: 22px;
+		z-index: 0;
+    }
+    
+    /*END CONTROLS*/
+    
+    
+    /* VIDEO CLOSE BUTTON*/
+    
+    .peKenBurns .peKb_videoClose{
+		display:block;
+		height:50px;
+		width:46px;
+		float:left;
+		position:relative;
+		margin-left:2px;
+		text-indent:-9999px;
+		-moz-border-radius: 6px; 
+		-webkit-border-radius: 6px; 
+		border-radius: 6px;
+    }
+    
+    .peKenBurns .peKb_videoClose a{
+		height:45px;
+		width:45px;
+		display:block;
+    }
+    
+    /*END VIDEO CLOSE BUTTON*/
+    
+    
+    /*LOGO LABEL*/
+    
+    .peKenBurns .peKb_logoLabel{
+		display:block;
+		width:58px;
+		height:46px;
+		position:absolute;
+		overflow:hidden;
+		top:8%;
+		left:-38px;
+		text-indent:-9999px;
+    }
+    
+    .peKenBurns .peKb_logoLabel a{
+		display:block;
+		width:50px;
+		height:46px;
+    }
+    
+    /*END LOGO LABEL*/
+
+    
+    /*SHADOW*/
+    
+    .peKenBurns .peKb_shadow{
+		display:block;
+		height:82px;
+		position:absolute;
+		bottom:10px;
+		z-index:-1;
+    }
+    
+    .peKenBurns .peKb_shadow .peKb_left{
+		clear:both;
+    }
+    .peKenBurns .peKb_shadow .peKb_left, .peKenBurns .peKb_shadow .peKb_right {
+		float:left;
+		width:100px;
+		height:82px;
+    }
+    
+    .peKenBurns .peKb_shadow .peKb_middle{
+		float:left;
+		height:82px;
+    }
+    
+    /* END SLIDER */
+
+
+
+    /*------------------------------------------------------------------------*/
+    
+    /*CONDITIONAL STYLES FOR IE7*/
+    
+    .ie7 .peKenBurns .peKb_controls .peKb_arrows .peKb_next {
+		padding-right:8px;
+    }
+    
+    .ie7 .peKenBurns .peKb_controls .peKb_slideBtns{
+		padding-left:5px;
+    }
+    
+    .ie7 .peKenBurns .peKb_controls .peKb_arrows{
+		padding-right:0;
+    }
+    
+    .ie7 .peKenBurns .peKb_controls .peKb_mainPanel div.peKb_iebg{
+		overflow:hidden;
+		margin-left:10px;
+		margin-right:10px;
+		height:51px;
+    }
+    
+    .ie7 .peKenBurns .peKb_controls .peKb_mainPanel span.peKb_iebgRight{
+		position : absolute;
+		bottom:0;
+		right:0;
+		width:10px;
+		height:51px;
+    }
+    
+    /* damn ie7 bug */
+    .ie7 .peKenBurns .peKb_noBack {
+    	background-color: black !important;
+    	filter: alpha(opacity=0) !important;
+    }
+    
+    /*END CONDITIONAL STYLES FOR IE7*/
+    
+    
+    /*------------------------------------------------------------------------*/
+    
+    /*CONDITIONAL STYLES FOR IE8*/
+    
+    .ie8 .peKenBurns .peKb_controls .peKb_arrows .peKb_next {
+		padding-right:8px;
+    }
+    
+    .ie8 .peKenBurns .peKb_controls .peKb_slideBtns{
+		padding-left:5px;
+    }
+    
+    .ie8 .peKenBurns .peKb_controls .peKb_arrows{
+		padding-right:0;
+    }
+    
+    .ie8 .peKenBurns .peKb_controls .peKb_mainPanel div.peKb_iebg{
+		overflow:hidden;
+		margin-left:10px;
+		margin-right:10px;
+		height:51px;
+    }
+    
+    .ie8 .peKenBurns .peKb_controls .peKb_mainPanel span.peKb_iebgRight{
+		position : absolute;
+		bottom:0;
+		right:0;
+		width:10px;
+		height:51px;
+    }
+    
+    /* damn ie8 bug */
+    .ie8 .peKenBurns .peKb_noBack {
+    	background-color: black !important;
+    	filter: alpha(opacity=0) !important;
+    }
+    
+    /*END CONDITIONAL STYLES FOR IE8*/
+
+    /*------------------------------------------------------------------------*/
+    
+    .ie9 .peKenBurns .peKb_noBack {
+    	background-color: black !important;
+    	opacity: 0 !important;
+    }
+
+
+	.peKenBurns .peKb_Thumb{
+		position:absolute;
+		z-index: 212;
+		width: 98px;
+		height: 76px;
+		overflow: hidden;
+	}
+	
+	.peKenBurns .peKb_Thumb div {
+		width: 84px;
+		height: 48px;
+		margin: 7px 0px 0px 7px;
+		overflow: hidden;
+	}
+	
+	
+	/* INNER CONTROLS */
+	
+	.peKenBurns .peKb_controlsInner {
+    	z-index: 209;
+    }
+    
+    .peKenBurns .peKb_controlsInner .peKb_mainPanel{
+    }
+    
+    .peKenBurns .peKb_controlsInner .peKb_holder{
+		height: 40px;
+		margin: 0px 15px 0px 15px;
+    }
+    
+    .peKenBurns .peKb_controlsInner .peKb_slideBtns {
+		margin-top: 8px;
+	}
+    
+    .peKenBurns .peKb_controlsInner .peKb_arrows{
+		margin-top: 8px;
+    }
+    
+    .peKenBurns .peKb_videoCloseInner {
+    	background:transparent !important;
+		padding-top:20px !important;
+		padding-left:10px !important;
+    }
+    
+	.peKenBurns .peKb_videoCloseInner a{
+		width:32px !important;
+		height:32px !important;
+	}
+	
+	.peKenBurns iframe {
+		padding: 0px !important;
+		margin: 0px !important;
+		border-width: 0px !important;
+		background-color: black !important;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+

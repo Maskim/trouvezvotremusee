@@ -1,0 +1,410 @@
+	<div id="pe_documentation">
+	
+		<h3 id="toc"><strong>Table of Contents</strong></h3>
+		<ol class="alpha">
+			<li><a href="#quicksetup">Quick Setup</a></li>
+			<li><a href="#global">Global parameters</a></li>
+			<li><a href="#slider">Slider parameters</a></li>
+			<li><a href="#perslide">Per slide paramaters</a></li>
+			<li><a href="#styling">CSS Styling - Skins</a></li>
+			<li><a href="#wordpress">Filters / hooks / public functions</a></li>
+		</ol>
+		
+		<hr>
+		
+		<!-- New Section  -->
+		<h3 id="quicksetup">A. <strong>Quick Setup</strong> - <a href="#toc">top</a></h3>
+		<p>The following is a quick guide designed to show you the basic steps required to insert a slider into a wordpress pages. This giude is not designed to explain all options. Please refer to the other sections in this documets tab for an explanation of each individual setting &amp; feature.</p>
+		<img src="<?php echo $this->plugin->url; ?>/docs/quick_start_01.jpg" alt="estro quick start" />
+		<ol id="quick1">
+			<li>In the "General" tab, first select the skin for your slider</li>
+			<li>Set the desired width and height of your slider in pixels.</li>
+			<li>Click the "New Slider" button to create the slider - this will take you to the "Edit Slider" tab. (see below)</li>
+		</ol>
+		<img src="<?php echo $this->plugin->url; ?>/docs/quick_start_02.jpg" alt="estro quick start" />
+		<ol id="quick2" start="4">
+			<li>In the "Edit Slider" tab, set a unique ID for the slider (optional - an ID will be assigned automatically)</li>
+			<li>Give the slider a name and select the slider type - "Ken Burns" or "Swipe"</li>
+			<li>Next you need to insert a slide by clicking the "Add Slide" button.</li>
+			<li>You will see a new slide item has been added to the user interface. Click the box to upload an image in the normal way, then click "Insert into Post" in the wordpress media uploader.</li>
+			<li>Once the slide has been inserted, you will need to save your changes by clicking the "Save" button.</li>
+		</ol>
+		<img src="<?php echo $this->plugin->url; ?>/docs/quick_start_03.jpg" alt="estro quick start" />
+		<ol id="quick3" start="9">
+			<li>Next switch to the "Sliders" tab and locate your slider in the displayed list. If you have more than one slider they will be displayed here.</li>
+			<li>Now in order to insert the slider into your page, you will need a shortcode. To get this shortcode, click the shortcode icon on your slider and the code will be displayed. The shortcode will be highlighted and ready to be copied to the clipboard by pressing Ctrl + C (Cmd + C on the Mac). Now in the Wordpress page editor simply paste this shortcode where you would like the slider to appear.</li>
+		</ol>
+		
+		
+		<!-- New Section  -->
+		<hr>
+		<h3 id="global">B. <strong>Global parameters</strong> - <a href="#toc">top</a></h3>
+		
+		<p>Global parameters are applied to all sliders and used to alter Estro behaviour on the whole site. 
+		Some of them (like skin or size) can be overwritten with a custom value on a per slider basis</p>
+		
+		<table class="widefat">
+			<thead> 
+				<tr> 
+					<th>Parameter</th> 
+					<th>Accepted values</th> 
+				</tr> 
+			</thead>
+			<tbody> 
+				<tr>
+					<td>Skin</td>
+					<td>Choose the component skin (can be overwritten in slider settings)</td>
+				</tr>
+				<tr>
+					<td>Size</td>
+					<td>Set default component size (can be overwritten in slider settings)</td>
+				</tr>
+				<tr>
+					<td>Advanced options</td>
+					<td>Display more advanced options for finer control - it will affect both global options and slider options</td>
+				</tr>
+				<tr>
+					<td>Lazy loading</td>
+					<td>If you have a lots of images, you can save user bandwidth and make page loads faster by using lazy loading for slide images. 
+					When working this way, each image will only be loaded when the relevant slide is about to be shown. 
+					</td>
+				</tr>
+				<tr>
+					<td>Tooltips</td>
+					<td>Show hide tooltips in admin area (requires page to be reloaded if changed)</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		
+		<!-- New Section  -->
+		<hr>
+		<h3 id="global">C. <strong>Slider parameters</strong> - <a href="#toc">top</a></h3>
+		
+		<p>Slider parameters are applied to one slider only so any change in this section won't affect other defined sliders</p>
+		
+		<table class="widefat">
+			<thead> 
+				<tr> 
+					<th>Parameter</th> 
+					<th>Accepted values</th> 
+				</tr> 
+			</thead>
+			<tbody>
+				<tr>
+					<td>ID</td>
+					<td>This value is used as shortcode parameter in order to select which slider to display</td>
+				</tr>
+				<tr>
+					<td>Title</td>
+					<td>Used only in admin area as descriptive text for your own convenience</td>
+				</tr>
+				<tr>
+					<td>Type</td>
+					<td>Set slider working mode (ken burns or swipe)</td>
+				</tr>
+				<tr>
+					<td>Controls</td>
+					<td>Controls behaviour &amp; visibility of slider controls panel<br/>
+                "always"        always visible  (default)<br/>
+                "inner"        inner controls<br/>
+                "disabled"        hidden<br/>
+                "over"            show only on mouse over<br/>
+                "hideOnFirst"        control panel shows at start, then auto hides after a few seconds, then works like "over" (above)</td>
+				</tr>
+				<tr>
+					<td>Auto pause</td>
+					<td>Pause/resume timer when mouse is over slider<br/>
+                "image"                pause when mouse over image  (default)<br/>
+                "controls"            pause when mouse over controls<br/>
+                "image,controls"        pause when mouse over image or controls<br/>
+                "none"                never pause</td>
+				</tr>
+				<tr>
+					<td>Thumbnails</td>
+					<td>Controls slider button rollover thumbnail preview (additional per slide parameter needed for each slide, see next section)<br/>
+					"enabled"     display image with ken burns effect (default)<br/>
+                "fixed"        display fixed image<br/>
+                "disabled"    hidden</td>
+				</tr>
+				<tr>
+					<td>Size</td>
+					<td>Overrides global setting for this slider size</td>
+				</tr>
+				<tr>
+					<td>Shadow</td>
+					<td>Controls shadow visibility<br/>
+						"enabled"     display (default)<br/>
+                		"disabled"    hidden<br/>
+				<tr>
+					<td>Skin</td>
+					<td>Override global setting for this slider skin</td>
+				</tr>
+				<tr>
+					<td>Logo tab</td>
+					<td>Controls logo tab visibility<br/>
+                		"enabled"     display<br/>
+                		"disabled"    hidden (default)<br/>
+					</td>
+				</tr>
+				<tr>
+					<td>Logo link</td>
+					<td>Controls the link attached to the logo tab. Insert full url into this attribute.</td>
+				</tr>
+				<tr>
+					<td>Logo target</td>
+					<td>Controls whether the logo link opens in a new tab/window or in the current tab/window.<br/>
+                		"_self"     opens in current tab/window (default)<br/>
+                		"_blank"    opens in new blank tab/window<br/>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+
+		<hr>
+		<h3 id="perslide">D. <strong>Per slide paramaters</strong> - <a href="#toc">top</a></h3>
+		
+		<p>This parameters are applied to a single slide (image)</p>
+		
+		<table class="widefat">
+			<thead> 
+				<tr> 
+					<th>Parameter</th> 
+					<th>Accepted values</th> 
+				</tr> 
+			</thead>
+			<tbody>
+				<tr>
+					<td class="section" colspan="2">BASIC OPTIONS</td>
+				</tr>
+				<tr>
+					<td>Image</td>
+					<td>Slider image - you can either paste a full url in the field or click the big image on left to open media uploader and upload/select the image</td>
+				</tr>
+				<tr>
+					<td>Caption</td>
+					<td>Caption text (optional)</td>
+				</tr>
+				<tr>
+					<td>Delay</td>
+					<td>Time (in seconds) before next slide is loaded</td>
+				</tr>
+				<tr>
+					<td>Link</td>
+					<td>Slide link can be a youtube/vimeo video or url to image/page</td>
+				</tr>
+				<tr>
+					<td>Link type</td>
+					<td>Set the link type, use Video to make the slideshow play the movie inside slider frame 
+					or new/same tab open the url as normal link in new/same table<br>
+					Type "lightbox" will add data-rel="lightbox-slide" to the link to allow lightbox integration</td>
+				</tr>
+				
+				<tr>
+					<td class="section" colspan="2">ADVANCED OPTIONS (Ken Burns mode)</td>
+				</tr>
+				<tr>
+					<td>Zoom</td>
+					<td>Zoom mode, can be "in", "out" or "random"</td>
+				</tr>
+				<tr>
+					<td>Duration</td>
+					<td>Keen burn effect duration in seconds, default value is 15s<br/>
+                    (the higher the value, the slower the movement will be)</td>
+				</tr>
+				<tr>
+					<td>Start position</td>
+					<td>Image starting position</td>
+				</tr>
+				<tr>
+					<td>End position</td>
+					<td>Image ending position</td>
+				</tr>
+				<tr>
+					<td class="section" colspan="2">ADVANCED OPTIONS (Swype mpde)</td>
+				</tr>
+				<tr>
+					<td>Transition</td>
+					<td>Transition type, can be "fade", "swipe" or "flyBy"</td>
+				</tr>
+				<tr>
+					<td class="section" colspan="2">ADVANCED OPTIONS (Video)</td>
+				</tr>
+				<tr>
+					<td>Hd</td>
+					<td>Play high resolution video (if available)</td>
+				</tr>
+				<tr>
+					<td>Autoplay</td>
+					<td>Don't require user to pless play button on youtube/vimeo player</td>
+				</tr>
+				<tr>
+					<td>Autostart</td>
+					<td>Start video playback as soon as slide is loaded</td>
+				</tr>
+				<tr>
+					<td>Loop</td>
+					<td>Restart playback once finished</td>
+				</tr>	
+			</tbody>
+		</table>
+		
+		
+		<!-- New Section  -->
+		<hr>
+		<h3 id="styling">E. <strong>Basic Styling - Frame &amp; Captions</strong> - <a href="#toc">top</a></h3>
+		<p>Basic styling of elements like caption background, font used for titles or frame borders can be accomplished in a very simple way 
+		by adding a bunch of rules to your wordpress theme css. Estro comes with 4 skins so you'll need to add skin name to rules in order to customize
+		styles for a give skin.	All rules will be then prefixed with the
+		</p>
+		<pre>
+.peKenBurns.SKIN_NAME 		
+		</pre>
+		<p>
+		selector, in the following example we'll assume changes are applied to "default" skin but you can replace ".default" with
+		".neutral" / ".neutral_light" / ".organic" to override other skins settings.<br>
+		<br>
+		For example, to change slider frame border, you'll just add
+		</p>
+		<pre>
+/* set border size to 8px */
+.peKenBurns.default .peKb_slides {
+	padding: 8px;
+	/* customize rounded border (not supported in ie < 9) */
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border-radius: 5px;
+}
+</pre>
+		<p>The border area can use a solid color or even a background image</p>
+<pre>
+.peKenBurns.default .peKb_slides {
+	background-color:#E0DEDF;
+}
+</pre>
+		<p>The inner frame is contained inside the border, it's like a default background for slider images 
+		(in fact, it has the same size)
+		</p>
+<pre>
+.peKenBurns.default .peKb_slides .peKb_frame{
+	background-color:#000000;
+}
+</pre>
+		<p>
+		The only thing you have to pay attention is to have these rules <strong>after</strong> component skin has been loaded,
+		if that's not possible, you can use "!important" to make sure your customizations override default values. 
+		Captions styles are customized in the very same way: to change titles font</p>
+		
+<pre>
+.peKenBurns.default .peKb_slides .peKb_caption h1 {
+	font-family: Arial;
+	font-size: 11px;
+	color: #FEFEFE;
+}
+</pre>
+		<p>Caption padding (which is space between title and caption background)</p>
+<pre>
+.peKenBurns.default .peKb_slides .peKb_caption .peKb_real{
+	padding: 10px;
+}		
+</pre>
+		<p>Caption margin between caption background and slider border</p>
+<pre>
+.peKenBurns.default .peKb_slides .peKb_caption {
+	margin: 0px 5px 5px 5px;
+}		
+</pre>
+		<p>Caption background color</p>
+<pre>
+.peKenBurns.default .peKb_slides .peKb_caption .peKb_background {
+	background-color: #202020;
+}		
+</pre>
+
+		<hr>
+		<!-- New Section  -->
+		<h3 id="wordpress">F <strong>Filters / hooks / public functions</strong> - <a href="#toc">top</a></h3>
+		<p>Component use 2 custom filters which can be used to alter slider markup and add custom javascript code</p>
+		
+		<table class="widefat">
+			<thead> 
+				<tr> 
+					<th>Name</th>
+					<th style="width: 80px">Type</th>
+					<th>Description</th> 
+				</tr> 
+			</thead>
+			<tbody> 
+				<tr>
+					<td>pe_estro_slider_markup</td>
+					<td><b>filter</b></td>
+					<td>Applied to full slider html markup, can be used to alter/add/remove properties and tags</td>
+				</tr>
+				<tr>
+					<td>pe_estro_slider_customJS</td>
+					<td><b>filter</b></td>
+					<td>Executed right after slider markup has been generated.
+					Filter gets id of the main markup container as parameter and must return valid javascript code which will be
+					excecuted before plugin code.</td>
+				</tr>
+				<tr>
+					<td>$peEstroPlugin->the_slider($sliderID)</td>
+					<td><b>function</b></td>
+					<td>Can be called in your php code (like inside action hook) to show slider with ID = $sliderID</td>
+				</tr>
+			</tbody>
+		</table>
+		<br/>
+		<p>Let's see how this filter can be used to integrate the slider with a jquery lightbox like prettyPhoto (other lightbox implementations can also be used)</p>	 
+<pre>
+function my_estro_slider_markup($markup) {
+	/*
+	 	Replace
+		data-rel="lightbox-slide"
+		
+		with
+		rel="prettyPhoto"
+	*/ 
+	return strtr($markup,array('data-rel="lightbox-slide"'=>'rel="prettyPhoto"'));
+}
+
+add_filter("pe_estro_slider_markup","my_estro_slider_markup");
+
+function my_estro_slider_customJS($id) {
+	/*
+		Add custom javascript code which will be executed before initializing the plugin
+		Code is placed inside a script tag right after slider markup which can be accessed/modified using
+		
+		jQuery("$id")
+		
+		the example shows how you can integrate with prettyPhoto
+	*/
+	return &lt;&lt;&lt;EOL
+		jQuery("$id a[rel='prettyPhoto']").prettyPhoto()
+		alert("$id");
+EOL;
+}
+
+add_filter("pe_estro_slider_customJS","my_estro_slider_customJS");
+
+</pre>
+
+
+		<hr>
+		<!-- New Section  -->
+		<h3 id="outro"><strong>Thank You!</strong> - <a href="#toc">top</a></h3>
+		
+		<p>Once again, thank you so much for purchasing this item. If the above help documentation has not answered your questions, the following are your options:</p>
+		
+			<ol>
+				<li>Go to the component's sales page on CodeCanyon.net, more specifically the discussion page, and read through the questions left there by other buyers. In general buyers tend to have similar questions, and if this is the case, then your questions is likely to have already been answered there.</li>
+				<li>If an answer to your question cannot be found on the discussion tab, feel free to leave a comment of your own. Be sure to describe your problem in as much detail as possible and we will get back to you as soon as we can.</li>
+				<li>Generally it is best to use the discussion tab to ask questions because when these are answered other buyers can read the answers and this avoids senseless repetition on our behalf. However if your questions deals with a sensitive issue, such as a quotation for customisation work, or a link to a demo site which you would not like to be public, then you may contact us using the email address at the top of this help file.</li>
+			</ol>
+		
+		<p class="append-bottom alt large"><strong>regards, pixelentity</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->

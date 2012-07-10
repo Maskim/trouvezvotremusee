@@ -1,0 +1,1036 @@
+                /* boooking ajax message after reservation */
+
+                .submiting_content {
+
+                    border:1px solid #55CC55;
+
+                    font-size:15px;
+
+                    font-weight:bold;
+
+                    height:45px;
+
+                    margin:15px auto;
+
+                    padding:15px 10px;
+
+                    text-align:center;
+
+                    width:100%;
+
+                }
+
+           
+
+                /* General styles for inputs textarea and buttons*/
+
+                .booking_form_div textarea, .booking_form_div input, .booking_form_div select, .booking_SagePayForm input {
+
+                    border-color:#DFDFDF;
+
+                }
+
+
+
+.booking_form_div p {
+
+line-height:12px !important; 
+
+margin:5px 0 !important;
+
+                }
+
+
+
+
+
+
+
+                .booking_form_div textarea, .booking_form_div input, .booking_form_div select, .booking_SagePayForm input {
+
+                    -moz-border-radius:4px;   border-radius:4px;
+
+                    -webkit-border-radius:4px;
+
+                    border-style:solid;
+
+                    border-width:1px;
+
+                }
+
+                .booking_form_div textarea, .booking_form_div input, .booking_form_div select, .booking_SagePayForm input {
+
+                    margin:2px;
+
+                    padding:3px;
+
+                }
+
+                .booking_form_div textarea {
+
+                    line-height:1.4em;
+
+                }
+
+                .booking_form_div textarea, .booking_form_div input, .booking_form_div select, .booking_SagePayForm input {
+
+                    font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+
+                    font-size:13px;
+
+                }
+
+                .booking_form {
+
+                    text-align:left;
+
+                }
+
+                .booking_form_div .button, .booking_form_div .submit, .booking_form_div .button-secondary {
+
+                    -moz-background-clip:border;
+
+                    -moz-background-inline-policy:continuous;
+
+                    -moz-background-origin:padding;
+
+                    background:#F2F2F2;
+
+                }
+
+                .booking_form_div .submit, .booking_form_div .button, .booking_form_div .button-primary, .booking_form_div .button-secondary, .booking_form_div .button-highlighted, .booking_form_div #postcustomstuff .submit input {
+
+                    -moz-border-radius:11px;   border-radius:11px;
+
+                    -webkit-border-radius:11px;
+
+                    -moz-box-sizing:content-box;
+
+                    border-style:solid;
+
+                    border-width:1px;
+
+                    cursor:pointer;
+
+                    font-size:11px !important;
+
+                    line-height:16px;
+
+                    padding:2px 8px;
+
+                    text-decoration:none;
+
+                    font-weight:bold;
+
+                    margin:10px 0px;
+
+                    float:right;
+
+                }
+
+
+
+                /* Booking form styles */
+
+                .booking_form .field {clear:both; text-align:right; line-height:25px;margin:5px 0px;}
+
+                .booking_form label {float:left; padding-right:10px;width:80px;text-align:left;}
+
+                .booking_form .main_div {float:left;}
+
+                .booking_form_div {text-align:left;}
+
+                .booking_form .submit {float:left;}
+
+
+
+                .booking_form_div input[type="button"]:hover, .booking_SagePayForm input[type="button"]:hover {
+
+                    cursor:pointer !important;
+
+                }
+
+
+
+                
+
+
+
+
+
+                /* Submit thank you message */
+
+                .form_bk_messages {
+
+                    display:none;
+
+                    float:left;
+
+                    font-size:14px;
+
+                    font-weight:bold;
+
+                    border:1px solid #99ddaa;
+
+                    padding:3px 10px;
+
+                    margin:2px 5px;
+
+                    background:#fef9ed;
+
+                    color:#555555;
+
+                    margin:15px auto;
+
+                    padding:5px 10px;
+
+                    text-align:center;
+
+                    width:100%;
+
+                    clear:both;
+
+                }
+
+
+
+                /* Time inputs at hte form */
+
+                input.wpdev-validates-as-time {
+
+                    width:50px;
+
+                }
+
+
+
+                /* Widget style customization */
+
+                .widget_wpdev_booking {
+
+                        padding:0px;
+
+                        margin:0px;
+
+                        vertical-align:top;
+
+                }
+
+                .widget_wpdev_booking .datepick-inline table.datepick td{
+
+                    height:25px;
+
+                    width:25px;
+
+                    line-height:25px;
+
+                }
+
+                .widget_wpdev_booking .datepick-inline table.datepick td a {
+
+                    line-height:25px;
+
+                    height:25px;
+
+                }
+
+                .widget_wpdev_booking .datepick-inline {
+
+                    width:183px !important;
+
+                    
+
+
+
+                }
+
+                .widget_wpdev_booking .datepick-header {
+
+                    width:183px !important;
+
+                    
+
+
+
+                }
+
+                .widget_wpdev_booking input, .widget_wpdev_booking select, .widget_wpdev_booking textarea {
+
+                    width:95%;
+
+                     margin:1%;
+
+                }
+
+
+
+                /* colors for aproved and pending days */
+
+                .datepick  .date2approve, .datepick  .date_approved {
+
+                    background:#e5e5e5;
+
+                    color:#aaa;
+
+                    font-weight:bold;
+
+                }
+
+
+
+                /* Times partly booked day */
+
+                .datepick  .timespartly a {
+
+                    background:#F2F2F2 url('../img/clock_fill.png') no-repeat 100% 100%;
+
+                    /*color:#Fca;
+
+                    font-weight:bold;/**/
+
+                }
+
+
+
+                .wpdev_hint_with_text{
+
+                  float:left;
+
+                  white-space: nowrap;
+
+                }
+
+                .block_hints {
+
+                    clear: both;
+
+                    width:100%;
+
+                    height:auto;
+
+                }
+
+
+
+                /*Captcha styles*/
+
+                img.captcha_img{
+
+                    vertical-align: middle;
+
+                }
+
+                .captachinput {
+
+                    width:120px;
+
+                }
+
+
+
+                /* Legend of days, which is shown under calendar */
+
+                .block_hints{
+
+                    font-size:11px;
+
+                    clear: both;
+
+                    margin:10px 0px 30px 0px !important;
+
+                    border:none;
+
+                    height:30px;
+
+                }
+
+                .block_text {
+
+                    float:left;
+
+                    margin:0px 0px 10px 0px;
+
+                    height:30px;
+
+                    padding: 0px 10px 0px 2px;
+
+                    line-height:32px;
+
+                }
+
+                .block_pending, .block_time, .block_booked, .block_free {
+
+                    width:30px;
+
+                    height: 30px;
+
+                    line-height:28px;
+
+
+
+                    
+
+                    border:1px solid #FFeeaa;
+
+                    
+
+                    display:block;
+
+                    font-weight:bold;
+
+
+
+                    text-align: center;
+
+                    vertical-align: middle;
+
+                    float:left;
+
+                }
+
+                .block_time a{
+
+                    padding:7px 10px 8px 10px;
+
+                }
+
+
+
+                table.datepick tr td{
+
+                    padding:0px !important;
+
+                    border-top:0 none!important;
+
+                    line-height:36px;
+
+                }
+
+                table.datepick tr th, .booking_form_div table.datepick thead th{
+
+                    padding:5px 0px !important;
+
+                }
+
+                .datepick-inline {
+
+                    margin-bottom: 10px;
+
+                }
+
+                table.datepick { /*IE7 issue fixing*/
+
+                    width: auto;
+
+                    width: 284px !important;
+
+                }
+
+                div#datepick-div div.datepick-header { /*IE7 issue fixing*/
+
+                    width: auto;
+
+                    width: 284px !important;
+
+                }
+
+                div#datepick-div {
+
+                    width: 284px !important;
+
+                    z-index: 2147483645 !important;
+
+                }
+
+                .widget_wpdev_booking .datepick-inline table.datepick{
+
+                        width: 184px !important;
+
+                }
+
+
+
+
+
+/* Search form */
+
+.booking_search_form {
+
+    margin:0px;
+
+    padding:10px;
+
+border: 1px solid white;
+
+    -border-radius:5px;
+
+    -webkit-border-radius:5px;
+
+    -moz-border-radius:5px;  border-radius:5px;
+
+background-color: orange;
+
+width:400px;
+
+   
+
+}
+
+.booking_search_form br{
+
+    display:none;
+
+}
+
+.booking_search_form label{
+
+    font-weight: bold;
+
+    font-size: 16px;
+
+    color:white !important;
+
+}
+
+
+
+.booking_search_form h3 {
+
+    font-size: 22px; line-height: 28px !important; font-weight: bold; font-family: Arial; margin: 0 0 7px 0 !important; color:#72255F !important;
+
+
+
+}
+
+
+
+.booking_search_form input.search_booking {
+
+    background: none repeat scroll 0 0 #6B1957 !important;
+
+    -border-radius:5px;
+
+    -webkit-border-radius:5px;
+
+    -moz-border-radius:5px;  border-radius:5px;
+
+    color: white !important;
+
+    font-family: Helvetica;
+
+    font-size: 15px !important;
+
+    font-weight: bold !important;
+
+padding: 4px 8px;
+
+ border: 0 none !important;
+
+margin-top:7px;
+
+}
+
+
+
+.booking_search_form input.search_booking:hover {
+
+    background: none repeat scroll 0 0 #eee !important;
+
+}
+
+
+
+.booking_search_form input.hasDatepick {
+
+    border: 1px solid #BBB8B8;
+
+    color: #555555;
+
+    font-size: 0.8em !important;
+
+    font-weight: bold;
+
+    margin-right: 20px;
+
+}
+
+
+
+
+
+
+
+/*Search results*/
+
+#booking_search_ajax {
+
+    margin: 20px 0px 20px 0px !important;
+
+
+
+}
+
+
+
+ul.ourHolder li.item {width: 298px;height: 360px;float: left;overflow: hidden;}
+
+.booking_search_result_item {
+
+   background-color: #F7EDFF;
+
+    border: 1px solid purple;
+
+    display: block;
+
+    float: left;
+
+    font-size: 0.9em;
+
+    margin: 20px 20px 20px 10px;
+
+    padding: 15px;
+
+    width: 248px;
+
+clear:right;
+
+height:300px;
+
+}
+
+
+
+.booking_search_result_item .booking_search_result_title{
+
+    font-weight: bold;
+
+    font-size: 1.3em;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.booking_search_result_item img.booking_featured_image {
+
+    border: 1px solid #ccc;
+
+    padding:2px;
+
+    width:200px !important;
+
+    margin: 5px 15px 5px 0px !important;
+
+}
+
+
+
+.booking_search_result_item .booking_search_result_info {
+
+  
+
+}
+
+
+
+.booking_search_result_visitors_num, .booking_search_result_items_num, .booking_search_result_cost{
+
+    font-weight: bold;
+
+}
+
+
+
+.booking_search_result_item label{
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+}
+
+
+
+.booking_search_result_item a{
+
+    background: none repeat scroll 0 0 #6B1957 !important;
+
+    color: white !important;
+
+    font-family: Helvetica;
+
+    font-size: 12px !important;
+
+    font-weight: bold !important;
+
+    float:right;
+
+    cursor: pointer;
+
+    padding: 4px 8px;
+
+    -border-radius:5px;
+
+    -webkit-border-radius:5px;
+
+    -moz-border-radius:5px; border-radius:5px;
+
+    text-decoration: none;
+
+}
+
+
+
+.booking_search_result_item a:hover {
+
+    background: none repeat scroll 0 0 #eee !important;
+
+}
+
+
+
+    /* Admin bar COUNT*/
+
+    #wp-admin-bar-booking_options a span#booking-count {
+
+        background: none repeat scroll 0 0 #EEEEEE;
+
+        border-radius: 10px 10px 10px 10px;
+
+        color: #333333;
+
+        display: inline;
+
+        font-size: 10px;
+
+        font-weight: bold;
+
+        padding: 2px 5px;
+
+        text-shadow: none;
+
+    }
+
+    #wp-admin-bar-booking_options a:hover span#booking-count {
+
+        background: none repeat scroll 0 0 #FFFFFF;
+
+        color: #000000;
+
+    }
+
+
+
+
+
+/* Pop Over Styles */
+
+.wpdevbk.popover{
+
+  z-index: 2147483647 !important;
+
+}
+
+.wpdevbk.popover.top .arrow {
+
+    border-top: 5px solid rgba(140, 140, 140, 0.8) !important;
+
+}
+
+.wpdevbk.popover.bottom .arrow {
+
+    border-bottom: 5px solid rgba(140, 140, 140, 0.8) !important;
+
+}
+
+.wpdevbk.popover.left .arrow {
+
+    border-left: 5px solid rgba(140, 140, 140, 0.8) !important;
+
+}
+
+.wpdevbk.popover.right .arrow {
+
+    border-right: 5px solid rgba(140, 140, 140, 0.8) !important;
+
+}
+
+.wpdevbk .popover-inner{
+
+    background: none repeat scroll 0 0 rgba(140, 140, 140, 0.8);
+
+    border-radius: 6px 6px 6px 6px;
+
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+
+    overflow: hidden;
+
+    padding: 3px;
+
+    width: auto;
+
+}
+
+.wpdevbk .popover-inner .popover-title{
+
+    background-color: #FFF;
+
+    border-bottom: 0px solid #EEEEEE;
+
+    border-radius: 3px 3px 0 0;
+
+    line-height: 1;
+
+    padding: 0px; /*9px 15px;*/
+
+    font-size: 13px;
+
+}
+
+.wpdevbk .popover-inner .popover-content{
+
+    background-clip: padding-box;
+
+    background-color: #FFFFFF;
+
+    border-radius: 0 0 3px 3px;
+
+    padding: 14px;
+
+}
+
+
+
+/********************************* Modification by WTB ************************************************************/
+
+.textstarttime{
+
+    color: #ff0000;
+
+    font-size: 10px;
+
+    padding-left: 20px;
+
+    font-style: italic;
+
+}
+
+
+
+#reservation td{
+
+    width: 150px;
+
+    height: 30px;
+
+    text-align: center;
+
+}
+
+
+
+#reservation table{
+
+    margin-left: 5%;
+
+}
+
+
+
+#espace th{
+
+    width: auto;
+
+    text-align: left;
+
+    padding-left: 15px;
+
+}
+
+
+
+#espace th .propriete{ text-align: left; }
+
+
+
+#espace td{
+
+    width: auto;
+
+    text-align: left;
+
+    padding-left: 15px;
+
+}
+
+
+
+#espace img{padding-bottom: -2px;}
+
+
+
+#espace .propriete{
+
+    width: auto;
+
+    text-align: left;
+
+}
+
+
+
+#espace tr{
+
+    text-align: left;
+
+    height: 30px;
+
+    padding-left: 15px;
+
+}
+
+
+
+#espace .wtb_alternative_color{
+
+    color: #c34d74;
+
+}
+
+
+
+#espace a{color: inherit; font-weight: none;}
+
+#espace a:hover{ text-decoration: underline; }
+
+
+
+#wtb_merci{
+
+    text-align: center;
+
+    margin-bottom: 50px;
+
+}
+
+
+
+#espace_proprio th{
+
+    width: auto;
+
+    min-width: 60px;
+
+    text-align: center;
+
+}
+
+
+
+#espace_proprio th .propriete{ text-align: center; }
+
+
+
+#espace_proprio td{
+
+    width: auto;
+
+    text-align: center;
+
+}
+
+
+
+#espace_proprio .propriete{
+
+    width: auto;
+
+    text-align: left;
+
+}
+
+
+
+#espace_proprio tr{
+
+    text-align: center;
+
+    height: 30px;
+
+}
+
+
+
+#espace_proprio .wtb_alternative_color{
+
+    color: #c34d74;
+
+}
+
+
+
+#triche{
+
+    width: 80%;
+
+}
+
+
+
+#votreespace hr{
+
+    width: 60%;
+
+    margin-left: 0;
+
+}
+
+#paiement{
+    width: 100%;
+    margin-left: 5%;
+}
+
+#paiement p{ margin-left: 10%; }
+#paiement ul{ margin-left: 10%; }
+
+.horaireComplet{
+    color: #990000;
+}
+
+.visitorInVisit{
+    color: #660066;
+}
+
+/*****************Panier********************/
+#recapDemande { margin-bottom: 100px; }
+
+#recapDemande .panier{ width: 40%; float: right; }
+
+#recapDemande .article{ width: 50%; }
+#recapDemande img{ width: 150px; margin-right: 20px; float: left;}
+#recapDemande p {margin: 0; padding: 0;}
+#recapDemande .propriete{ font-size: 18px; }
+#recapDemande .info{ margin: 5px 0; padding: 3px 0;}
+
+#entree { width: 60%; min-height: 130px; border: 1px solid purple; background: none repeat scroll 0 0 #F7EDFF; margin-bottom: 15px; border-radius: 3px 3px 3px 3px;}
+#entree .date{ width: 100%; background: purple; padding: 5px 0; margin-bottom: 10px;}
+#entree .date h3{ margin: 0; padding: 0; margin-left: 25px; font-size: 16px; font-weight: bold; color: white;}
+
+#entree .visite { height: 100px; }
+
+#entree .visite .image{ float: left; margin: 0 10px; padding: 10px; background: none repeat scroll 0 0 #FFFFFF; border: 1px solid #E2DFDF;
+    box-shadow: 1px 1px 1px #DDDDDD; width: 100px; height: 70px;}
+#entree .visite .info { margin-left: 150px; }
+#entree .visite p{ margin: 0; padding: 0; }
+#entree .visite .info .propriete{ font-weight: bold; }
+#entree .visite .info .prix{ float: right; margin: 10px 20px 0 0; font-size: 13px; padding: 0 0 8px 18px !important; font-weight: bold;
+    background: url("../../../themes/GeoPlaces/skins/1-default/i_fee.png") no-repeat scroll left 1px transparent; color: #6B1957;}
+#entree img{ height: 70px;}
+
+#footerPanier { width: 60%; text-align: right; }
+#footerPanier .total{ font-weight: bold; }
+
+#sousTotal {width: 35%; float: right; text-align: center; }
+#sousTotal .total {font-weight: bold;}
+ /***************Fin Panier ***************/

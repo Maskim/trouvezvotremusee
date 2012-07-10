@@ -23,8 +23,7 @@
 
 		$musee = prepareString($musee[0]);
 
-		$lien = prepareString(utf8_encode($musee));
-		$lien = "../musees-" .$lien. ".html";
+		$lien = "../musees-" .$musee. ".html";
 
 		header("Location: $lien");
 

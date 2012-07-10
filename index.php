@@ -1,7 +1,6 @@
 <?php session_start(); 
 require_once("./core/classes/ControleurConnexionPers.php");
-require_once("./core/fonctions.php");
-require('./core/ajax/rating_bar/_drawrating.php');?>
+require_once("./core/fonctions.php");?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">

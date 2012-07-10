@@ -45,7 +45,6 @@ $tense=($count==1) ? "vote" : "votes"; //plural form votes/vote
 // determine whether the user has voted, so we know how to draw the ul/li
 $voted=mysql_num_rows(mysql_query("SELECT ip FROM ipvotant WHERE ip LIKE '%".$ip."%' AND id='".$id."' ")); 
 
-
 // now draw the rating bar
 $rating_width = @number_format($current_rating/$count,2)*$rating_unitwidth;
 $rating1 = @number_format($current_rating/$count,1);

@@ -43,6 +43,7 @@
 
 			<div>
 				<h1>Vos favoris</h1>
+
 				<?php 
 					$util = $_SESSION['iduser'];
 					$a = new ControleurConnexion();
@@ -52,8 +53,7 @@
 					while($tab = mysql_fetch_array($favoris)){
 						?>
 
-						<p id="fav-<?php echo $tab['idmusee']; ?>"><?php echo $tab['nom']; ?> -- <a href="" onclick="deleteFavori(<?php echo $tab['idmusee']; ?>, <?php echo $tab['util']; ?>);return false;">Supprimer de vos favoris</a> </p>
-
+						<p><?php echo $tab['nom']; ?></p>
 						
 						<?php
 					}

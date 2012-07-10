@@ -165,9 +165,6 @@
 						}
 					?>
 				</p>
-				<p>
-					<?php echo rating_bar('8xxa','5'); ?>
-				</p>
 			</div>
 			
 			<div class="cadre_style_2">

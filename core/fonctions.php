@@ -32,8 +32,8 @@
 
 	function prepareString($string){
 		$replace = array(" ", "-", "'", "(", ")");
-		$accent = array('é', 'è', 'à', 'â', 'ç', 'ô', 'î');
-		$no_accent = array('e', 'e', 'a', 'a', 'c', 'o', 'i');
+		$accent = array('é', 'è', 'à', 'â', 'ç', 'ô');
+		$no_accent = array('e', 'e', 'a', 'a', 'c', 'o');
 
 		$string = str_replace($replace, "", $string);
 		$string = str_replace($accent, $no_accent, $string);

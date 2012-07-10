@@ -27,6 +27,24 @@ function modifMDP(){
 	}, 'slow', 'linear');
 }
 
+function deleteFavori(id, user){
+	$.ajax({
+		url: "./core/deleteFavori-ajax.php",
+		type: "POST",
+		success: function(){
+			$("p#fav-"+id).fadeOut(500, function(){ 
+				$(this).remove(); 
+			});
+		},
+		data: {
+			id_musee:id,
+			id_user:user
+		}
+	});
+
+	return false;
+}
+
 $(document).ready(function(){
 	$('#modifmdp').hide();
 });

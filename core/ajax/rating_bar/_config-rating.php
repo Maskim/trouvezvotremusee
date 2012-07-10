@@ -17,7 +17,7 @@ See readme.txt for full credit details.
 	$rating_dbuser        = 'root';
 	$rating_dbpass        = '';
 	$rating_dbname        = 'trouvez-votre-musee';
-	$rating_tableName     = '';
+	$rating_tableName     = 'ratings';
 	$rating_path_db       = ''; // the path to your db.php file (not used yet!)
 	$rating_path_rpc      = ''; // the path to your rpc.php file (not used yet!)
 	

@@ -62,7 +62,7 @@ function sndReq(vote,id_num,ip_num,units) {
 	// switch UL with a loading div
 	theUL.innerHTML = '<div class="loading"></div>';
 	
-    xmlhttp.open('get', 'rpc.php?j='+vote+'&q='+id_num+'&t='+ip_num+'&c='+units);
+    xmlhttp.open('get', './core/ajax/rating_bar/rpc.php?j='+vote+'&q='+id_num+'&t='+ip_num+'&c='+units);
     xmlhttp.onreadystatechange = handleResponse;
     xmlhttp.send(null);	
 }

@@ -45,6 +45,11 @@ function deleteFavori(id, user){
 	return false;
 }
 
+function clearTextarea(champ){
+	champ.value = "";
+
+}
+
 $(document).ready(function(){
 	$('#modifmdp').hide();
 });

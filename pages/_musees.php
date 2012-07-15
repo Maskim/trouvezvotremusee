@@ -204,25 +204,6 @@
 			</div>
 			
 			<div class="clear"></div>
-
-			<div class="commentaire">
-				<div class="titre">
-					Commentaire :
-				</div>
-				<div class="newCommentaire">
-					<form method="POST" action="./core/addComment.php">
-						<p>
-							<label for="commentaire">Commentaire</label>
-							<textarea name="commentaire" onfocus="clearTextarea(this);">Publiez votre commentaire.</textarea>
-						</p>
-						<input type="hidden" name="id_musee" value="<?php echo $idmusee; ?>" />
-						<p><input type="submit" value="Publier" /></p>
-					</form>
-				</div>
-				<div class="commentaires">
-					<p>Il n'y a pas encore de commentaire pour ce musée ! Soyez le premier !!!</p>
-				</div>
-			</div>
 		</div>
 	</div>
 	<?php

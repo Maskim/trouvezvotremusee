@@ -1,5 +1,5 @@
-<?php session_start(); ?>
-<?php
+<?php 
+	session_start();
 	require_once("./classes/ControleurConnexionPers.php");
 
 	if(isset($_POST['type']) AND !empty($_POST['type'])) {

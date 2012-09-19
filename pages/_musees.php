@@ -3,23 +3,26 @@
 		require_once("./core/fonctions.php");
 
 		
-		if(isset($_GET['Nom']) AND !empty($_GET['Nom'])) {
+		if((isset($_GET['Nom']) AND !empty($_GET['Nom'])) && (isset($_GET['Second']) AND !empty($_GET['Second'])) )  {
 
 			$ok = false;
 			
 			$nom_musee = htmlspecialchars($_GET['Nom']);
+			$ville_musee = htmlspecialchars($_GET['Second']);
 			// On selectionne tous les musées
 			$a = new ControleurConnexion;
-			$sql = $a->consulter("*","musee","", "", "","", "", "", "");
+			$sql = $a->consulter("*","musee, ville","", "musee.idville = ville.idville", "","", "", "", "");
 			
 			while($rech_mus = mysql_fetch_array($sql)){
 				$mus = prepareString(utf8_encode($rech_mus['nom']));
+				$ville = prepareString(utf8_encode($rech_mus['nomville']));
 				// On regarde si le musée selectionné existe
-				if($mus == $nom_musee){
+				if($mus == $nom_musee && $ville == $ville_musee){
 					$ok = true;
 					$sel = new ControleurConnexion;
 					$recherche_musee = str_replace("'", "\'", $rech_mus['nom']);
-					$sql_sel = $sel->consulter("*","musee, ville","","nom = '".$recherche_musee."' AND musee.idville = ville.idville","","","","","");
+					$recherche_ville = str_replace("'", "\'", $rech_mus['nomville']);
+					$sql_sel = $sel->consulter("*","musee, ville","","nom = '".$recherche_musee."' AND nomville = '".$recherche_ville."' AND musee.idville = ville.idville","","","","","");
 					$tab_sql = mysql_fetch_array($sql_sel);
 
 				}
@@ -110,8 +113,8 @@
 					Favori
 				</p>
 				<?php
+					$idmusee = $tab_sql['idmusee'];
 					if(isset($_SESSION['iduser'])){
-						$idmusee = $tab_sql['idmusee'];
 						$idUser = $_SESSION['iduser'];
 						$sql_fav = $a->consulter("COUNT(*)", "favori", "", "musee = '$idmusee' AND util = '$idUser'", "", "", "", "", "");
 						$isFav = mysql_fetch_row($sql_fav);
@@ -210,7 +213,10 @@
 					Commentaire :
 				</div>
 				<div class="newCommentaire">
-					<form method="POST" action="./core/addComment.php">
+					<?php if(!userIsLogin()){?>
+						<a href="#" onclick="toConnexion();">Se connecter</a>
+					<?php }else{ ?>
+						<form method="POST" action="./core/addComment.php">
 						<p>
 							<label for="commentaire">Commentaire</label>
 							<textarea name="commentaire" onfocus="clearTextarea(this);">Publiez votre commentaire.</textarea>
@@ -218,9 +224,34 @@
 						<input type="hidden" name="id_musee" value="<?php echo $idmusee; ?>" />
 						<p><input type="submit" value="Publier" /></p>
 					</form>
+					<?php } ?>
 				</div>
 				<div class="commentaires">
-					<p>Il n'y a pas encore de commentaire pour ce musée ! Soyez le premier !!!</p>
+					<?php $sql = $b->consulter("COUNT(*)", "commentaire", "", "idmusee = '$idmusee'", "", "", "", "", ""); 
+						$count = mysql_fetch_row($sql);
+						if($count[0] == 0){
+					?>
+						<p>Il n'y a pas encore de commentaire pour ce musée ! Soyez le premier !!!</p>
+						<?php }else{
+							$sql = $b->consulter("*", "commentaire, utilisateur", "", "idmusee = '$idmusee' AND iduser = idutil", "", "", "", "", "");
+							while($tab_commentaire = mysql_fetch_array($sql)){
+								?>
+								<div class="post">
+									<p class="posteur">Posté par <?php echo $tab_commentaire['utilisateur']; ?> le <?php echo $tab_commentaire['dateCom']; ?></p>
+									<p class="the_post">
+										<?php echo $tab_commentaire['com']; ?>
+									</p>
+									<?php if(isset($idUser) && $tab_commentaire['iduser'] == $idUser){
+										?>
+										<a href="">editer</a>
+										<a href="">supprimer</a>
+										<?php
+									} ?>
+								</div>
+								<?php
+							}
+						}
+						?>
 				</div>
 			</div>
 		</div>
@@ -324,24 +355,30 @@
 			</div>
 			
 			<br/>
-			
 			<div class="liste_musees">
 				<?php
 					foreach(range('A','Z') as $lettre) {
 				?>
 						<h3 id="<?php echo $lettre; ?>"><?php echo $lettre; ?></h3>
 						<?php
-							$b = new ControleurConnexion;
-							$sql=$b->consulter("$select","$from","","$where", "'$lettre%' ", "", "", "", "");
-							while($tab = mysql_fetch_array($sql)){
-								$nom_mus = prepareString(utf8_encode($tab['nom']));
-							?>
+							$museeLettre = findMuseeForLetter($lettre);
+						?>
+
 						<ul>
-							<li><a href="musees-<?php echo strtolower($nom_mus); ?>.html"><?php echo $tab['nom']; ?></a></li>
+							<?php
+								foreach ($museeLettre as $value) {
+									$theMusee = $value[0];
+									$theMuseeLink = strtolower(prepareString(utf8_encode($value[0])));
+									$theVille = $value[1];
+									$theVilleLink = prepareString($theVille);
+									?>
+									<li><a href="musees-<?php echo $theMuseeLink; ?>-<?php echo $theVilleLink; ?>.html"><strong><?php echo $theMusee; ?></strong></a> <em><?php echo $theVille; ?></em></li>
+									<?php
+								}
+							?>
 						</ul>
-					
-							<?php 	
-							} 
+
+						<?php
 					}
 				?>			
 		</div>

@@ -1,5 +1,9 @@
 	<?php
 		if(isset($_SESSION['connexion']) AND $_SESSION['niveau'] == 5 AND $_SESSION['connexion']){ 
+
+			$a = new ControleurConnexion();
+			$sql = $a->consulter("idmusee, nom", "musee", "", "", "", "", "", "nom", "");
+
 	?>
 		<div id="contenu">
 			<h1>Administration</h1>
@@ -17,7 +21,40 @@
 						<input type="submit" name="affiche" value="afficher" />
 				</fieldset>
 			</form>
-				
+			
+			<br />
+
+			<form method="POST" action="./core/php/ajoutimage.php"  ENCTYPE="multipart/form-data">
+				<fieldset>
+					<legend>Ajout d'image pour un musée</legend>
+					<label for="musee">Trouvez un musée</label>
+					<input type="text" id="musee" name="musee" onchange="findMusee(this);" /><br />
+					<span>Si vous ne retourvez pas le musée souhaité, cherchez le dans la liste suivante :</span><br />
+					<select>
+						<?php
+							while($musee = mysql_fetch_array($sql)){
+								?>
+								<option value="<?php echo $musee["idmusee"]; ?>"><?php echo $musee["nom"]; ?></option>
+								<?php
+							}
+						?>
+					</select><br />
+
+					<input type='hidden' name='MAX_FILE_SIZE' value='2097152'>
+					<label for="image">Selectionner une image : </label><input id="image" name="image" type="file" /><br />
+					<span class="info">Taille maximum autorisée 10Mo</span><br />
+
+					<label>Type de l'image</label>
+					<select name="typeImage">
+						<option value="mini">Miniature</option>
+						<option value="normal">Présentation</option>
+					</select>
+					<br />
+
+					<input type="submit" name="Envoyer" value="Envoyer" />
+				</fieldset>
+			</form>
+
 			<br/>
 			
 			<form method="POST" action="ajout.html">

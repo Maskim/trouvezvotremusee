@@ -53,3 +53,21 @@ function clearTextarea(champ){
 $(document).ready(function(){
 	$('#modifmdp').hide();
 });
+
+function toConnexion(){
+	if($('#connexion').css("margin-top") < '0px'){
+		$('#connexion').animate({'margin-top': '+=52'}, 600);
+	}
+	var login = document.getElementById("login");
+	login.focus();
+
+	return false;
+}
+
+function findMusee(input){
+	$.ajax({
+		url: "./core/ajax/findMusee-ajax.php",
+		type: "POST",
+		data: { recherche: input.value }
+	});
+}

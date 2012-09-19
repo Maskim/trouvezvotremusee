@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 	if(isset($_SESSION['niveau']) && !empty($_SESSION['niveau']) ) {
 
 		$a = new ControleurConnexion();
@@ -63,7 +63,14 @@
 			<div>
 				<h1>Vos commentaires</h1>
 
-				gestion des commentaires à venir !
+				<?php
+					$commentaire = $a->consulter("*", "commentaire, musee", "", "iduser = '$util' AND musee.idmusee = commentaire.idmusee", "", "commentaire.idmusee", "", "", "");
+					while($all_com = mysql_fetch_array($commentaire)){
+						?>
+						<p><?php echo $all_com['nom']; ?> -- <a href="./musees-<?php echo prepareString($all_com['nom']); ?>.html">Voir votre commentaire</a></p>
+						<?php
+					}
+				?>	
 			</div>
 		</div>
 

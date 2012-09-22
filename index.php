@@ -175,7 +175,7 @@ require('./core/ajax/rating_bar/_drawrating.php');?>
 	
 	<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4d31657565e2636b"></script>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script> 
 	<script src="./core/js/jquery.js" type="text/javascript"></script>
 	<script type="text/javascript" src="./core/js/slides.min.jquery.js"></script>
 	<script type="text/javascript" src="./core/js/jquery.accordion.js"></script>

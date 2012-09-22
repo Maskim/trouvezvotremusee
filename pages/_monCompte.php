@@ -47,12 +47,13 @@
 					$util = $_SESSION['iduser'];
 					$a = new ControleurConnexion();
 
-					$favoris = $a->consulter("*", "favori, musee", "", "util = $util AND musee = idmusee", "", "", "", "","");
+					$favoris = $a->consulter("*", "favori, musee, ville", "", "util = $util AND musee = idmusee AND musee.idville = ville.idville", "", "", "", "","");
 
 					while($tab = mysql_fetch_array($favoris)){
+						$lien = prepareString(utf8_encode($tab['nom'])) . '-' . prepareString(utf8_encode($tab['nomville']));
 						?>
 
-						<p id="fav-<?php echo $tab['idmusee']; ?>"><?php echo $tab['nom']; ?> -- <a href="" onclick="deleteFavori(<?php echo $tab['idmusee']; ?>, <?php echo $tab['util']; ?>);return false;">Supprimer de vos favoris</a> </p>
+						<p id="fav-<?php echo $tab['idmusee']; ?>"><a href="./musees-<?php echo $lien; ?>.html"><?php echo $tab['nom']; ?></a> -- <a href="" onclick="deleteFavori(<?php echo $tab['idmusee']; ?>, <?php echo $tab['util']; ?>);return false;">Supprimer de vos favoris</a> </p>
 
 						
 						<?php
@@ -64,10 +65,11 @@
 				<h1>Vos commentaires</h1>
 
 				<?php
-					$commentaire = $a->consulter("*", "commentaire, musee", "", "iduser = '$util' AND musee.idmusee = commentaire.idmusee", "", "commentaire.idmusee", "", "", "");
+					$commentaire = $a->consulter("*", "commentaire, musee, ville", "", "iduser = '$util' AND musee.idmusee = commentaire.idmusee AND musee.idville = ville.idville", "", "commentaire.idmusee", "", "musee.nom", "");
 					while($all_com = mysql_fetch_array($commentaire)){
+						$lien = prepareString(utf8_encode($all_com['nom'])) . '-' . prepareString(utf8_encode($all_com['nomville']));
 						?>
-						<p><?php echo $all_com['nom']; ?> -- <a href="./musees-<?php echo prepareString($all_com['nom']); ?>.html">Voir votre commentaire</a></p>
+						<p><?php echo $all_com['nom']; ?> -- <a href="./musees-<?php echo $lien; ?>.html">Voir votre commentaire</a></p>
 						<?php
 					}
 				?>	

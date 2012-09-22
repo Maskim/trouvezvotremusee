@@ -26,18 +26,18 @@
 
 
 					if($is_exist[0]  != 0){
-						$_SESSION['error'] = "- Le nom d'utilisateur est déjà utilisé !";
+						$_SESSION['error'] = "- Le nom d'utilisateur est d?j? utilis??!";
 						if($is_mail_exist[0] != 0){
-							$_SESSION['error'] .= "</p><p>- Le mail est déjà utilisé !";
+							$_SESSION['error'] .= "</p><p>- Le mail est d?j? utilis??!";
 						}
 						if($mdp != $vmdp){
-							$_SESSION['error'] .= "</p><p>- Vos mots de passe ne correspondent pas !";
+							$_SESSION['error'] .= "</p><p>- Vos mots de passe ne correspondent pas?!";
 						}
 						header("Location: ../inscription.html");
 					}else if($is_mail_exist[0] != 0){
-						$_SESSION['error'] = "- Le mail est déjà utilisé !";
+						$_SESSION['error'] = "- Le mail est d?j? utilis??!";
 						if($mdp != $vmdp){
-							$_SESSION['error'] .= "</p><p>- Vos mots de passe ne correspondent pas !";
+							$_SESSION['error'] .= "</p><p>- Vos mots de passe ne correspondent pas?!";
 						}
 						header("Location: ../inscription.html");
 					}else{
@@ -58,7 +58,7 @@
 
 							header("Location: ../accueil.html");
 						}else{ 
-							$_SESSION['error'] = "- Vos mots de passe ne correspondent pas !";
+							$_SESSION['error'] = "- Vos mots de passe ne correspondent pas?!";
 							header("Location: ../inscription.html");
 						}
 					}
@@ -74,6 +74,15 @@
 				$mdp = htmlspecialchars($_POST['mdp']);
 				$mdp = md5($mdp);
 				
+				if(isset($_POST['redirect_to'])){
+					$lien = $_POST['redirect_to'];
+
+					unset($_SESSION['redirect_to']);
+					unset($_SESSION['type_redirect']);
+					unset($_SESSION['id_musee']);
+				}else
+					$lien = "../accueil.html";
+
 				$a = new ControleurConnexion;
 				$sql = $a -> consulter("*","utilisateur","","","","","","", "");
 				while($tab_sql = mysql_fetch_array($sql)){
@@ -87,7 +96,7 @@
 					}
 				}
 
-				header("Location: ../accueil.html");
+				header("Location: $lien");
 			break;
 			
 			case "modifier" : 

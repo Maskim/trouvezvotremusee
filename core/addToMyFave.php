@@ -1,9 +1,10 @@
 <?php
 	session_start();
 
+	require_once("./classes/ControleurConnexionPers.php");
+	require_once("./fonctions.php");
+
 	if(isset($_SESSION['connexion']) && $_SESSION['connexion']){ 
-		require_once("./classes/ControleurConnexionPers.php");
-		require_once("./fonctions.php");
 
 		$a = new ControleurConnexion();
 
@@ -18,17 +19,28 @@
 		if($isFav[0] == 0)
 			$a->inserer("favori", "musee, util", "'$idmusee', '$idUser'");
 
-		$sql = $a->consulter("nom", "musee", "", "idmusee = '$idmusee'", "", "", "", "", "");
+		$sql = $a->consulter("nom, nomville", "musee, ville", "", "idmusee = '$idmusee' AND musee.idville = ville.idville", "", "", "", "", "");
 		$musee = mysql_fetch_row($sql);
 
-		$musee = prepareString($musee[0]);
+		$lienmusee = prepareString(utf8_encode($musee[0]));
+		$ville = prepareString(utf8_encode($musee[1]));
 
-		$lien = prepareString(utf8_encode($musee));
+		$lien = $lienmusee . '-' . $ville;
 		$lien = "../musees-" .$lien. ".html";
 
 		header("Location: $lien");
 
 	}else{
-		
+		$a = new ControleurConnexion();
+
+		$idmusee = $_GET['id'];
+
+		$lien = "./addToMyFave.php?id=$idmusee";
+
+		$_SESSION['redirect_to'] = $lien;
+		$_SESSION['type_redirect'] = 'addToMyFave';
+		$_SESSION['id_musee'] = $idmusee;
+
+		header("Location: ../connexion.html");
 	}
 ?>

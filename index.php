@@ -28,7 +28,7 @@
 
 			<div id="navigation_header">
 				<ul>
-					<li class="accueil"><a href="accueil.htmk" title="Accueil">Accueil</a>
+					<li class="accueil"><a href="accueil.html" title="Accueil">Accueil</a>
 					<li class="musees"><a href="musees.html" title="Les musées">Les musées</a>
 					<li class="contact"><a href="contact.html" title="Nous contacter">Nous contacter</a>
 				</ul>
@@ -203,93 +203,6 @@
 			</div>
 		</div>
 	</div>
-<<<<<<< HEAD
-	
-	<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4d31657565e2636b"></script>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script> 
-	<script src="./core/js/jquery.js" type="text/javascript"></script>
-	<script type="text/javascript" src="./core/js/slides.min.jquery.js"></script>
-	<script type="text/javascript" src="./core/js/jquery.accordion.js"></script>
-	<script type="text/javascript" src="./core/js/scroll.js"></script>
-	<script type="text/javascript" src="./core/js/jquery.validationEngine-fr.js"></script>
-	<script type="text/javascript" src="./core/js/jquery.validationEngine.js"></script>
-	<script type="text/javascript" src="./core/js/easySlider1.5.js"></script>
-	<script type="text/javascript" src="./core/js/disableAutoComplete.js"></script>
-	<script type="text/javascript" language="javascript" src="core/js/verif_formulaire.js"></script>
-	<script type="text/javascript" language="javascript" src="core/js/fonctions.js"></script>
-    <script type="text/javascript">
-		//<![CDATA[
-			$(document).ready(function(){
-				$('#recherche_aide').css("margin-left:-9999px;");
-				$('#page').hide();
-				$('#page').fadeIn();
-				$('#recherche_aide').hide();
-				
-				$("#formInscription").validationEngine();
-
-				$("#slider").easySlider({
-					auto: true,
-					continuous: true 
-				});
-
-				$('#musee').keyup( function(){
-					$field = $(this);
-					$('#resultats').html('');			 
-		
-					if($field.val().length >= 1 ){
-						$.ajax({
-							type : 'POST', 
-							url : './core/recherche_ajax.php' ,
-							data : 'musee='+$(this).val() ,
-							success : function(data){ 
-								$('#resultats').html(data); 
-							}
-						});
-					}		
-				});
-				
-				/*$('#slides').slides({
-					preload: true,
-					preloadImage: './images/loading.gif',
-					play: 5000,
-					pause: 2500,
-					hoverPause: true,
-					animationStart: function(){
-						$('.caption').animate({
-							bottom:-35
-						},100);
-					},
-					animationComplete: function(){
-						$('.caption').animate({
-							bottom:0
-						},200);
-					}
-
-				});*/
-				  
-				$("#form_contact").validationEngine();
-				$("#connexion_administration").validationEngine();
-				$("#formModifUser").validationEngine();
-			});
-					 
-			function help_recherche_focus() {
-				$('#recherche_aide').css("margin-left:0px;");
-				$("#recherche_aide").slideDown();
-			}
-			
-			function recherche_avancee(){
-				
-			}
-			
-			$('#question').accordion({
-				header: 'div.title',
-				autoheight: false
-			});
-
-		//]]>	
-	</script>
-=======
 
 	<div id="footer_holder">
 		<div id="footer">
@@ -302,6 +215,5 @@
 		</div>
 	<div>
 
->>>>>>> New design
 </body>
 </html>
